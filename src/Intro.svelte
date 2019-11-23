@@ -19,20 +19,19 @@
 
       <div class="columns">
         <div class="column">
-            <a href="#"><img class="media-icon" src="https://cdn3.iconfinder.com/data/icons/popular-services-brands-vol-2/512/discord-256.png" alt="discord"></a>
+            
         </div>
         <div class="column">
+          <a href="#"><img class="media-icon" src="https://cdn3.iconfinder.com/data/icons/popular-services-brands-vol-2/512/discord-256.png" alt="discord"></a>
           <a href="#"><img class="media-icon" src="https://www.gamerguides.com/forum/uploads/FG4SCQ58YFXV.jpg" alt="forum"></a>
-        </div>
-        <div class="column">
-           <a href="#"><img class="media-icon" src="https://cdn3.iconfinder.com/data/icons/social-network-icon/112/vk-256.png" alt="VK"></a>
-        </div>
-        <div class="column">
+          <a href="#"><img class="media-icon" src="https://cdn3.iconfinder.com/data/icons/social-network-icon/112/vk-256.png" alt="VK"></a>
           <a href="#"><img class="media-icon" src="https://cdn0.iconfinder.com/data/icons/social-media-2091/100/social-16-256.png" alt="YouTube"></a>
-        </div>
-        <div class="column">
           <a href="#"><img class="media-icon" src="https://cdn3.iconfinder.com/data/icons/popular-services-brands-vol-2/512/twitch-256.png" alt="Twitch"></a>
         </div>
+        <div class="column">
+           
+        </div>
+       
       </div>
 
 

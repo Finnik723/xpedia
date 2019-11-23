@@ -489,5 +489,7 @@ button{
 }
 
 .media-icon {
-  max-width: 50%;
+  max-width: 48px;
+  margin-left: 16px;
+  margin-right: 16px;
 }
