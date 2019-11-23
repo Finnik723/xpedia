@@ -26,7 +26,7 @@
   }
 
   function checkHash() {
-    let hash = decodeURI(document.location.hash);
+    let hash = document.location.hash.replace("%20", " ");
     if (hash) {
       let dd = hash.indexOf("::");
       if (dd != -1) {
@@ -158,7 +158,7 @@
       <div class="navbar-item has-dropdown is-hoverable ">
         <a href="#MAIN" class="navbar-link">
           <img src="xpedia/favicon.png" alt="favicon" />
-          {rul.modName} XPedia
+          {rul.modName}
         </a>
         <div class="navbar-dropdown">
           <div style="display:flex">
@@ -203,7 +203,7 @@
     <div class="navbar-end">
       <div class="navbar-item is-paddingless"> 
         <div class="dropdown">
-          <button class="dropbtn navbar-link">{rul.str("Language")}</button>
+          <button class="dropbtn navbar-link"><img class="media-icon" src="http://icons.iconarchive.com/icons/dtafalonso/modern-xp/512/ModernXP-73-Globe-icon.png" alt="language" style="margin-right: 5px;"></button>
           <div class="dropdown-content">
             <a href="index.html">English</a>
             <a href="xpedia_ru.html">Русский</a>
@@ -257,10 +257,8 @@
     </div>
     <!-- Cellphone -->
     <div class="is-pulled-right is-hidden-tablet is-inline-block">
-      <div class="dropdown is-inline-block">
-        <button class="dropbtn navbar-link">
-          {rul.str("Lang")}
-        </button>
+      <div class="dropdown is-inline-block" style="padding-left: 0px;">
+        <button class="dropbtn navbar-link is" style="padding-left: 0px; padding-right: 15px;"><img class="media-icon" src="https://img.icons8.com/cotton/2x/globe.png" alt="language" style="margin-left: 0px;"></button>
         <div class="dropdown-content">
           <a href="index.html">Eng</a>
           <a href="xpedia_ru.html">Рус</a>
@@ -284,9 +282,7 @@
     <!-- Tablet -->
     <div class="is-pulled-right is-hidden-mobile is-inline-block">
       <div class="dropdown is-inline-block">
-        <button class="dropbtn navbar-link">
-          {rul.str("Language")}
-        </button>
+        <button class="dropbtn navbar-link" ><img class="media-icon" src="https://img.icons8.com/cotton/2x/globe.png" alt="language" style="margin-right: 5px;"></button>
         <div class="dropdown-content">
           <a href="index.html">English</a>
           <a href="xpedia_ru.html">Русский</a>
@@ -309,13 +305,14 @@
   </nav>
 
   <div class="columns is-fullheight is-marginless">
-    
     <div
       class="column is-2 is-sidebar-menu is-hidden-touch sidebar">
-
+      <div>
+        <button class="is-hidden-touch is-inline-block" style={sortArticles?"":"text-decoration:line-through"} on:click={e => sortArticles = !sortArticles}>A-Z</button>
+      </div>
       {#each article && article.section && article.section.isType() ? rul.typeSectionsOrder : rul.sectionsOrder as section}
         {#if !currentSection || section.id == currentSection.id}
-          <p class="menu-label">{section.title}</p>
+          <p class="sidemenu-label">{section.title}</p>
           <ul class="menu-list">
             {#each sortedArticles(section.articles) as option}
               <li>
@@ -341,7 +338,7 @@
     </div>
     <div class="column is-2 is-hidden-touch" />
     <div class="side-sort-button">
-      <button class="is-hidden-touch" style={sortArticles?"":"text-decoration:line-through"} on:click={e => sortArticles = !sortArticles}>A-Z</button>
+      
     </div>
 
     <div class="column is-main-content main" style="padding-top: 0px;">

@@ -50,7 +50,7 @@
                   class="button"
                   aria-haspopup="true"
                   aria-controls="dropdown-tiles">
-                  Expand
+                  {rul.str("Expand")}
                 </button>
               </div>
               <div class="dropdown-menu" id="dropdown-tiles" role="menu">

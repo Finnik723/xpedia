@@ -50,7 +50,7 @@
             <button
               class="btn-hover-effect btn-hover-effect--effect-1"
               on:click={e => (seeAllVariants = !seeAllVariants)}>
-              {seeAllVariants ? 'Hide' : 'See'} all variants
+              {seeAllVariants ? '' : ''} {rul.str("Show/Hide all variants")}
             </button>
           </p>
         {/if}

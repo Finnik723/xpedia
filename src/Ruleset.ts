@@ -780,6 +780,8 @@ export default class Ruleset {
     for (let k in this.lang) {
       let text: string = this.lang[k];
       if (typeof text === "string") {
+        text = text.replace(/^({ALT})+/, "");
+        text = text.replace(/{ALT}/g, "");
         text = text.replace(/^({NEWLINE})+/, "");
         text = text.replace(/{NEWLINE}/g, "<br/>");
         this.lang[k] = text;
@@ -886,12 +888,12 @@ export default class Ruleset {
         a.title < b.title ? -1 : 1
       );
 
-    Article.create({
-      id: "BASE_FUNC",
-      title: "Base Services",
-      type_id: "OTHER",
-      section: "OTHER"
-    });
+    // Article.create({
+    //   id: "BASE_FUNC",
+    //   title: "Base Services",
+    //   type_id: "OTHER",
+    //   section: "OTHER"
+    // });
 
     for (let cat of Object.keys(this.categories)) {
       console.log(cat);

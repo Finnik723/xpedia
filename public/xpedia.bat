@@ -110,5 +110,5 @@ index.html
 	type "%mod_language_path2%"
 
 	echo | set /p langTag=langp-
-	type "%xpedia_language_path1%"		
+	type "%xpedia_language_path2%"		
 )

@@ -194,6 +194,13 @@ ol li{
   color: black;
 }
 
+.sidemenu-label {
+  margin: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 3px;
+}
+
 .research-links li{
   min-width: 200px;
 }

@@ -15,7 +15,7 @@
       This mod contains many, many additions, like new mission types, enemies, equipment and story arcs (including the entirety of my previous project, the Final Mod Pack). It also places the game a bit more firmly in the 90's conspiracy genre and its clichés.<br/>
       <br/>
       <div class="columns">
-        <div class="column media-bar">
+        <div class="column media-bar" style="padding-bottom: 0px;">
           <a href="https://discordapp.com/invite/XrQQTPg"><img class="media-icon" src="https://cdn3.iconfinder.com/data/icons/popular-services-brands-vol-2/512/discord-256.png" alt="discord"></a>
           <a href="https://openxcom.org/forum/index.php/board,21.0.html"><img class="media-icon" src="https://www.gamerguides.com/forum/uploads/FG4SCQ58YFXV.jpg" alt="forum"></a>
           <a href="https://vk.com/thexcomfiles"><img class="media-icon" src="https://cdn3.iconfinder.com/data/icons/social-network-icon/112/vk-256.png" alt="VK"></a>
