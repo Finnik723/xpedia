@@ -487,3 +487,7 @@ button{
   padding-top: 16px;
   padding-bottom: 16px;
 }
+
+.media-icon {
+  max-width: 50%;
+}

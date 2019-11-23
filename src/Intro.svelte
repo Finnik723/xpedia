@@ -16,6 +16,26 @@
       <br/>
       <a href="https://openxcom.mod.io/the-x-com-files">Download mod</a>, join our community with <a href="https://discord.gg/XrQQTPg">Discord server</a> and <a href="https://openxcom.org/forum/index.php/board,21.0.html">forum!</a><br/>
       <br/>
+
+      <div class="columns">
+        <div class="column">
+            <a href="#"><img class="media-icon" src="https://cdn3.iconfinder.com/data/icons/popular-services-brands-vol-2/512/discord-256.png" alt="discord"></a>
+        </div>
+        <div class="column">
+          <a href="#"><img class="media-icon" src="https://www.gamerguides.com/forum/uploads/FG4SCQ58YFXV.jpg" alt="forum"></a>
+        </div>
+        <div class="column">
+           <a href="#"><img class="media-icon" src="https://cdn3.iconfinder.com/data/icons/social-network-icon/112/vk-256.png" alt="VK"></a>
+        </div>
+        <div class="column">
+          <a href="#"><img class="media-icon" src="https://cdn0.iconfinder.com/data/icons/social-media-2091/100/social-16-256.png" alt="YouTube"></a>
+        </div>
+        <div class="column">
+          <a href="#"><img class="media-icon" src="https://cdn3.iconfinder.com/data/icons/popular-services-brands-vol-2/512/twitch-256.png" alt="Twitch"></a>
+        </div>
+      </div>
+
+
     <h4>Current mod version is 1.0.2</h4>
       <div class="changelog">
       {rul.str("Changelog")}:
@@ -33,15 +53,59 @@
         </ul>
       </div>
     <h1>Latest News</h1>
-    <h4>Version 1.0 released!</h4>
-      <div>
-        <div class="quote">
-          "Now, this doesn't at all mean that this is the end. I will continue releasing new versions just like before, at least for the foreseeable future... <br/>
-          The 1.0 only means that I am satisfied with how the mod works now and consider it "done" enough to say so."
+
+<div>
+
+    <article class="media">
+      <figure class="media-left">
+        <p class="image is-128x128">
+          <img style="margin-top: 20px" src="https://image.flaticon.com/icons/svg/2254/2254743.svg">
+        </p>
+      </figure>
+      <div class="media-content">
+        <div class="content">
+          <small>23/11/2019</small>
+          <p class="title" style="margin-bottom: 10px">The truth is... right here!</p>
+
+            <div>
+              <p>
+                Our site starting its work. Now you can find here fresh news and xpedia for our mod powered by <a href="https://github.com/baturinsky/xpedia/">Baturinsky's XPedia</a>.
+              </p>
+            </div>
         </div>
-        <div class="qsign">
-          – Solarius Scorch, mod author, lead designer
+      </div>
+    </article>
+<br>
+</div>
+
+<h1> </h1>
+
+<div>
+
+    <article class="media">
+      <figure class="media-left">
+        <p class="image is-128x128">
+          <img style="margin-top: 20px" src="https://image.flaticon.com/icons/svg/2254/2254616.svg">
+        </p>
+      </figure>
+      <div class="media-content">
+        <div class="content">
+          <small>03/11/2019</small>
+          <p class="title" style="margin-bottom: 10px">Version 1.0 released!</p>
+
+            <div>
+              <p>
+                "Now, this doesn't at all mean that this is the end. I will continue releasing new versions just like before, at least for the foreseeable future...
+                 The 1.0 only means that I am satisfied with how the mod works now and consider it "done" enough to say so."
+              </p>
+              <small>
+                – Solarius Scorch, mod author, lead designer
+              </small>
+            </div>
         </div>
+      </div>
+    </article>
+    <br>
         <div class="changelog">
         {rul.str("Main additions")}:
           <ul class="changelog">
@@ -52,9 +116,10 @@
             <li>Overhaul of agent advancement mechanics.</li>
             <li>New missions, units, items, balance fixes and musch more! For detail info see <a href="https://openxcom.org/forum/index.php/topic,5427.0.html">full changelog</a></li>
           </ul>
+
         </div>
-        <div class="video is-hidden-mobile"> 
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/hFKEFMyEcQU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="video is-hidden-mobile">
+          <iframe  src="https://www.youtube.com/embed/hFKEFMyEcQU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <!-- <object data="https://www.youtube.com/embed/hFKEFMyEcQU" width="560" height="315"></object>  -->
         </div>
         <!-- for cellphone -->
@@ -62,12 +127,12 @@
           <iframe width="296" height="170" src="https://www.youtube.com/embed/hFKEFMyEcQU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <!-- <object data="https://www.youtube.com/embed/hFKEFMyEcQU" width="296" height="170"></object>  -->
         </div>
-      </div>
-      
-    <br/>
-    <br/>
+</div>
 
-    Wiki is powered by <a href="https://github.com/baturinsky/xpedia/">Baturinsky's XPedia</a>.
+
+
+    <br/>
+    <br/>
 
   </div>
   <div class="column is-hidden-touch is-3-desktop">
