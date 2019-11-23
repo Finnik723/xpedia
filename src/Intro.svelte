@@ -14,26 +14,15 @@
       With this mod the game starts in 1996. The player gets control over the newly formed organization X-Com - a project of the UN, designed to investigate abnormal events on our planet. The style of the series X-Files (where the name comes from) is surprisingly clear. In the beginning, no fighters, dozens of scientists, millions of dollars in budgets. You only have two special agents and they travel by public transport! Investigate mysterious incidents, tie the evidence together to shed light on extraterrestrial activities, develop X-COM and prepare for an alien invasion from Cydonia!<br/>
       This mod contains many, many additions, like new mission types, enemies, equipment and story arcs (including the entirety of my previous project, the Final Mod Pack). It also places the game a bit more firmly in the 90's conspiracy genre and its clichés.<br/>
       <br/>
-      <a href="https://openxcom.mod.io/the-x-com-files">Download mod</a>, join our community with <a href="https://discord.gg/XrQQTPg">Discord server</a> and <a href="https://openxcom.org/forum/index.php/board,21.0.html">forum!</a><br/>
-      <br/>
-
       <div class="columns">
-        <div class="column">
-            
+        <div class="column media-bar">
+          <a href="https://discordapp.com/invite/XrQQTPg"><img class="media-icon" src="https://cdn3.iconfinder.com/data/icons/popular-services-brands-vol-2/512/discord-256.png" alt="discord"></a>
+          <a href="https://openxcom.org/forum/index.php/board,21.0.html"><img class="media-icon" src="https://www.gamerguides.com/forum/uploads/FG4SCQ58YFXV.jpg" alt="forum"></a>
+          <a href="https://vk.com/thexcomfiles"><img class="media-icon" src="https://cdn3.iconfinder.com/data/icons/social-network-icon/112/vk-256.png" alt="VK"></a>
+          <a href="https://www.youtube.com/channel/UCO7G6RlATE5EIg2gHnks3cA"><img class="media-icon" src="https://cdn0.iconfinder.com/data/icons/social-media-2091/100/social-16-256.png" alt="YouTube"></a>
+          <a href="https://www.twitch.tv/finnikxcf"><img class="media-icon" src="https://cdn3.iconfinder.com/data/icons/popular-services-brands-vol-2/512/twitch-256.png" alt="Twitch"></a>
         </div>
-        <div class="column">
-          <a href="#"><img class="media-icon" src="https://cdn3.iconfinder.com/data/icons/popular-services-brands-vol-2/512/discord-256.png" alt="discord"></a>
-          <a href="#"><img class="media-icon" src="https://www.gamerguides.com/forum/uploads/FG4SCQ58YFXV.jpg" alt="forum"></a>
-          <a href="#"><img class="media-icon" src="https://cdn3.iconfinder.com/data/icons/social-network-icon/112/vk-256.png" alt="VK"></a>
-          <a href="#"><img class="media-icon" src="https://cdn0.iconfinder.com/data/icons/social-media-2091/100/social-16-256.png" alt="YouTube"></a>
-          <a href="#"><img class="media-icon" src="https://cdn3.iconfinder.com/data/icons/popular-services-brands-vol-2/512/twitch-256.png" alt="Twitch"></a>
-        </div>
-        <div class="column">
-           
-        </div>
-       
       </div>
-
 
     <h4>Current mod version is 1.0.2</h4>
       <div class="changelog">
@@ -58,7 +47,7 @@
     <article class="media">
       <figure class="media-left">
         <p class="image is-128x128">
-          <img style="margin-top: 20px" src="https://image.flaticon.com/icons/svg/2254/2254743.svg">
+          <img style="margin-top: 20px" alt="launch" src="https://image.flaticon.com/icons/svg/2254/2254743.svg">
         </p>
       </figure>
       <div class="media-content">
@@ -84,7 +73,7 @@
     <article class="media">
       <figure class="media-left">
         <p class="image is-128x128">
-          <img style="margin-top: 20px" src="https://image.flaticon.com/icons/svg/2254/2254616.svg">
+          <img style="margin-top: 20px" alt="1.0Release" src="https://image.flaticon.com/icons/svg/2254/2254616.svg">
         </p>
       </figure>
       <div class="media-content">
