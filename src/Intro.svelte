@@ -6,7 +6,7 @@
 <div class="columns">
   <div class="column is-full-touch is-9-desktop">
     <h1>The X-COM Files</h1>
-      {rul.str("Welcome to The X-COM Files mod to OpenXcom website.")}
+      {rul.str("Welcome to website about The X-COM Files - mod to OpenXcom.")}
     <br/>
     <h4>What is XCF?</h4>
       This megamod is a global conversion to OpenXcom (clone of the classic UFO:Enemy Unknown 1994), preserving the original setting.<br/> 
