@@ -128,12 +128,78 @@
         </div>
 </div>
 
+<div>
+    <h1>Support project</h1>
+    <h4>Localization</h4>
+    To translate our mode for different languages we're using <strong>transifex</strong>.
+    You can help us by translating some part of a mod by <a href="https://www.transifex.com/signin/?next=/openxcom/openxcom-mods/translate/#ru/xcf/183492210">this link</a>.
+    <br>
+    <br>
+    <h4>Donation</h4>
+    <div class="donations">
 
+            <div class="donate" onclick="location.href='https://www.patreon.com/user/posts?u=2957095';">
+                <div class="donatedescription">
+                <img class="donate-icon" src="xpedia/Scorch.png" alt="Scorch">
+                  <br>
+                  <strong class="man">Solarius Scorch</strong>
+                  <br>
+                  mod author, lead designer
+                </div>
+              </div>
+
+
+
+                    <div class="donate" onclick="location.href='https://www.patreon.com/FinnikXCF';">
+                        <div>
+                          <a src="https://www.patreon.com/FinnikXCF">
+                            <img class="donate-icon" src="xpedia/Finnik.png" alt="Finnik">
+                          </a>
+                          <br>
+                          <strong class="man">Finnik</strong>
+                          <br>
+                          game designer, russian community manager, website developer
+                        </div>
+                     </div>
+
+
+                            <div class="donate tips" onclick="location.href='https://www.donationalerts.com/r/finnikxcf';">
+                                <div>
+                                    <img class="donate-icon" src="https://cdn170.picsart.com/upscale-239307799089211.png" alt="tips">
+                                  <br>
+                                  <strong class="man">Tips</strong>
+                                  <br>
+                                  for hosting, searching UFOs and cookies
+                                </div>
+
+                                <div class="tips-options">
+
+                                    <a class="tip-option" src="https://www.donationalerts.com/r/finnikxcf">
+                                        <img class="media-icon" src="https://www.donationalerts.com/img/header/logo.svg" alt="donation alerts">
+                                    </a>
+
+
+                                    <a class="tip-option" src="https://streamlabs.com/finnikxcf">
+                                        <img class="media-icon" src="https://cdn.streamlabs.com/static/imgs/logos/kevin-standard.png" alt="donation alerts">
+                                    </a>
+
+                                </div>
+
+                              </div>
+
+
+    </div>
+
+</div>
 
     <br/>
     <br/>
 
   </div>
+
+
+
+  <!--sidebar-->
   <div class="column is-hidden-touch is-3-desktop">
     <button title="Download" class="downloadbtn" onclick=" window.open('https://openxcom.mod.io/the-x-com-files', '_blank'); return false;">{rul.str("Download")}</button>
     <div class="imgcol">
