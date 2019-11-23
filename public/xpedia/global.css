@@ -503,3 +503,63 @@ button{
   margin-left: 16px;
   margin-right: 16px;
 }
+
+.donations {
+  display: flex;
+  justify-content: space-between;
+  vertical-align: top;
+}
+
+.donate {
+  flex: 1;
+  padding: 10px;
+  cursor:pointer;
+  text-align: center;
+
+}
+
+.donate:hover {
+  background-color: #57618a;
+  border-radius: 10px;
+}
+
+.tips:hover {
+  background-color: #25315a;
+  cursor: auto;
+}
+
+.tips-options {
+  display: flex;
+  justify-content: space-between;
+  vertical-align: center;
+}
+
+.tip-option {
+  padding-top: 10px;
+  flex: 1;
+  cursor:pointer;
+  text-align: center;
+}
+
+.tip-option:hover {
+  background-color: #57618a;
+  border-radius: 10px;
+}
+
+.donate-icon {
+  max-width: 84px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+/*.donatedescription:hover {*/
+  /*!*text-align: center;*!*/
+  /*background-color: #57618a;*/
+  /*border-radius: 10px;*/
+  /*padding: 10px;*/
+/*}*/
+
+.man {
+  color: #17ff91;
+}
+
