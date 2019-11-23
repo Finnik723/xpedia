@@ -361,7 +361,7 @@ button{
 .side-sort-button{
   position: relative;  
   left: -60px; 
-  top: 17px;
+  top: 19px;
   height: 0px; 
 }
 
@@ -377,8 +377,19 @@ button{
 }
 .qsign {
   padding-left: 60px;
+  padding-bottom: 12px;
 }
 
+.changelog {
+  background-color: #141d3d;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  padding-left: 16px; /* Расстояние от линии до текста */ 
+}
+
+.changelog ul { 
+  list-style-type: disc;
+}
 
 .imgcol {
   background-color: #141d3d;
@@ -392,7 +403,7 @@ button{
 }
 
 .downloadbtn {
-  background-color: #8dc9ec;
+  background-color: #23d160;
   border: none;
   color: white;
   width:100%;
@@ -470,4 +481,9 @@ button{
 {
   background-color:#0b1124;
   border-radius: 5px;
+}
+
+.video {
+  padding-top: 16px;
+  padding-bottom: 16px;
 }

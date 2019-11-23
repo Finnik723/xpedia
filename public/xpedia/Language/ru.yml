@@ -1,12 +1,12 @@
 ru:
   # UI
-  Items: "Предметы"
   Item: "Предмет"
-  Conditions: "Условия"
-  Categories: "Категории"
-  Manufacture: "Производство"
-  Research: "Исследования"
-  Services: "Службы"
+  ITEMS: "ПРЕДМЕТЫ"
+  CONDITIONS: "УСЛОВИЯ"
+  CATEGORIES: "КАТЕГОРИИ"
+  MANUFACTURE: "ПРОИЗВОДСТВО"
+  RESEARCH: "ИССЛЕДОВАНИЯ"
+  SERVICES: "ФУНКЦИИ"
   Base Services: "Службы базы"
   Armor: "Броня"
   Weapon: "Оружие"
@@ -16,7 +16,8 @@ ru:
   Language: "Язык"
   Lang: "Язык" #five letters max!
   Download: "Скачать"
-  # intro
+  # intro page
   Welcome to The X-COM Files mod to OpenXcom website.: "Дорбро пожаловать на сайт мода к OpenXcom - The X-COM Files."
+  Changelog: "Список изменений"
 
   

@@ -4483,12 +4483,12 @@ var app = (function (JSZip) {
                 }
             }
             var articleTypes = [
-                "Items",
-                "Conditions",
-                "Categories",
-                "Research",
-                "Manufacture",
-                "Services"
+                "ITEMS",
+                "CONDITIONS",
+                "CATEGORIES",
+                "RESEARCH",
+                "MANUFACTURE",
+                "SERVICE"
             ];
             for (var _b = 0, articleTypes_1 = articleTypes; _b < articleTypes_1.length; _b++) {
                 var type = articleTypes_1[_b];
@@ -4674,7 +4674,7 @@ var app = (function (JSZip) {
                     id: cat,
                     title: rul.str(cat),
                     type_id: "CATEGORIES",
-                    section: "Categories"
+                    section: "CATEGORIES"
                 });
             }
             console.log(this);
@@ -5836,14 +5836,14 @@ var app = (function (JSZip) {
     const file$2 = "src\\Intro.svelte";
 
     function create_fragment$2(ctx) {
-    	var div6, div3, h1, t1, t2_value = rul.str("Welcome to The X-COM Files mod to OpenXcom website.") + "", t2, t3, br0, t4, h40, t6, br1, t7, br2, t8, br3, t9, br4, t10, br5, t11, a0, t13, a1, t15, a2, br6, t17, br7, t18, h41, t20, div2, div0, t21, br8, t22, t23, div1, t25, br9, t26, br10, t27, a3, t29, t30, div5, button, t31_value = rul.str("Download") + "", t31, t32, div4, img0, t33, img1, t34, img2, t35, img3, t36, img4;
+    	var div10, div7, h10, t1, t2_value = rul.str("Welcome to The X-COM Files mod to OpenXcom website.") + "", t2, t3, br0, t4, h40, t6, br1, t7, br2, t8, br3, t9, br4, t10, br5, t11, a0, t13, a1, t15, a2, br6, t17, br7, t18, h41, t20, div0, t21_value = rul.str("Changelog") + "", t21, t22, ul0, li0, t24, li1, t26, li2, t28, li3, t30, li4, t32, li5, t34, li6, t36, li7, t38, li8, t40, li9, t42, h11, t44, h42, t46, div6, div1, t47, br8, t48, t49, div2, t51, div3, t52_value = rul.str("Main additions") + "", t52, t53, ul1, li10, t55, li11, t57, li12, t59, li13, t61, li14, t63, li15, t64, a3, t66, div4, iframe0, t67, div5, iframe1, t68, br9, t69, br10, t70, a4, t72, t73, div9, button, t74_value = rul.str("Download") + "", t74, t75, div8, img0, t76, img1, t77, img2, t78, img3, t79, img4;
 
     	const block = {
     		c: function create() {
-    			div6 = element("div");
-    			div3 = element("div");
-    			h1 = element("h1");
-    			h1.textContent = "The X-COM Files";
+    			div10 = element("div");
+    			div7 = element("div");
+    			h10 = element("h1");
+    			h10.textContent = "The X-COM Files";
     			t1 = space();
     			t2 = text(t2_value);
     			t3 = space();
@@ -5855,7 +5855,7 @@ var app = (function (JSZip) {
     			br1 = element("br");
     			t7 = space();
     			br2 = element("br");
-    			t8 = text("\r\n      With this mod the game starts in 1996. The player gets control over the newly formed organization X-Com - a project of the UN, designed to investigate abnormal events on our planet. The style of the series X-Files (where the name comes from) is surprisingly clear. In the beginning, no fighters, dozens of scientists, millions of dollars in budgets. You only have two special agents and they travel by public transport! Investigate mysterious incidents, tie the evidence together to shed light on extraterrestrial activities, develop X-COM and prepare for an alien invasion from Cidonia!");
+    			t8 = text("\r\n      With this mod the game starts in 1996. The player gets control over the newly formed organization X-Com - a project of the UN, designed to investigate abnormal events on our planet. The style of the series X-Files (where the name comes from) is surprisingly clear. In the beginning, no fighters, dozens of scientists, millions of dollars in budgets. You only have two special agents and they travel by public transport! Investigate mysterious incidents, tie the evidence together to shed light on extraterrestrial activities, develop X-COM and prepare for an alien invasion from Cydonia!");
     			br3 = element("br");
     			t9 = text("\r\n      This mod contains many, many additions, like new mission types, enemies, equipment and story arcs (including the entirety of my previous project, the Final Mod Pack). It also places the game a bit more firmly in the 90's conspiracy genre and its clichés.");
     			br4 = element("br");
@@ -5877,38 +5877,108 @@ var app = (function (JSZip) {
     			h41 = element("h4");
     			h41.textContent = "Current mod version is 1.0.2";
     			t20 = space();
-    			div2 = element("div");
     			div0 = element("div");
-    			t21 = text("\"Now, this doesn't at all mean that this is the end. I will continue releasing new versions just like before, at least for the foreseeable future... ");
-    			br8 = element("br");
-    			t22 = text("\r\n          The 1.0 only means that I am satisfied with how the mod works now and consider it \"done\" enough to say so.\"");
-    			t23 = space();
-    			div1 = element("div");
-    			div1.textContent = "– Solarius Scorch, mod author, lead designer";
-    			t25 = space();
-    			br9 = element("br");
+    			t21 = text(t21_value);
+    			t22 = text(":\r\n        ");
+    			ul0 = element("ul");
+    			li0 = element("li");
+    			li0.textContent = "New Alien Base, Farm, Forest and City mapblocks (by Civilian).";
+    			t24 = space();
+    			li1 = element("li");
+    			li1.textContent = "Cybermites are now invisible on the minimap.";
     			t26 = space();
-    			br10 = element("br");
-    			t27 = text("\r\n\r\n    Wiki is powered by ");
-    			a3 = element("a");
-    			a3.textContent = "Baturinsky's XPedia";
-    			t29 = text(".");
+    			li2 = element("li");
+    			li2.textContent = "New FN FAL handob (by Civilian).";
+    			t28 = space();
+    			li3 = element("li");
+    			li3.textContent = "Lowered the Melee requirement for Martial Arts to 65.";
     			t30 = space();
-    			div5 = element("div");
-    			button = element("button");
-    			t31 = text(t31_value);
+    			li4 = element("li");
+    			li4.textContent = "Fixed a crash on Marine Base Defense mission popping up.";
     			t32 = space();
-    			div4 = element("div");
-    			img0 = element("img");
-    			t33 = space();
-    			img1 = element("img");
+    			li5 = element("li");
+    			li5.textContent = "Fixed the Night Owl commendation.";
     			t34 = space();
-    			img2 = element("img");
-    			t35 = space();
-    			img3 = element("img");
+    			li6 = element("li");
+    			li6.textContent = "Fixed energy regeneration on Heavy Suit (both variants).";
     			t36 = space();
+    			li7 = element("li");
+    			li7.textContent = "Fixed Psi-Amp handob.";
+    			t38 = space();
+    			li8 = element("li");
+    			li8.textContent = "Fixed one Battleship map.";
+    			t40 = space();
+    			li9 = element("li");
+    			li9.textContent = "Minor terrain fixes.";
+    			t42 = space();
+    			h11 = element("h1");
+    			h11.textContent = "Latest News";
+    			t44 = space();
+    			h42 = element("h4");
+    			h42.textContent = "Version 1.0 released!";
+    			t46 = space();
+    			div6 = element("div");
+    			div1 = element("div");
+    			t47 = text("\"Now, this doesn't at all mean that this is the end. I will continue releasing new versions just like before, at least for the foreseeable future... ");
+    			br8 = element("br");
+    			t48 = text("\r\n          The 1.0 only means that I am satisfied with how the mod works now and consider it \"done\" enough to say so.\"");
+    			t49 = space();
+    			div2 = element("div");
+    			div2.textContent = "– Solarius Scorch, mod author, lead designer";
+    			t51 = space();
+    			div3 = element("div");
+    			t52 = text(t52_value);
+    			t53 = text(":\r\n          ");
+    			ul1 = element("ul");
+    			li10 = element("li");
+    			li10.textContent = "Updated to OXCE 6.1.1";
+    			t55 = space();
+    			li11 = element("li");
+    			li11.textContent = "New features: random events, commendations (with bonuses), enhancement treatments; basic agent stats lowered for balance.";
+    			t57 = space();
+    			li12 = element("li");
+    			li12.textContent = "New stat: Readiness, and associated exhaustion mechanics.";
+    			t59 = space();
+    			li13 = element("li");
+    			li13.textContent = "New alien race: Chaser.";
+    			t61 = space();
+    			li14 = element("li");
+    			li14.textContent = "Overhaul of agent advancement mechanics.";
+    			t63 = space();
+    			li15 = element("li");
+    			t64 = text("New missions, units, items, balance fixes and musch more! For detail info see ");
+    			a3 = element("a");
+    			a3.textContent = "full changelog";
+    			t66 = space();
+    			div4 = element("div");
+    			iframe0 = element("iframe");
+    			t67 = space();
+    			div5 = element("div");
+    			iframe1 = element("iframe");
+    			t68 = space();
+    			br9 = element("br");
+    			t69 = space();
+    			br10 = element("br");
+    			t70 = text("\r\n\r\n    Wiki is powered by ");
+    			a4 = element("a");
+    			a4.textContent = "Baturinsky's XPedia";
+    			t72 = text(".");
+    			t73 = space();
+    			div9 = element("div");
+    			button = element("button");
+    			t74 = text(t74_value);
+    			t75 = space();
+    			div8 = element("div");
+    			img0 = element("img");
+    			t76 = space();
+    			img1 = element("img");
+    			t77 = space();
+    			img2 = element("img");
+    			t78 = space();
+    			img3 = element("img");
+    			t79 = space();
     			img4 = element("img");
-    			add_location(h1, file$2, 7, 4, 185);
+    			add_location(h10, file$2, 7, 4, 185);
     			add_location(br0, file$2, 9, 4, 287);
     			add_location(h40, file$2, 10, 4, 298);
     			add_location(br1, file$2, 11, 133, 454);
@@ -5925,48 +5995,94 @@ var app = (function (JSZip) {
     			add_location(br6, file$2, 16, 231, 1586);
     			add_location(br7, file$2, 17, 6, 1599);
     			add_location(h41, file$2, 18, 4, 1610);
-    			add_location(br8, file$2, 21, 159, 1850);
-    			attr_dev(div0, "class", "quote");
-    			add_location(div0, file$2, 20, 8, 1670);
-    			attr_dev(div1, "class", "qsign");
-    			add_location(div1, file$2, 24, 8, 2000);
-    			add_location(div2, file$2, 19, 6, 1655);
-    			add_location(br9, file$2, 29, 4, 2120);
-    			add_location(br10, file$2, 30, 4, 2131);
-    			attr_dev(a3, "href", "https://github.com/baturinsky/xpedia/");
-    			add_location(a3, file$2, 32, 23, 2163);
-    			attr_dev(div3, "class", "column is-full-touch is-9-desktop");
-    			add_location(div3, file$2, 6, 2, 132);
+    			add_location(li0, file$2, 22, 10, 1753);
+    			add_location(li1, file$2, 23, 10, 1836);
+    			add_location(li2, file$2, 24, 10, 1901);
+    			add_location(li3, file$2, 25, 10, 1954);
+    			add_location(li4, file$2, 26, 10, 2028);
+    			add_location(li5, file$2, 27, 10, 2105);
+    			add_location(li6, file$2, 28, 10, 2159);
+    			add_location(li7, file$2, 29, 10, 2236);
+    			add_location(li8, file$2, 30, 10, 2278);
+    			add_location(li9, file$2, 31, 10, 2324);
+    			attr_dev(ul0, "class", "changelog");
+    			add_location(ul0, file$2, 21, 8, 1719);
+    			attr_dev(div0, "class", "changelog");
+    			add_location(div0, file$2, 19, 6, 1655);
+    			add_location(h11, file$2, 34, 4, 2389);
+    			add_location(h42, file$2, 35, 4, 2415);
+    			add_location(br8, file$2, 38, 159, 2648);
+    			attr_dev(div1, "class", "quote");
+    			add_location(div1, file$2, 37, 8, 2468);
+    			attr_dev(div2, "class", "qsign");
+    			add_location(div2, file$2, 41, 8, 2798);
+    			add_location(li10, file$2, 47, 12, 3008);
+    			add_location(li11, file$2, 48, 12, 3052);
+    			add_location(li12, file$2, 49, 12, 3196);
+    			add_location(li13, file$2, 50, 12, 3276);
+    			add_location(li14, file$2, 51, 12, 3322);
+    			attr_dev(a3, "href", "https://openxcom.org/forum/index.php/topic,5427.0.html");
+    			add_location(a3, file$2, 52, 94, 3467);
+    			add_location(li15, file$2, 52, 12, 3385);
+    			attr_dev(ul1, "class", "changelog");
+    			add_location(ul1, file$2, 46, 10, 2972);
+    			attr_dev(div3, "class", "changelog");
+    			add_location(div3, file$2, 44, 8, 2899);
+    			attr_dev(iframe0, "width", "560");
+    			attr_dev(iframe0, "height", "315");
+    			attr_dev(iframe0, "src", "https://www.youtube.com/embed/hFKEFMyEcQU");
+    			attr_dev(iframe0, "frameborder", "0");
+    			attr_dev(iframe0, "allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture");
+    			iframe0.allowFullscreen = true;
+    			add_location(iframe0, file$2, 56, 10, 3647);
+    			attr_dev(div4, "class", "video is-hidden-mobile");
+    			add_location(div4, file$2, 55, 8, 3598);
+    			attr_dev(iframe1, "width", "296");
+    			attr_dev(iframe1, "height", "170");
+    			attr_dev(iframe1, "src", "https://www.youtube.com/embed/hFKEFMyEcQU");
+    			attr_dev(iframe1, "frameborder", "0");
+    			attr_dev(iframe1, "allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture");
+    			iframe1.allowFullscreen = true;
+    			add_location(iframe1, file$2, 61, 10, 4068);
+    			attr_dev(div5, "class", "video is-hidden-tablet");
+    			add_location(div5, file$2, 60, 8, 4020);
+    			add_location(div6, file$2, 36, 6, 2453);
+    			add_location(br9, file$2, 66, 4, 4427);
+    			add_location(br10, file$2, 67, 4, 4438);
+    			attr_dev(a4, "href", "https://github.com/baturinsky/xpedia/");
+    			add_location(a4, file$2, 69, 23, 4470);
+    			attr_dev(div7, "class", "column is-full-touch is-9-desktop");
+    			add_location(div7, file$2, 6, 2, 132);
     			attr_dev(button, "title", "Download");
     			attr_dev(button, "class", "downloadbtn");
     			attr_dev(button, "onclick", " window.open('https://openxcom.mod.io/the-x-com-files', '_blank'); return false;");
-    			add_location(button, file$2, 36, 4, 2306);
+    			add_location(button, file$2, 73, 4, 4613);
     			attr_dev(img0, "class", "imgbox");
     			attr_dev(img0, "src", "https://thumb.mod.io/mods/0640/158/thumb_1020x2000/osprey.1.png");
     			attr_dev(img0, "alt", "osprey.1.png");
-    			add_location(img0, file$2, 38, 6, 2506);
+    			add_location(img0, file$2, 75, 6, 4813);
     			attr_dev(img1, "class", "imgbox");
     			attr_dev(img1, "src", "https://thumb.mod.io/mods/0640/158/thumb_1020x2000/screen072.1.png");
     			attr_dev(img1, "alt", "screen072.1.png");
-    			add_location(img1, file$2, 39, 6, 2623);
+    			add_location(img1, file$2, 76, 6, 4930);
     			attr_dev(img2, "class", "imgbox");
     			attr_dev(img2, "src", "https://thumb.mod.io/mods/0640/158/thumb_1020x2000/callofcoding.1.png");
     			attr_dev(img2, "alt", "callofcoding.1.png");
-    			add_location(img2, file$2, 40, 6, 2746);
+    			add_location(img2, file$2, 77, 6, 5053);
     			attr_dev(img3, "class", "imgbox");
     			attr_dev(img3, "src", "https://thumb.mod.io/mods/0640/158/thumb_1020x2000/screen070.png");
     			attr_dev(img3, "alt", "screen070.png");
-    			add_location(img3, file$2, 41, 6, 2875);
+    			add_location(img3, file$2, 78, 6, 5182);
     			attr_dev(img4, "class", "imgbox");
     			attr_dev(img4, "src", "https://thumb.mod.io/mods/0640/158/thumb_1020x2000/village01.png");
     			attr_dev(img4, "alt", "village01.png");
-    			add_location(img4, file$2, 42, 6, 2994);
-    			attr_dev(div4, "class", "imgcol");
-    			add_location(div4, file$2, 37, 4, 2478);
-    			attr_dev(div5, "class", "column is-hidden-touch is-3-desktop");
-    			add_location(div5, file$2, 35, 2, 2251);
-    			attr_dev(div6, "class", "columns");
-    			add_location(div6, file$2, 5, 0, 107);
+    			add_location(img4, file$2, 79, 6, 5301);
+    			attr_dev(div8, "class", "imgcol");
+    			add_location(div8, file$2, 74, 4, 4785);
+    			attr_dev(div9, "class", "column is-hidden-touch is-3-desktop");
+    			add_location(div9, file$2, 72, 2, 4558);
+    			attr_dev(div10, "class", "columns");
+    			add_location(div10, file$2, 5, 0, 107);
     		},
 
     		l: function claim(nodes) {
@@ -5974,66 +6090,118 @@ var app = (function (JSZip) {
     		},
 
     		m: function mount(target, anchor) {
-    			insert_dev(target, div6, anchor);
-    			append_dev(div6, div3);
-    			append_dev(div3, h1);
-    			append_dev(div3, t1);
-    			append_dev(div3, t2);
-    			append_dev(div3, t3);
-    			append_dev(div3, br0);
-    			append_dev(div3, t4);
-    			append_dev(div3, h40);
-    			append_dev(div3, t6);
-    			append_dev(div3, br1);
-    			append_dev(div3, t7);
-    			append_dev(div3, br2);
-    			append_dev(div3, t8);
-    			append_dev(div3, br3);
-    			append_dev(div3, t9);
-    			append_dev(div3, br4);
-    			append_dev(div3, t10);
-    			append_dev(div3, br5);
-    			append_dev(div3, t11);
-    			append_dev(div3, a0);
-    			append_dev(div3, t13);
-    			append_dev(div3, a1);
-    			append_dev(div3, t15);
-    			append_dev(div3, a2);
-    			append_dev(div3, br6);
-    			append_dev(div3, t17);
-    			append_dev(div3, br7);
-    			append_dev(div3, t18);
-    			append_dev(div3, h41);
-    			append_dev(div3, t20);
-    			append_dev(div3, div2);
-    			append_dev(div2, div0);
+    			insert_dev(target, div10, anchor);
+    			append_dev(div10, div7);
+    			append_dev(div7, h10);
+    			append_dev(div7, t1);
+    			append_dev(div7, t2);
+    			append_dev(div7, t3);
+    			append_dev(div7, br0);
+    			append_dev(div7, t4);
+    			append_dev(div7, h40);
+    			append_dev(div7, t6);
+    			append_dev(div7, br1);
+    			append_dev(div7, t7);
+    			append_dev(div7, br2);
+    			append_dev(div7, t8);
+    			append_dev(div7, br3);
+    			append_dev(div7, t9);
+    			append_dev(div7, br4);
+    			append_dev(div7, t10);
+    			append_dev(div7, br5);
+    			append_dev(div7, t11);
+    			append_dev(div7, a0);
+    			append_dev(div7, t13);
+    			append_dev(div7, a1);
+    			append_dev(div7, t15);
+    			append_dev(div7, a2);
+    			append_dev(div7, br6);
+    			append_dev(div7, t17);
+    			append_dev(div7, br7);
+    			append_dev(div7, t18);
+    			append_dev(div7, h41);
+    			append_dev(div7, t20);
+    			append_dev(div7, div0);
     			append_dev(div0, t21);
-    			append_dev(div0, br8);
     			append_dev(div0, t22);
-    			append_dev(div2, t23);
-    			append_dev(div2, div1);
-    			append_dev(div3, t25);
-    			append_dev(div3, br9);
-    			append_dev(div3, t26);
-    			append_dev(div3, br10);
-    			append_dev(div3, t27);
-    			append_dev(div3, a3);
-    			append_dev(div3, t29);
-    			append_dev(div6, t30);
+    			append_dev(div0, ul0);
+    			append_dev(ul0, li0);
+    			append_dev(ul0, t24);
+    			append_dev(ul0, li1);
+    			append_dev(ul0, t26);
+    			append_dev(ul0, li2);
+    			append_dev(ul0, t28);
+    			append_dev(ul0, li3);
+    			append_dev(ul0, t30);
+    			append_dev(ul0, li4);
+    			append_dev(ul0, t32);
+    			append_dev(ul0, li5);
+    			append_dev(ul0, t34);
+    			append_dev(ul0, li6);
+    			append_dev(ul0, t36);
+    			append_dev(ul0, li7);
+    			append_dev(ul0, t38);
+    			append_dev(ul0, li8);
+    			append_dev(ul0, t40);
+    			append_dev(ul0, li9);
+    			append_dev(div7, t42);
+    			append_dev(div7, h11);
+    			append_dev(div7, t44);
+    			append_dev(div7, h42);
+    			append_dev(div7, t46);
+    			append_dev(div7, div6);
+    			append_dev(div6, div1);
+    			append_dev(div1, t47);
+    			append_dev(div1, br8);
+    			append_dev(div1, t48);
+    			append_dev(div6, t49);
+    			append_dev(div6, div2);
+    			append_dev(div6, t51);
+    			append_dev(div6, div3);
+    			append_dev(div3, t52);
+    			append_dev(div3, t53);
+    			append_dev(div3, ul1);
+    			append_dev(ul1, li10);
+    			append_dev(ul1, t55);
+    			append_dev(ul1, li11);
+    			append_dev(ul1, t57);
+    			append_dev(ul1, li12);
+    			append_dev(ul1, t59);
+    			append_dev(ul1, li13);
+    			append_dev(ul1, t61);
+    			append_dev(ul1, li14);
+    			append_dev(ul1, t63);
+    			append_dev(ul1, li15);
+    			append_dev(li15, t64);
+    			append_dev(li15, a3);
+    			append_dev(div6, t66);
+    			append_dev(div6, div4);
+    			append_dev(div4, iframe0);
+    			append_dev(div6, t67);
     			append_dev(div6, div5);
-    			append_dev(div5, button);
-    			append_dev(button, t31);
-    			append_dev(div5, t32);
-    			append_dev(div5, div4);
-    			append_dev(div4, img0);
-    			append_dev(div4, t33);
-    			append_dev(div4, img1);
-    			append_dev(div4, t34);
-    			append_dev(div4, img2);
-    			append_dev(div4, t35);
-    			append_dev(div4, img3);
-    			append_dev(div4, t36);
-    			append_dev(div4, img4);
+    			append_dev(div5, iframe1);
+    			append_dev(div7, t68);
+    			append_dev(div7, br9);
+    			append_dev(div7, t69);
+    			append_dev(div7, br10);
+    			append_dev(div7, t70);
+    			append_dev(div7, a4);
+    			append_dev(div7, t72);
+    			append_dev(div10, t73);
+    			append_dev(div10, div9);
+    			append_dev(div9, button);
+    			append_dev(button, t74);
+    			append_dev(div9, t75);
+    			append_dev(div9, div8);
+    			append_dev(div8, img0);
+    			append_dev(div8, t76);
+    			append_dev(div8, img1);
+    			append_dev(div8, t77);
+    			append_dev(div8, img2);
+    			append_dev(div8, t78);
+    			append_dev(div8, img3);
+    			append_dev(div8, t79);
+    			append_dev(div8, img4);
     		},
 
     		p: noop,
@@ -6042,7 +6210,7 @@ var app = (function (JSZip) {
 
     		d: function destroy(detaching) {
     			if (detaching) {
-    				detach_dev(div6);
+    				detach_dev(div10);
     			}
     		}
     	};
@@ -19153,140 +19321,140 @@ var app = (function (JSZip) {
     			if (if_block1) if_block1.c();
     			attr_dev(img, "src", "xpedia/favicon.png");
     			attr_dev(img, "alt", "favicon");
-    			add_location(img, file$i, 159, 10, 3653);
+    			add_location(img, file$i, 159, 10, 3644);
     			attr_dev(a0, "href", "#MAIN");
     			attr_dev(a0, "class", "navbar-link");
-    			add_location(a0, file$i, 158, 8, 3605);
-    			add_location(div0, file$i, 164, 12, 3836);
-    			add_location(div1, file$i, 171, 12, 4072);
+    			add_location(a0, file$i, 158, 8, 3596);
+    			add_location(div0, file$i, 164, 12, 3827);
+    			add_location(div1, file$i, 171, 12, 4063);
     			set_style(div2, "display", "flex");
-    			add_location(div2, file$i, 163, 10, 3796);
+    			add_location(div2, file$i, 163, 10, 3787);
     			attr_dev(div3, "class", "navbar-dropdown");
-    			add_location(div3, file$i, 162, 8, 3755);
+    			add_location(div3, file$i, 162, 8, 3746);
     			attr_dev(div4, "class", "navbar-item has-dropdown is-hoverable ");
-    			add_location(div4, file$i, 157, 6, 3543);
+    			add_location(div4, file$i, 157, 6, 3534);
     			set_style(a1, "color", "white");
     			attr_dev(a1, "href", a1_href_value = '#' + (ctx.currentSection ? ctx.currentSection.id : 'MAIN'));
-    			add_location(a1, file$i, 183, 8, 4391);
+    			add_location(a1, file$i, 183, 8, 4382);
     			attr_dev(div5, "class", "navbar-item");
-    			add_location(div5, file$i, 182, 6, 4356);
+    			add_location(div5, file$i, 182, 6, 4347);
     			attr_dev(div6, "class", "navbar-brand ");
-    			add_location(div6, file$i, 156, 4, 3508);
+    			add_location(div6, file$i, 156, 4, 3499);
     			attr_dev(button0, "class", "dropbtn navbar-link");
-    			add_location(button0, file$i, 205, 10, 5032);
+    			add_location(button0, file$i, 205, 10, 5023);
     			attr_dev(a2, "href", "index.html");
-    			add_location(a2, file$i, 207, 12, 5154);
+    			add_location(a2, file$i, 207, 12, 5145);
     			attr_dev(a3, "href", "xpedia_ru.html");
-    			add_location(a3, file$i, 208, 12, 5200);
+    			add_location(a3, file$i, 208, 12, 5191);
     			attr_dev(a4, "href", "xpedia_pl.html");
-    			add_location(a4, file$i, 209, 12, 5250);
+    			add_location(a4, file$i, 209, 12, 5241);
     			attr_dev(div7, "class", "dropdown-content");
-    			add_location(div7, file$i, 206, 10, 5110);
+    			add_location(div7, file$i, 206, 10, 5101);
     			attr_dev(div8, "class", "dropdown");
-    			add_location(div8, file$i, 204, 8, 4998);
+    			add_location(div8, file$i, 204, 8, 4989);
     			attr_dev(div9, "class", "navbar-item is-paddingless");
-    			add_location(div9, file$i, 203, 6, 4947);
+    			add_location(div9, file$i, 203, 6, 4938);
     			attr_dev(input0, "class", "input");
     			attr_dev(input0, "type", "text");
     			attr_dev(input0, "placeholder", rul.str("Search..."));
-    			add_location(input0, file$i, 216, 12, 5451);
+    			add_location(input0, file$i, 216, 12, 5442);
     			attr_dev(p0, "class", "control");
-    			add_location(p0, file$i, 215, 10, 5418);
+    			add_location(p0, file$i, 215, 10, 5409);
     			attr_dev(div10, "class", "field has-addons");
-    			add_location(div10, file$i, 214, 8, 5376);
+    			add_location(div10, file$i, 214, 8, 5367);
     			attr_dev(div11, "class", "navbar-item");
-    			add_location(div11, file$i, 213, 6, 5341);
+    			add_location(div11, file$i, 213, 6, 5332);
     			attr_dev(div12, "class", "navbar-end");
-    			add_location(div12, file$i, 202, 4, 4915);
+    			add_location(div12, file$i, 202, 4, 4906);
     			attr_dev(nav0, "class", "navbar is-fixed-top is-hidden-touch");
     			attr_dev(nav0, "role", "navigation");
     			attr_dev(nav0, "aria-label", "main navigation");
-    			add_location(nav0, file$i, 151, 2, 3388);
+    			add_location(nav0, file$i, 151, 2, 3379);
     			attr_dev(button1, "class", "dropbtn navbar-link");
-    			add_location(button1, file$i, 235, 6, 5969);
+    			add_location(button1, file$i, 235, 6, 5960);
     			attr_dev(a5, "href", "#MAIN");
-    			add_location(a5, file$i, 240, 10, 6153);
-    			add_location(div13, file$i, 239, 8, 6136);
+    			add_location(a5, file$i, 240, 10, 6144);
+    			add_location(div13, file$i, 239, 8, 6127);
     			attr_dev(hr, "class", "dropdown-divider");
-    			add_location(hr, file$i, 247, 8, 6373);
-    			add_location(div14, file$i, 248, 8, 6412);
+    			add_location(hr, file$i, 247, 8, 6364);
+    			add_location(div14, file$i, 248, 8, 6403);
     			attr_dev(div15, "class", "dropdown-content");
     			set_style(div15, "height", "300px");
     			set_style(div15, "overflow-y", "scroll");
-    			add_location(div15, file$i, 238, 6, 6053);
+    			add_location(div15, file$i, 238, 6, 6044);
     			attr_dev(div16, "class", "dropdown is-inline-block");
-    			add_location(div16, file$i, 234, 4, 5923);
+    			add_location(div16, file$i, 234, 4, 5914);
     			attr_dev(button2, "class", "dropbtn navbar-link");
-    			add_location(button2, file$i, 260, 8, 6768);
+    			add_location(button2, file$i, 260, 8, 6759);
     			attr_dev(a6, "href", "index.html");
-    			add_location(a6, file$i, 264, 10, 6904);
+    			add_location(a6, file$i, 264, 10, 6895);
     			attr_dev(a7, "href", "xpedia_ru.html");
-    			add_location(a7, file$i, 265, 10, 6944);
+    			add_location(a7, file$i, 265, 10, 6935);
     			attr_dev(a8, "href", "xpedia_pl.html");
-    			add_location(a8, file$i, 266, 10, 6988);
+    			add_location(a8, file$i, 266, 10, 6979);
     			attr_dev(div17, "class", "dropdown-content");
-    			add_location(div17, file$i, 263, 8, 6862);
+    			add_location(div17, file$i, 263, 8, 6853);
     			attr_dev(div18, "class", "dropdown is-inline-block");
-    			add_location(div18, file$i, 259, 6, 6720);
+    			add_location(div18, file$i, 259, 6, 6711);
     			attr_dev(input1, "class", "input");
     			attr_dev(input1, "type", "text");
     			attr_dev(input1, "placeholder", rul.str("Search..."));
-    			add_location(input1, file$i, 273, 12, 7255);
+    			add_location(input1, file$i, 273, 12, 7246);
     			attr_dev(p1, "class", "control");
-    			add_location(p1, file$i, 272, 10, 7222);
+    			add_location(p1, file$i, 272, 10, 7213);
     			attr_dev(div19, "class", "field has-addons");
-    			add_location(div19, file$i, 271, 8, 7180);
+    			add_location(div19, file$i, 271, 8, 7171);
     			attr_dev(div20, "class", "navbar-item  is-inline-block");
     			set_style(div20, "width", "100px");
     			set_style(div20, "padding-left", "0px");
     			set_style(div20, "padding-right", "8px");
-    			add_location(div20, file$i, 269, 6, 7058);
+    			add_location(div20, file$i, 269, 6, 7049);
     			attr_dev(div21, "class", "is-pulled-right is-hidden-tablet is-inline-block");
-    			add_location(div21, file$i, 258, 4, 6650);
+    			add_location(div21, file$i, 258, 4, 6641);
     			attr_dev(button3, "class", "dropbtn navbar-link");
-    			add_location(button3, file$i, 286, 8, 7647);
+    			add_location(button3, file$i, 286, 8, 7638);
     			attr_dev(a9, "href", "index.html");
-    			add_location(a9, file$i, 290, 10, 7787);
+    			add_location(a9, file$i, 290, 10, 7778);
     			attr_dev(a10, "href", "xpedia_ru.html");
-    			add_location(a10, file$i, 291, 10, 7831);
+    			add_location(a10, file$i, 291, 10, 7822);
     			attr_dev(a11, "href", "xpedia_pl.html");
-    			add_location(a11, file$i, 292, 10, 7879);
+    			add_location(a11, file$i, 292, 10, 7870);
     			attr_dev(div22, "class", "dropdown-content");
-    			add_location(div22, file$i, 289, 8, 7745);
+    			add_location(div22, file$i, 289, 8, 7736);
     			attr_dev(div23, "class", "dropdown is-inline-block");
-    			add_location(div23, file$i, 285, 6, 7599);
+    			add_location(div23, file$i, 285, 6, 7590);
     			attr_dev(input2, "class", "input");
     			attr_dev(input2, "type", "text");
     			attr_dev(input2, "placeholder", rul.str("Search..."));
-    			add_location(input2, file$i, 298, 12, 8079);
+    			add_location(input2, file$i, 298, 12, 8070);
     			attr_dev(p2, "class", "control");
-    			add_location(p2, file$i, 297, 10, 8046);
+    			add_location(p2, file$i, 297, 10, 8037);
     			attr_dev(div24, "class", "field has-addons");
-    			add_location(div24, file$i, 296, 8, 8004);
+    			add_location(div24, file$i, 296, 8, 7995);
     			attr_dev(div25, "class", "navbar-item  is-inline-block");
-    			add_location(div25, file$i, 295, 6, 7952);
+    			add_location(div25, file$i, 295, 6, 7943);
     			attr_dev(div26, "class", "is-pulled-right is-hidden-mobile is-inline-block");
-    			add_location(div26, file$i, 284, 4, 7529);
+    			add_location(div26, file$i, 284, 4, 7520);
     			attr_dev(nav1, "class", "navbar is-fixed-top is-hidden-desktop");
     			attr_dev(nav1, "role", "navigation");
     			attr_dev(nav1, "aria-label", "main navigation");
     			set_style(nav1, "border-left-width", "0px");
     			set_style(nav1, "border-right-width", "0px");
-    			add_location(nav1, file$i, 229, 2, 5738);
-    			attr_dev(div27, "class", "column is-2 is-sidebar-menu is-hidden-touch sidebar svelte-1bogsca");
-    			add_location(div27, file$i, 312, 4, 8403);
+    			add_location(nav1, file$i, 229, 2, 5729);
+    			attr_dev(div27, "class", "column is-2 is-sidebar-menu is-hidden-touch sidebar svelte-uwb6wb");
+    			add_location(div27, file$i, 312, 4, 8394);
     			attr_dev(div28, "class", "column is-2 is-hidden-touch");
-    			add_location(div28, file$i, 341, 4, 9471);
+    			add_location(div28, file$i, 341, 4, 9462);
     			attr_dev(button4, "class", "is-hidden-touch");
     			attr_dev(button4, "style", button4_style_value = ctx.sortArticles?"":"text-decoration:line-through");
-    			add_location(button4, file$i, 343, 6, 9558);
+    			add_location(button4, file$i, 343, 6, 9549);
     			attr_dev(div29, "class", "side-sort-button");
-    			add_location(div29, file$i, 342, 4, 9520);
+    			add_location(div29, file$i, 342, 4, 9511);
     			attr_dev(div30, "class", "column is-main-content main");
     			set_style(div30, "padding-top", "0px");
-    			add_location(div30, file$i, 346, 4, 9722);
+    			add_location(div30, file$i, 346, 4, 9713);
     			attr_dev(div31, "class", "columns is-fullheight is-marginless");
-    			add_location(div31, file$i, 310, 2, 8342);
+    			add_location(div31, file$i, 310, 2, 8333);
 
     			dispose = [
     				listen_dev(input0, "input", ctx.input0_input_handler),
@@ -19663,7 +19831,7 @@ var app = (function (JSZip) {
     			t1 = space();
     			attr_dev(a, "class", "navbar-item");
     			attr_dev(a, "href", '#' + ctx.section.id);
-    			add_location(a, file$i, 166, 16, 3911);
+    			add_location(a, file$i, 166, 16, 3902);
     		},
 
     		m: function mount(target, anchor) {
@@ -19695,7 +19863,7 @@ var app = (function (JSZip) {
     			t1 = space();
     			attr_dev(a, "class", "navbar-item");
     			attr_dev(a, "href", '#' + ctx.section.id);
-    			add_location(a, file$i, 173, 16, 4151);
+    			add_location(a, file$i, 173, 16, 4142);
     		},
 
     		m: function mount(target, anchor) {
@@ -19727,9 +19895,9 @@ var app = (function (JSZip) {
     			t = text(t_value);
     			set_style(a, "color", "white");
     			attr_dev(a, "href", a_href_value = '#' + ctx.article.id);
-    			add_location(a, file$i, 191, 10, 4695);
+    			add_location(a, file$i, 191, 10, 4686);
     			attr_dev(div, "class", "navbar-item");
-    			add_location(div, file$i, 190, 8, 4658);
+    			add_location(div, file$i, 190, 8, 4649);
     			dispose = listen_dev(a, "click", ctx.click_handler);
     		},
 
@@ -19771,7 +19939,7 @@ var app = (function (JSZip) {
     			t0 = text(t0_value);
     			t1 = space();
     			attr_dev(a, "href", '#' + ctx.section.id);
-    			add_location(a, file$i, 242, 12, 6252);
+    			add_location(a, file$i, 242, 12, 6243);
     		},
 
     		m: function mount(target, anchor) {
@@ -19802,7 +19970,7 @@ var app = (function (JSZip) {
     			t0 = text(t0_value);
     			t1 = space();
     			attr_dev(a, "href", '#' + ctx.section.id);
-    			add_location(a, file$i, 250, 12, 6483);
+    			add_location(a, file$i, 250, 12, 6474);
     		},
 
     		m: function mount(target, anchor) {
@@ -19848,9 +20016,9 @@ var app = (function (JSZip) {
 
     			t2 = space();
     			attr_dev(p, "class", "menu-label");
-    			add_location(p, file$i, 317, 10, 8680);
+    			add_location(p, file$i, 317, 10, 8671);
     			attr_dev(ul, "class", "menu-list");
-    			add_location(ul, file$i, 318, 10, 8733);
+    			add_location(ul, file$i, 318, 10, 8724);
     		},
 
     		m: function mount(target, anchor) {
@@ -19917,7 +20085,7 @@ var app = (function (JSZip) {
     			a = element("a");
     			t = text(t_value);
     			attr_dev(a, "href", a_href_value = '#' + ctx.option.id);
-    			add_location(a, file$i, 329, 18, 9166);
+    			add_location(a, file$i, 329, 18, 9157);
     			dispose = listen_dev(a, "click", ctx.click_handler_1);
     		},
 
@@ -19957,8 +20125,8 @@ var app = (function (JSZip) {
     			a = element("a");
     			t = text(t_value);
     			attr_dev(a, "href", a_href_value = '#' + ctx.option.id);
-    			attr_dev(a, "class", "active-article-option svelte-1bogsca");
-    			add_location(a, file$i, 322, 18, 8917);
+    			attr_dev(a, "class", "active-article-option svelte-uwb6wb");
+    			add_location(a, file$i, 322, 18, 8908);
     		},
 
     		m: function mount(target, anchor) {
@@ -20005,7 +20173,7 @@ var app = (function (JSZip) {
     		c: function create() {
     			li = element("li");
     			if_block.c();
-    			add_location(li, file$i, 320, 14, 8835);
+    			add_location(li, file$i, 320, 14, 8826);
     		},
 
     		m: function mount(target, anchor) {
@@ -20153,8 +20321,8 @@ var app = (function (JSZip) {
     			t3 = space();
     			if_block.c();
     			if_block_anchor = empty();
-    			add_location(em, file$i, 352, 8, 9906);
-    			add_location(br, file$i, 354, 8, 9944);
+    			add_location(em, file$i, 352, 8, 9897);
+    			add_location(br, file$i, 354, 8, 9935);
     		},
 
     		m: function mount(target, anchor) {
@@ -20283,7 +20451,7 @@ var app = (function (JSZip) {
     		c: function create() {
     			i = element("i");
     			i.textContent = "Nothing found";
-    			add_location(i, file$i, 362, 10, 10183);
+    			add_location(i, file$i, 362, 10, 10174);
     		},
 
     		m: function mount(target, anchor) {
@@ -20339,7 +20507,7 @@ var app = (function (JSZip) {
     		c: function create() {
     			i = element("i");
     			i.textContent = "Query too short";
-    			add_location(i, file$i, 358, 10, 10079);
+    			add_location(i, file$i, 358, 10, 10070);
     		},
 
     		m: function mount(target, anchor) {
@@ -20412,10 +20580,10 @@ var app = (function (JSZip) {
     	const block = {
     		c: function create() {
     			img = element("img");
-    			attr_dev(img, "class", "centered svelte-1bogsca");
+    			attr_dev(img, "class", "centered svelte-uwb6wb");
     			attr_dev(img, "alt", "Loading rules...");
     			attr_dev(img, "src", "xpedia/spinner.svg");
-    			add_location(img, file$i, 148, 2, 3279);
+    			add_location(img, file$i, 148, 2, 3270);
     		},
 
     		m: function mount(target, anchor) {
@@ -20556,7 +20724,7 @@ var app = (function (JSZip) {
       let rulesLoaded = loadRules();
 
       function checkHash() {
-        let hash = document.location.hash.replace("%20", " ");
+        let hash = decodeURI(document.location.hash);
         if (hash) {
           let dd = hash.indexOf("::");
           if (dd != -1) {

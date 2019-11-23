@@ -739,12 +739,12 @@ export default class Ruleset {
     }
 
     let articleTypes = [
-      "Items",
-      "Conditions",
-      "Categories",
-      "Research",
-      "Manufacture",
-      "Services"
+      "ITEMS",
+      "CONDITIONS",
+      "CATEGORIES",
+      "RESEARCH",
+      "MANUFACTURE",
+      "SERVICE"
     ];
 
     for (let type of articleTypes) new Section(type, "TYPE");
@@ -899,7 +899,7 @@ export default class Ruleset {
         id: cat,
         title: rul.str(cat),
         type_id: "CATEGORIES",
-        section: "Categories"
+        section: "CATEGORIES"
       });
     }
 
