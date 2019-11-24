@@ -111,7 +111,7 @@
       <div class="changelog">
         {rul.str("Main additions")}:
         <ul class="changelog">
-          <li>{rul.str("Updated to OXCE 6.1.1")}</li>
+          <li>{rul.str("Updated to OXCE 6.1.1")}.</li>
           <li>{rul.str("New features")}: {rul.str("random events, commendations (with bonuses), enhancement treatments; basic agent stats lowered for balance.")}</li>
           <li>{rul.str("New stat")}: {rul.str("Readiness, and associated exhaustion mechanics.")}</li>
           <li>{rul.str("New alien race")}: {rul.str("Chaser.")}</li>
@@ -131,6 +131,7 @@
       <br>
       <br>
       <h4>{rul.str("Donation")}</h4>
+
       <div class="donations">
         <div class="donate" onclick="window.open('https://www.patreon.com/user/posts?u=2957095')">
           <div class="donatedescription">
@@ -138,7 +139,7 @@
             <br>
             <strong class="man">Solarius Scorch</strong>
             <br>
-            {rul.str("mod author, lead designer")}
+            {rul.str("mod author, lead developing")}
           </div>
         </div>
         <div class="donate" onclick="window.open('https://www.patreon.com/FinnikXCF')">
