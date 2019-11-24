@@ -1,21 +1,21 @@
 pl:
   # UI
-  Item: "Предмет"
-  ITEMS: "ПРЕДМЕТЫ"
-  CONDITIONS: "УСЛОВИЯ"
-  CATEGORIES: "КАТЕГОРИИ"
-  MANUFACTURE: "ПРОИЗВОДСТВО"
-  RESEARCH: "ИССЛЕДОВАНИЯ"
-  SERVICES: "ФУНКЦИИ"
-  Base Services: "Службы базы"
-  Armor: "Броня"
-  Weapon: "Оружие"
-  damage: "урон"
-  HOME: "НА ГЛАВНУЮ"
-  Search...: "Поиск..."
-  Download: "Скачать"
-  Show/Hide all variants: Показать/Скрыть все варианты
-  A-Z: "А-Я"
+  Item: "Przedmiot"
+  ITEMS: "PRZEDMIOTY"
+  CONDITIONS: "WARUNKI"
+  CATEGORIES: "KATEGORIE"
+  MANUFACTURE: "PRODUKCJA"
+  RESEARCH: "BADANIA"
+  SERVICES: "FUNKCJE"
+  Base Services: "Funkcje bazy"
+  Armor: "Pancerz"
+  Weapon: "Broń"
+  damage: "obrażenia"
+  HOME: "STRONA GŁÓWNA"
+  Search...: "Szukaj..."
+  Download: "Pobierz"
+  Show/Hide all variants: Pokaż/ukryj wszystkie warianty
+  A-Z: "A-Z"
   
   # intro page
   Welcome to website about The X-COM Files - mod to OpenXcom.: "Добро пожаловать на сайт мода к OpenXcom - The X-COM Files."
