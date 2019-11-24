@@ -11,10 +11,10 @@
     {rul.str("Welcome to website about The X-COM Files - mod to OpenXcom.")}
     <br />
     <h4>{rul.str("What is XCF?")}</h4>
-    {rul.str("This megamod is a global conversion to OpenXcom (clone of the classic UFO:Enemy Unknown 1994), preserving the original setting.")}<br />
+    {rul.str("This megamod is a global conversion to OpenXcom (reimplementation of the classic")} UFO:  {rul.str("Enemy Unknown 1994).")}<br />
     <br />
      {rul.str("With this mod the game starts in 1996. The player gets control over the newly formed organization X-Com - a project of the UN, designed to investigate abnormal events on our planet. The style of the series X-Files (where the name comes from) is surprisingly clear. In the beginning, no fighters, dozens of scientists, millions of dollars in budgets. You only have two special agents and they travel by public transport! Investigate mysterious incidents, tie the evidence together to shed light on extraterrestrial activities, develop X-COM and prepare for an alien invasion from Cydonia!")}<br />
-    {rul.str("This mod contains many, many additions, like new mission types, enemies, equipment and story arcs (including the entirety of my previous project, the Final Mod Pack). It also places the game a bit more firmly in the 90's conspiracy genre and its clichés.")}<br />
+    {rul.str("This mod contains many, many additions, like new mission types, enemies, equipment and story arcs (including the entire Final Mod Pack project). It also places the game a bit more firmly in the 90's conspiracy genre and its clichés.")}<br />
     <br />
     <div class="columns">
       <div class="column media-bar" style="padding-bottom: 0px;">
