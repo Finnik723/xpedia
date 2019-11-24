@@ -1,5 +1,5 @@
 ru:
-  # UI
+# UI
   Item: "Предмет"
   ITEMS: "ПРЕДМЕТЫ"
   CONDITIONS: "УСЛОВИЯ"
@@ -17,49 +17,45 @@ ru:
   Show/Hide all variants: Показать/Скрыть все варианты
   A-Z: "А-Я"
   
-  # intro page
+# intro page
   Welcome to website about The X-COM Files - mod to OpenXcom.: "Добро пожаловать на сайт мода к OpenXcom - The X-COM Files."
-  This megamod is a global conversion to OpenXcom (clone of the classic UFO:Enemy Unknown 1994), preserving the original setting.: 
-
-  With this mod the game starts in 1996. The player gets control over the newly formed organization X-Com - a project of the UN, designed to investigate abnormal events on our planet. The style of the series X-Files (where the name comes from) is surprisingly clear. In the beginning, no fighters, dozens of scientists, millions of dollars in budgets. You only have two special agents and they travel by public transport! Investigate mysterious incidents, tie the evidence together to shed light on extraterrestrial activities, develop X-COM and prepare for an alien invasion from Cydonia!:
-
-  This mod contains many, many additions, like new mission types, enemies, equipment and story arcs (including the entirety of my previous project, the Final Mod Pack). It also places the game a bit more firmly in the 90's conspiracy genre and its clichés.:
-
-  Current mod version is:
-
+  This megamod is a global conversion to OpenXcom (clone of the classic UFO:Enemy Unknown 1994), preserving the original setting.: "Этот мегамод является глобальной конверсией OpenXcom (клона классической UFO:Enemy Unknown 1994), сохраняя изначальный сеттинг."
+  With this mod the game starts in 1996. The player gets control over the newly formed organization X-Com - a project of the UN, designed to investigate abnormal events on our planet. The style of the series X-Files (where the name comes from) is surprisingly clear. In the beginning, no fighters, dozens of scientists, millions of dollars in budgets. You only have two special agents and they travel by public transport! Investigate mysterious incidents, tie the evidence together to shed light on extraterrestrial activities, develop X-COM and prepare for an alien invasion from Cydonia!: "С этим модом игра начинается в 1996 году. Игрок получает управление над только зародившейся организацией X-Com - проектом ООН, призванным расследовать аномальные происшествия на нашей планете. Стилистика сериала X-Files (откуда и название) предаётся удивительно чётко. В начале никаких истребителей, десятков учёных, миллионных бюджетов. Что говорить, у вас всего два спец агента и передвигаются они общественным транспортом! Расследуйте загадочные инциденты, связывайте улики в единую картину, проливающую свет на деятельность внеземных сил, развивайте агенство X-COM и готовьтесь к вторжению пришельцев из Цидонии!"
+  This mod contains many, many additions, like new mission types, enemies, equipment and story arcs (including the entirety of my previous project, the Final Mod Pack). It also places the game a bit more firmly in the 90's conspiracy genre and its clichés.: "Этот мод содержит множество различных нововведений, таких как новые типы миссий, враги, снаряжение и сюжетные линии (включая весь мой предыдущий проект, Final Mod Pack). Это также несколько усиливает ощущение игры в жанре конспирологии 90-х годов и его клише."
+  Current mod version is: "Текущая версия мода"
   Changelog: "Список изменений"
-  New Alien Base, Farm, Forest and City mapblocks (by Civilian).:
-  Cybermites are now invisible on the minimap.:
-  New FN FAL handob (by Civilian).:
-  Lowered the Melee requirement for Martial Arts to 65.:
-  Fixed a crash on Marine Base Defense mission popping up.:
-  Fixed the Night Owl commendation.:
-  Fixed energy regeneration on Heavy Suit (both variants).:
-  Fixed Psi-Amp handob.:
-  Fixed one Battleship map.:
-  Minor terrain fixes.:
-
-  Latest News:
-  The truth is... right here!:
-  Our site starting its work. Now you can find here fresh news and xpedia for our mod powered by:
-  Version 1.0 released!:
-  mod author, lead designer:
-  Main additions: 
-  Updated to OXCE 6.1.1: 
-  New features: 
-  random events, commendations (with bonuses), enhancement treatments; basic agent stats lowered for balance.:
-  New stat:
-  Readiness, and associated exhaustion mechanics.:
-  New alien race:
-  Chaser.:
-  Overhaul of agent advancement mechanics.:
-  New missions, units, items, balance fixes and musch more! For detail info see:
-  full changelog:
-  Support project:
-  Localization:
-  To translate our mode for different languages we're using:
-  You can help us by translating some part of a mod by:
-  this link:
-  Donation:
-  mod author, lead designer:
-  for web hosting, searching UFOs and cookies:
+  New Alien Base, Farm, Forest and City mapblocks (by Civilian).: "Новые блоки карт для Базы пришельцев, леса, фермы и города (by Civilian)."
+  Cybermites are now invisible on the minimap.: "Прячущиеся кибержуки теперь не видны на миникарте."
+  New FN FAL handob (by Civilian).: "Новая графика для FN FAL (by Civilian)."
+  Lowered the Melee requirement for Martial Arts to: "Требование к навыку ближнего боя для 'Обучение боевым искусствам' снижено до"
+  Fixed a crash on Marine Base Defense mission popping up.: "Исправлена ошибка в миссии Fixed a crash on 'ОБОРОНА БАЗЫ МОРСКОЙ ПЕХОТЫ'"
+  Fixed the Night Owl commendation.: "Исправлена награда 'Сова'"
+  Fixed energy regeneration on Heavy Suit (both variants).: "Исправлено восстановление энергии на Тяжелый такт. костюм."
+  Fixed Psi-Amp handob.: "Исправлена графика Пси-усилителя."
+  Fixed one Battleship map.: "Правки в карте Линкора."
+  Minor terrain fixes.: "Мелкие фиксы в картах."
+  Latest News: "Новости"
+  The truth is... right here!: "Истинная где-то... прямо здесь!"
+  Our site starting its work. Now you can find here fresh news and xpedia for our mod powered by: "Наш сайт начинает свою работу. Теперь вы можете найти здесь свежие новости и вики для нашего мода. Движок вики создан на основе"
+  Version 1.0 released!: "Выпущена версия 1.0!"
+  mod author, lead designer: "автор мода, ведущий разработчик"
+  Main additions: "Основные нововведения"
+  Updated to OXCE 6.1.1: "Обновление до OXCE 6.1.1"
+  New features: "Новые особенности"
+  random events, commendations (with bonuses), enhancement treatments; basic agent stats lowered for balance.: "случайные события, награждения (с бонусами), методы повышения эффективности агентов; базовые показатели агентов снижены для обеспечения баланса."
+  New stat: "Новая характеристика"
+  Readiness, and associated exhaustion mechanics.: "Боеготовность, и связанная с ней игровая механика."
+  New alien race: "Новая раса пришельцев"
+  Chaser.: "Охотник."
+  Overhaul of agent advancement mechanics.: "Механика развития агентов пересмотрена."
+  New missions, units, items, balance fixes and musch more! For detail info see: "Новые миссии, юниты, предметы, исправления баланса и еще много чего! Подробнее смотрите"
+  full changelog: "полный список изменений"
+  Support project: "Поддержать проект"
+  Localization: "Локализация"
+  To translate our mode for different languages we're using: "Для перевода нашего мода на разные языки, мы используем"
+  You can help us by translating some part of a mod by: "Вы можете помочь нам c переводом мода перейдя по"
+  this link: "этой ссылке"
+  Donation: "Поддержать разработчиков"
+  mod author, lead developing: "автор мода, ведущий разработчик"
+  game designer, russian community manager, website developer: "гейм-дизайнер, администратор русского сообщества, разработка сайта"
+  for web hosting, searching UFOs and cookies: "для веб-хостинга, поиска НЛО и печенек."

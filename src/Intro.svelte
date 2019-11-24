@@ -40,7 +40,7 @@
         <li>{rul.str("New Alien Base, Farm, Forest and City mapblocks (by Civilian).")}</li>
         <li>{rul.str("Cybermites are now invisible on the minimap.")}</li>
         <li>{rul.str("New FN FAL handob (by Civilian).")}</li>
-        <li>{rul.str("Lowered the Melee requirement for Martial Arts to 65.")}</li>
+        <li>{rul.str("Lowered the Melee requirement for Martial Arts to")} 65.</li>
         <li>{rul.str("Fixed a crash on Marine Base Defense mission popping up.")}</li>
         <li>{rul.str("Fixed the Night Owl commendation.")}</li>
         <li>{rul.str("Fixed energy regeneration on Heavy Suit (both variants).")}</li>
