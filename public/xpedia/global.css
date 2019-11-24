@@ -425,6 +425,36 @@ button{
   background-color: RoyalBlue;
 }
 
+.watchbtn{
+  /* background-color: #c72127;
+  border: none; */
+  /* border: 1px solid #c22; */
+  border: 2px solid #505874;
+  /* background-color: transparent; */
+  background-color: #505874;
+  color: white;
+  /* width:40%; */
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  cursor: pointer;
+  font-size: 16px;
+  /* margin-bottom: 10px;
+  margin-top: 10px; */
+  border-radius: 5px;
+  width: 279px;
+}
+
+.watchbtn:hover {
+  background-color: transparent;
+  border: 2px solid #505874;
+}
+
+.watchbtnicon {
+  max-width: 40px;
+  margin-right: 5px;
+}
+
+
 .dropbtn {
   color: white;
   padding: 12px;
@@ -563,3 +593,17 @@ button{
   color: #17ff91;
 }
 
+.watchdiv {
+  display: flex;
+  text-align: center;
+  vertical-align: center;
+}
+
+.watchyoutube {
+  flex: 1;
+}
+
+.hellyeahcolumn {
+  vertical-align: center;
+  align-content: center;
+}

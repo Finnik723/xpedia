@@ -1,21 +1,65 @@
 pl:
   # UI
-  Items: "Предметы"
   Item: "Предмет"
-  Conditions: "Условия"
-  Categories: "Категории"
-  Manufacture: "Производство"
-  Research: "Исследования"
-  Services: "Службы"
+  ITEMS: "ПРЕДМЕТЫ"
+  CONDITIONS: "УСЛОВИЯ"
+  CATEGORIES: "КАТЕГОРИИ"
+  MANUFACTURE: "ПРОИЗВОДСТВО"
+  RESEARCH: "ИССЛЕДОВАНИЯ"
+  SERVICES: "ФУНКЦИИ"
   Base Services: "Службы базы"
   Armor: "Броня"
   Weapon: "Оружие"
   damage: "урон"
   HOME: "НА ГЛАВНУЮ"
   Search...: "Поиск..."
-  Language: "Язык"
-  Lang: "Язык"
   Download: "Скачать"
-  # intro
-  Welcome to The X-COM Files mod to OpenXcom website.: "Дорбро пожаловать на сайт мода к OpenXcom - The X-COM Files."
+  Show/Hide all variants: Показать/Скрыть все варианты
+  A-Z: "А-Я"
   
+  # intro page
+  Welcome to website about The X-COM Files - mod to OpenXcom.: "Добро пожаловать на сайт мода к OpenXcom - The X-COM Files."
+  This megamod is a global conversion to OpenXcom (clone of the classic UFO:Enemy Unknown 1994), preserving the original setting.: 
+
+  With this mod the game starts in 1996. The player gets control over the newly formed organization X-Com - a project of the UN, designed to investigate abnormal events on our planet. The style of the series X-Files (where the name comes from) is surprisingly clear. In the beginning, no fighters, dozens of scientists, millions of dollars in budgets. You only have two special agents and they travel by public transport! Investigate mysterious incidents, tie the evidence together to shed light on extraterrestrial activities, develop X-COM and prepare for an alien invasion from Cydonia!:
+
+  This mod contains many, many additions, like new mission types, enemies, equipment and story arcs (including the entirety of my previous project, the Final Mod Pack). It also places the game a bit more firmly in the 90's conspiracy genre and its clichés.:
+
+  Current mod version is:
+
+  Changelog: "Список изменений"
+  New Alien Base, Farm, Forest and City mapblocks (by Civilian).:
+  Cybermites are now invisible on the minimap.:
+  New FN FAL handob (by Civilian).:
+  Lowered the Melee requirement for Martial Arts to 65.:
+  Fixed a crash on Marine Base Defense mission popping up.:
+  Fixed the Night Owl commendation.:
+  Fixed energy regeneration on Heavy Suit (both variants).:
+  Fixed Psi-Amp handob.:
+  Fixed one Battleship map.:
+  Minor terrain fixes.:
+
+  Latest News:
+  The truth is... right here!:
+  Our site starting its work. Now you can find here fresh news and xpedia for our mod powered by:
+  Version 1.0 released!:
+  mod author, lead designer:
+  Main additions: 
+  Updated to OXCE 6.1.1: 
+  New features: 
+  random events, commendations (with bonuses), enhancement treatments; basic agent stats lowered for balance.:
+  New stat:
+  Readiness, and associated exhaustion mechanics.:
+  New alien race:
+  Chaser.:
+  Overhaul of agent advancement mechanics.:
+  New missions, units, items, balance fixes and musch more! For detail info see:
+  full changelog:
+  Support project:
+  Localization:
+  To translate our mode for different languages we're using:
+  You can help us by translating some part of a mod by:
+  this link:
+  Donation:
+  mod author, lead designer:
+  for web hosting, searching UFOs and cookies:

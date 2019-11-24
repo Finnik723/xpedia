@@ -5457,11 +5457,11 @@ var app = (function (JSZip) {
     			for (let i = 0; i < each_blocks.length; i += 1) {
     				each_blocks[i].c();
     			}
-    			add_location(ol, file$1, 23, 6, 625);
+    			add_location(ol, file$1, 23, 6, 638);
     			attr_dev(div0, "class", "cols");
-    			add_location(div0, file$1, 22, 4, 597);
+    			add_location(div0, file$1, 22, 4, 610);
     			attr_dev(div1, "class", "links-page");
-    			add_location(div1, file$1, 18, 2, 485);
+    			add_location(div1, file$1, 18, 2, 498);
     		},
 
     		m: function mount(target, anchor) {
@@ -5570,13 +5570,13 @@ var app = (function (JSZip) {
 
     // (14:2) {#if !title}
     function create_if_block_2(ctx) {
-    	var div, button, t, button_style_value, dispose;
+    	var div, button, t_value = rul.str("A-Z") + "", t, button_style_value, dispose;
 
     	const block = {
     		c: function create() {
     			div = element("div");
     			button = element("button");
-    			t = text("A-Z");
+    			t = text(t_value);
     			attr_dev(button, "style", button_style_value = ctx.sorted?"":"text-decoration:line-through");
     			add_location(button, file$1, 15, 6, 358);
     			attr_dev(div, "class", "links-page-button");
@@ -5617,7 +5617,7 @@ var app = (function (JSZip) {
     			div = element("div");
     			t = text(ctx.title);
     			attr_dev(div, "class", "links-page-header");
-    			add_location(div, file$1, 20, 6, 534);
+    			add_location(div, file$1, 20, 6, 547);
     		},
 
     		m: function mount(target, anchor) {
@@ -5655,7 +5655,7 @@ var app = (function (JSZip) {
     			li = element("li");
     			link.$$.fragment.c();
     			t = space();
-    			add_location(li, file$1, 25, 10, 679);
+    			add_location(li, file$1, 25, 10, 692);
     		},
 
     		m: function mount(target, anchor) {
@@ -5838,12 +5838,12 @@ var app = (function (JSZip) {
     const file$2 = "src\\Intro.svelte";
 
     function create_fragment$2(ctx) {
-    	var div29, div26, h10, t1, t2_value = rul.str("Welcome to website about The X-COM Files - mod to OpenXcom.") + "", t2, t3, br0, t4, h40, t6, br1, t7, br2, t8, br3, t9, br4, t10, br5, t11, div1, div0, a0, img0, t12, a1, img1, t13, a2, img2, t14, a3, img3, t15, a4, img4, t16, h41, t18, div2, t19_value = rul.str("Changelog") + "", t19, t20, ul0, li0, t22, li1, t24, li2, t26, li3, t28, li4, t30, li5, t32, li6, t34, li7, t36, li8, t38, li9, t40, h11, t42, div6, article0, figure0, p0, img5, t43, div5, div4, small0, t45, p1, t47, div3, p2, t48, a5, t50, t51, br6, t52, h12, t53, div14, article1, figure1, p3, img6, t54, div9, div8, small1, t56, p4, t58, div7, p5, t60, small2, t62, button0, img7, t63, div10, t64_value = rul.str("Dev's Talk - 1.0 release") + "", t64, t65, div11, t66_value = rul.str("Main additions") + "", t66, t67, ul1, li10, t69, li11, t71, li12, t73, li13, t75, li14, t77, li15, t78, a6, t80, div12, iframe0, t81, div13, iframe1, t82, div25, h13, t84, h42, t86, strong0, t88, a7, t90, br7, t91, br8, t92, h43, t94, div24, div16, div15, img8, t95, br9, t96, strong1, t98, br10, t99, t100, div18, div17, a8, img9, t101, br11, t102, strong2, t104, br12, t105, t106, div23, div19, img10, t107, br13, t108, strong3, t110, br14, t111, t112, div22, div20, img11, t113, div21, img12, t114, br15, t115, br16, t116, div28, button1, t117_value = rul.str("Download") + "", t117, t118, div27, img13, t119, img14, t120, img15, t121, img16, t122, img17, t123, img18, t124, img19;
+    	var div27, div24, h10, t1, t2_value = rul.str("Welcome to website about The X-COM Files - mod to OpenXcom.") + "", t2, t3, br0, t4, h40, t5_value = rul.str("What is XCF?") + "", t5, t6, t7_value = rul.str("This megamod is a global conversion to OpenXcom (clone of the classic UFO:Enemy Unknown 1994), preserving the original setting.") + "", t7, br1, t8, br2, t9, t10_value = rul.str("With this mod the game starts in 1996. The player gets control over the newly formed organization X-Com - a project of the UN, designed to investigate abnormal events on our planet. The style of the series X-Files (where the name comes from) is surprisingly clear. In the beginning, no fighters, dozens of scientists, millions of dollars in budgets. You only have two special agents and they travel by public transport! Investigate mysterious incidents, tie the evidence together to shed light on extraterrestrial activities, develop X-COM and prepare for an alien invasion from Cydonia!") + "", t10, br3, t11, t12_value = rul.str("This mod contains many, many additions, like new mission types, enemies, equipment and story arcs (including the entirety of my previous project, the Final Mod Pack). It also places the game a bit more firmly in the 90's conspiracy genre and its clichés.") + "", t12, br4, t13, br5, t14, div1, div0, a0, img0, t15, a1, img1, t16, a2, img2, t17, a3, img3, t18, a4, img4, t19, h41, t20_value = rul.str("Current mod version is") + "", t20, t21, t22, div2, t23_value = rul.str("Changelog") + "", t23, t24, ul0, li0, t25_value = rul.str("New Alien Base, Farm, Forest and City mapblocks (by Civilian).") + "", t25, t26, li1, t27_value = rul.str("Cybermites are now invisible on the minimap.") + "", t27, t28, li2, t29_value = rul.str("New FN FAL handob (by Civilian).") + "", t29, t30, li3, t31_value = rul.str("Lowered the Melee requirement for Martial Arts to 65.") + "", t31, t32, li4, t33_value = rul.str("Fixed a crash on Marine Base Defense mission popping up.") + "", t33, t34, li5, t35_value = rul.str("Fixed the Night Owl commendation.") + "", t35, t36, li6, t37_value = rul.str("Fixed energy regeneration on Heavy Suit (both variants).") + "", t37, t38, li7, t39_value = rul.str("Fixed Psi-Amp handob.") + "", t39, t40, li8, t41_value = rul.str("Fixed one Battleship map.") + "", t41, t42, li9, t43_value = rul.str("Minor terrain fixes.") + "", t43, t44, h11, t45_value = rul.str("Latest News") + "", t45, t46, div6, article0, figure0, p0, img5, t47, div5, div4, small0, t49, p1, t50_value = rul.str("The truth is... right here!") + "", t50, t51, div3, p2, t52_value = rul.str("Our site starting its work. Now you can find here fresh news and xpedia for our mod powered by") + "", t52, t53, a5, t55, t56, br6, t57, h12, t58, div12, article1, figure1, p3, img6, t59, div10, div9, small1, t61, p4, t62_value = rul.str("Version 1.0 released!") + "", t62, t63, div8, p5, t64, t65_value = rul.str("Now, this doesn't at all mean that this is the end. I will continue releasing new versions just like before, at least for the foreseeable future... The 1.0 only means that I am satisfied with how the mod works now and consider it 'done' enough to say so.") + "", t65, t66, t67, small2, t68, t69_value = rul.str("mod author, lead designer") + "", t69, t70, t71, br7, t72, br8, t73, button0, img7, t74, div7, t75_value = rul.str("Watch Dev's Talk - 1.0 release") + "", t75, t76, br9, t77, div11, t78_value = rul.str("Main additions") + "", t78, t79, ul1, li10, t80_value = rul.str("Updated to OXCE 6.1.1") + "", t80, t81, li11, t82_value = rul.str("New features") + "", t82, t83, t84_value = rul.str("random events, commendations (with bonuses), enhancement treatments; basic agent stats lowered for balance.") + "", t84, t85, li12, t86_value = rul.str("New stat") + "", t86, t87, t88_value = rul.str("Readiness, and associated exhaustion mechanics.") + "", t88, t89, li13, t90_value = rul.str("New alien race") + "", t90, t91, t92_value = rul.str("Chaser.") + "", t92, t93, li14, t94_value = rul.str("Overhaul of agent advancement mechanics.") + "", t94, t95, li15, t96_value = rul.str("New missions, units, items, balance fixes and musch more! For detail info see") + "", t96, t97, a6, t98_value = rul.str("full changelog") + "", t98, t99, t100, div23, h13, t101_value = rul.str("Support project") + "", t101, t102, h42, t103_value = rul.str("Localization") + "", t103, t104, t105_value = rul.str("To translate our mode for different languages we're using") + "", t105, t106, strong0, t108, t109_value = rul.str("You can help us by translating some part of a mod by") + "", t109, t110, a7, t111_value = rul.str("this link") + "", t111, t112, br10, t113, br11, t114, h43, t115_value = rul.str("Donation") + "", t115, t116, div22, div14, div13, img8, t117, br12, t118, strong1, t120, br13, t121, t122_value = rul.str("mod author, lead designer") + "", t122, t123, div16, div15, a8, img9, t124, br14, t125, strong2, t127, br15, t128, t129_value = rul.str("game designer, russian community manager, website developer") + "", t129, t130, div21, div17, img10, t131, br16, t132, strong3, t134, br17, t135, t136_value = rul.str("for web hosting, searching UFOs and cookies") + "", t136, t137, div20, div18, img11, t138, div19, img12, t139, br18, t140, br19, t141, div26, button1, t142_value = rul.str("Download") + "", t142, t143, div25, img13, t144, img14, t145, img15, t146, img16, t147, img17, t148, img18, t149, img19;
 
     	const block = {
     		c: function create() {
-    			div29 = element("div");
-    			div26 = element("div");
+    			div27 = element("div");
+    			div24 = element("div");
     			h10 = element("h1");
     			h10.textContent = "The X-COM Files";
     			t1 = space();
@@ -5852,492 +5852,507 @@ var app = (function (JSZip) {
     			br0 = element("br");
     			t4 = space();
     			h40 = element("h4");
-    			h40.textContent = "What is XCF?";
-    			t6 = text("\r\n      This megamod is a global conversion to OpenXcom (clone of the classic UFO:Enemy Unknown 1994), preserving the original setting.");
+    			t5 = text(t5_value);
+    			t6 = space();
+    			t7 = text(t7_value);
     			br1 = element("br");
-    			t7 = space();
+    			t8 = space();
     			br2 = element("br");
-    			t8 = text("\r\n      With this mod the game starts in 1996. The player gets control over the newly formed organization X-Com - a project of the UN, designed to investigate abnormal events on our planet. The style of the series X-Files (where the name comes from) is surprisingly clear. In the beginning, no fighters, dozens of scientists, millions of dollars in budgets. You only have two special agents and they travel by public transport! Investigate mysterious incidents, tie the evidence together to shed light on extraterrestrial activities, develop X-COM and prepare for an alien invasion from Cydonia!");
+    			t9 = space();
+    			t10 = text(t10_value);
     			br3 = element("br");
-    			t9 = text("\r\n      This mod contains many, many additions, like new mission types, enemies, equipment and story arcs (including the entirety of my previous project, the Final Mod Pack). It also places the game a bit more firmly in the 90's conspiracy genre and its clichés.");
-    			br4 = element("br");
-    			t10 = space();
-    			br5 = element("br");
     			t11 = space();
+    			t12 = text(t12_value);
+    			br4 = element("br");
+    			t13 = space();
+    			br5 = element("br");
+    			t14 = space();
     			div1 = element("div");
     			div0 = element("div");
     			a0 = element("a");
     			img0 = element("img");
-    			t12 = space();
+    			t15 = space();
     			a1 = element("a");
     			img1 = element("img");
-    			t13 = space();
+    			t16 = space();
     			a2 = element("a");
     			img2 = element("img");
-    			t14 = space();
+    			t17 = space();
     			a3 = element("a");
     			img3 = element("img");
-    			t15 = space();
+    			t18 = space();
     			a4 = element("a");
     			img4 = element("img");
-    			t16 = space();
+    			t19 = space();
     			h41 = element("h4");
-    			h41.textContent = "Current mod version is 1.0.2";
-    			t18 = space();
+    			t20 = text(t20_value);
+    			t21 = text(" 1.0.2");
+    			t22 = space();
     			div2 = element("div");
-    			t19 = text(t19_value);
-    			t20 = text(":\r\n        ");
+    			t23 = text(t23_value);
+    			t24 = text(":\r\n      ");
     			ul0 = element("ul");
     			li0 = element("li");
-    			li0.textContent = "New Alien Base, Farm, Forest and City mapblocks (by Civilian).";
-    			t22 = space();
-    			li1 = element("li");
-    			li1.textContent = "Cybermites are now invisible on the minimap.";
-    			t24 = space();
-    			li2 = element("li");
-    			li2.textContent = "New FN FAL handob (by Civilian).";
+    			t25 = text(t25_value);
     			t26 = space();
-    			li3 = element("li");
-    			li3.textContent = "Lowered the Melee requirement for Martial Arts to 65.";
+    			li1 = element("li");
+    			t27 = text(t27_value);
     			t28 = space();
-    			li4 = element("li");
-    			li4.textContent = "Fixed a crash on Marine Base Defense mission popping up.";
+    			li2 = element("li");
+    			t29 = text(t29_value);
     			t30 = space();
-    			li5 = element("li");
-    			li5.textContent = "Fixed the Night Owl commendation.";
+    			li3 = element("li");
+    			t31 = text(t31_value);
     			t32 = space();
-    			li6 = element("li");
-    			li6.textContent = "Fixed energy regeneration on Heavy Suit (both variants).";
+    			li4 = element("li");
+    			t33 = text(t33_value);
     			t34 = space();
-    			li7 = element("li");
-    			li7.textContent = "Fixed Psi-Amp handob.";
+    			li5 = element("li");
+    			t35 = text(t35_value);
     			t36 = space();
-    			li8 = element("li");
-    			li8.textContent = "Fixed one Battleship map.";
+    			li6 = element("li");
+    			t37 = text(t37_value);
     			t38 = space();
-    			li9 = element("li");
-    			li9.textContent = "Minor terrain fixes.";
+    			li7 = element("li");
+    			t39 = text(t39_value);
     			t40 = space();
-    			h11 = element("h1");
-    			h11.textContent = "Latest News";
+    			li8 = element("li");
+    			t41 = text(t41_value);
     			t42 = space();
+    			li9 = element("li");
+    			t43 = text(t43_value);
+    			t44 = space();
+    			h11 = element("h1");
+    			t45 = text(t45_value);
+    			t46 = space();
     			div6 = element("div");
     			article0 = element("article");
     			figure0 = element("figure");
     			p0 = element("p");
     			img5 = element("img");
-    			t43 = space();
+    			t47 = space();
     			div5 = element("div");
     			div4 = element("div");
     			small0 = element("small");
     			small0.textContent = "23/11/2019";
-    			t45 = space();
+    			t49 = space();
     			p1 = element("p");
-    			p1.textContent = "The truth is... right here!";
-    			t47 = space();
+    			t50 = text(t50_value);
+    			t51 = space();
     			div3 = element("div");
     			p2 = element("p");
-    			t48 = text("Our site starting its work. Now you can find here fresh news and xpedia for our mod powered by ");
+    			t52 = text(t52_value);
+    			t53 = space();
     			a5 = element("a");
     			a5.textContent = "Baturinsky's XPedia";
-    			t50 = text(".");
-    			t51 = space();
+    			t55 = text(".");
+    			t56 = space();
     			br6 = element("br");
-    			t52 = space();
+    			t57 = space();
     			h12 = element("h1");
-    			t53 = space();
-    			div14 = element("div");
+    			t58 = space();
+    			div12 = element("div");
     			article1 = element("article");
     			figure1 = element("figure");
     			p3 = element("p");
     			img6 = element("img");
-    			t54 = space();
+    			t59 = space();
+    			div10 = element("div");
     			div9 = element("div");
-    			div8 = element("div");
     			small1 = element("small");
     			small1.textContent = "03/11/2019";
-    			t56 = space();
+    			t61 = space();
     			p4 = element("p");
-    			p4.textContent = "Version 1.0 released!";
-    			t58 = space();
-    			div7 = element("div");
+    			t62 = text(t62_value);
+    			t63 = space();
+    			div8 = element("div");
     			p5 = element("p");
-    			p5.textContent = "\"Now, this doesn't at all mean that this is the end. I will continue releasing new versions just like before, at least for the foreseeable future...\r\n                The 1.0 only means that I am satisfied with how the mod works now and consider it \"done\" enough to say so.\"";
-    			t60 = space();
+    			t64 = text("\"");
+    			t65 = text(t65_value);
+    			t66 = text("\"");
+    			t67 = space();
     			small2 = element("small");
-    			small2.textContent = "– Solarius Scorch, mod author, lead designer";
-    			t62 = space();
+    			t68 = text("– Solarius Scorch, ");
+    			t69 = text(t69_value);
+    			t70 = text(".");
+    			t71 = space();
+    			br7 = element("br");
+    			t72 = space();
+    			br8 = element("br");
+    			t73 = space();
     			button0 = element("button");
     			img7 = element("img");
-    			t63 = space();
-    			div10 = element("div");
-    			t64 = text(t64_value);
-    			t65 = space();
+    			t74 = space();
+    			div7 = element("div");
+    			t75 = text(t75_value);
+    			t76 = space();
+    			br9 = element("br");
+    			t77 = space();
     			div11 = element("div");
-    			t66 = text(t66_value);
-    			t67 = text(":\r\n      ");
+    			t78 = text(t78_value);
+    			t79 = text(":\r\n        ");
     			ul1 = element("ul");
     			li10 = element("li");
-    			li10.textContent = "Updated to OXCE 6.1.1";
-    			t69 = space();
-    			li11 = element("li");
-    			li11.textContent = "New features: random events, commendations (with bonuses), enhancement treatments; basic agent stats lowered for balance.";
-    			t71 = space();
-    			li12 = element("li");
-    			li12.textContent = "New stat: Readiness, and associated exhaustion mechanics.";
-    			t73 = space();
-    			li13 = element("li");
-    			li13.textContent = "New alien race: Chaser.";
-    			t75 = space();
-    			li14 = element("li");
-    			li14.textContent = "Overhaul of agent advancement mechanics.";
-    			t77 = space();
-    			li15 = element("li");
-    			t78 = text("New missions, units, items, balance fixes and musch more! For detail info see ");
-    			a6 = element("a");
-    			a6.textContent = "full changelog";
-    			t80 = space();
-    			div12 = element("div");
-    			iframe0 = element("iframe");
+    			t80 = text(t80_value);
     			t81 = space();
-    			div13 = element("div");
-    			iframe1 = element("iframe");
-    			t82 = space();
-    			div25 = element("div");
-    			h13 = element("h1");
-    			h13.textContent = "Support project";
-    			t84 = space();
-    			h42 = element("h4");
-    			h42.textContent = "Localization";
-    			t86 = text("\r\n    To translate our mode for different languages we're using ");
-    			strong0 = element("strong");
-    			strong0.textContent = "transifex";
-    			t88 = text(".\r\n    You can help us by translating some part of a mod by ");
-    			a7 = element("a");
-    			a7.textContent = "this link";
-    			t90 = text(".\r\n    ");
-    			br7 = element("br");
-    			t91 = space();
-    			br8 = element("br");
-    			t92 = space();
-    			h43 = element("h4");
-    			h43.textContent = "Donation";
-    			t94 = space();
-    			div24 = element("div");
-    			div16 = element("div");
-    			div15 = element("div");
-    			img8 = element("img");
+    			li11 = element("li");
+    			t82 = text(t82_value);
+    			t83 = text(": ");
+    			t84 = text(t84_value);
+    			t85 = space();
+    			li12 = element("li");
+    			t86 = text(t86_value);
+    			t87 = text(": ");
+    			t88 = text(t88_value);
+    			t89 = space();
+    			li13 = element("li");
+    			t90 = text(t90_value);
+    			t91 = text(": ");
+    			t92 = text(t92_value);
+    			t93 = space();
+    			li14 = element("li");
+    			t94 = text(t94_value);
     			t95 = space();
-    			br9 = element("br");
-    			t96 = space();
+    			li15 = element("li");
+    			t96 = text(t96_value);
+    			t97 = space();
+    			a6 = element("a");
+    			t98 = text(t98_value);
+    			t99 = text(".");
+    			t100 = space();
+    			div23 = element("div");
+    			h13 = element("h1");
+    			t101 = text(t101_value);
+    			t102 = space();
+    			h42 = element("h4");
+    			t103 = text(t103_value);
+    			t104 = space();
+    			t105 = text(t105_value);
+    			t106 = space();
+    			strong0 = element("strong");
+    			strong0.textContent = "Transifex";
+    			t108 = text(". \r\n      ");
+    			t109 = text(t109_value);
+    			t110 = space();
+    			a7 = element("a");
+    			t111 = text(t111_value);
+    			t112 = text(".\r\n      ");
+    			br10 = element("br");
+    			t113 = space();
+    			br11 = element("br");
+    			t114 = space();
+    			h43 = element("h4");
+    			t115 = text(t115_value);
+    			t116 = space();
+    			div22 = element("div");
+    			div14 = element("div");
+    			div13 = element("div");
+    			img8 = element("img");
+    			t117 = space();
+    			br12 = element("br");
+    			t118 = space();
     			strong1 = element("strong");
     			strong1.textContent = "Solarius Scorch";
-    			t98 = space();
-    			br10 = element("br");
-    			t99 = text("\r\n            mod author, lead designer");
-    			t100 = space();
-    			div18 = element("div");
-    			div17 = element("div");
+    			t120 = space();
+    			br13 = element("br");
+    			t121 = space();
+    			t122 = text(t122_value);
+    			t123 = space();
+    			div16 = element("div");
+    			div15 = element("div");
     			a8 = element("a");
     			img9 = element("img");
-    			t101 = space();
-    			br11 = element("br");
-    			t102 = space();
+    			t124 = space();
+    			br14 = element("br");
+    			t125 = space();
     			strong2 = element("strong");
     			strong2.textContent = "Finnik";
-    			t104 = space();
-    			br12 = element("br");
-    			t105 = text("\r\n            game designer, russian community manager, website developer");
-    			t106 = space();
-    			div23 = element("div");
-    			div19 = element("div");
+    			t127 = space();
+    			br15 = element("br");
+    			t128 = space();
+    			t129 = text(t129_value);
+    			t130 = space();
+    			div21 = element("div");
+    			div17 = element("div");
     			img10 = element("img");
-    			t107 = space();
-    			br13 = element("br");
-    			t108 = space();
+    			t131 = space();
+    			br16 = element("br");
+    			t132 = space();
     			strong3 = element("strong");
     			strong3.textContent = "Tips";
-    			t110 = space();
-    			br14 = element("br");
-    			t111 = text("\r\n            for web hosting, searching UFOs and cookies");
-    			t112 = space();
-    			div22 = element("div");
+    			t134 = space();
+    			br17 = element("br");
+    			t135 = space();
+    			t136 = text(t136_value);
+    			t137 = space();
     			div20 = element("div");
+    			div18 = element("div");
     			img11 = element("img");
-    			t113 = space();
-    			div21 = element("div");
+    			t138 = space();
+    			div19 = element("div");
     			img12 = element("img");
-    			t114 = space();
-    			br15 = element("br");
-    			t115 = space();
-    			br16 = element("br");
-    			t116 = space();
-    			div28 = element("div");
+    			t139 = space();
+    			br18 = element("br");
+    			t140 = space();
+    			br19 = element("br");
+    			t141 = space();
+    			div26 = element("div");
     			button1 = element("button");
-    			t117 = text(t117_value);
-    			t118 = space();
-    			div27 = element("div");
+    			t142 = text(t142_value);
+    			t143 = space();
+    			div25 = element("div");
     			img13 = element("img");
-    			t119 = space();
+    			t144 = space();
     			img14 = element("img");
-    			t120 = space();
+    			t145 = space();
     			img15 = element("img");
-    			t121 = space();
+    			t146 = space();
     			img16 = element("img");
-    			t122 = space();
+    			t147 = space();
     			img17 = element("img");
-    			t123 = space();
+    			t148 = space();
     			img18 = element("img");
-    			t124 = space();
+    			t149 = space();
     			img19 = element("img");
-    			add_location(h10, file$2, 7, 4, 185);
-    			add_location(br0, file$2, 9, 4, 295);
-    			add_location(h40, file$2, 10, 4, 306);
-    			add_location(br1, file$2, 11, 133, 462);
-    			add_location(br2, file$2, 12, 6, 476);
-    			add_location(br3, file$2, 13, 593, 1076);
-    			add_location(br4, file$2, 14, 260, 1343);
-    			add_location(br5, file$2, 15, 6, 1356);
+    			add_location(h10, file$2, 9, 4, 192);
+    			add_location(br0, file$2, 11, 4, 300);
+    			add_location(h40, file$2, 12, 4, 312);
+    			add_location(br1, file$2, 13, 144, 492);
+    			add_location(br2, file$2, 14, 4, 504);
+    			add_location(br3, file$2, 15, 605, 1117);
+    			add_location(br4, file$2, 16, 271, 1396);
+    			add_location(br5, file$2, 17, 4, 1408);
     			attr_dev(img0, "class", "media-icon");
     			attr_dev(img0, "src", "https://cdn3.iconfinder.com/data/icons/popular-services-brands-vol-2/512/discord-256.png");
     			attr_dev(img0, "alt", "discord");
-    			add_location(img0, file$2, 18, 58, 1519);
+    			add_location(img0, file$2, 20, 56, 1566);
     			attr_dev(a0, "href", "https://discordapp.com/invite/XrQQTPg");
-    			add_location(a0, file$2, 18, 10, 1471);
+    			add_location(a0, file$2, 20, 8, 1518);
     			attr_dev(img1, "class", "media-icon");
     			attr_dev(img1, "src", "https://www.gamerguides.com/forum/uploads/FG4SCQ58YFXV.jpg");
     			attr_dev(img1, "alt", "forum");
-    			add_location(img1, file$2, 19, 73, 1731);
+    			add_location(img1, file$2, 23, 71, 1802);
     			attr_dev(a1, "href", "https://openxcom.org/forum/index.php/board,21.0.html");
-    			add_location(a1, file$2, 19, 10, 1668);
+    			add_location(a1, file$2, 23, 8, 1739);
     			attr_dev(img2, "class", "media-icon");
     			attr_dev(img2, "src", "https://cdn3.iconfinder.com/data/icons/social-network-icon/112/vk-256.png");
     			attr_dev(img2, "alt", "VK");
-    			add_location(img2, file$2, 20, 48, 1886);
+    			add_location(img2, file$2, 25, 46, 1968);
     			attr_dev(a2, "href", "https://vk.com/thexcomfiles");
-    			add_location(a2, file$2, 20, 10, 1848);
+    			add_location(a2, file$2, 25, 8, 1930);
     			attr_dev(img3, "class", "media-icon");
     			attr_dev(img3, "src", "https://cdn0.iconfinder.com/data/icons/social-media-2091/100/social-16-256.png");
     			attr_dev(img3, "alt", "YouTube");
-    			add_location(img3, file$2, 21, 77, 2082);
+    			add_location(img3, file$2, 27, 75, 2175);
     			attr_dev(a3, "href", "https://www.youtube.com/channel/UCO7G6RlATE5EIg2gHnks3cA");
-    			add_location(a3, file$2, 21, 10, 2015);
+    			add_location(a3, file$2, 27, 8, 2108);
     			attr_dev(img4, "class", "media-icon");
     			attr_dev(img4, "src", "https://cdn3.iconfinder.com/data/icons/popular-services-brands-vol-2/512/twitch-256.png");
     			attr_dev(img4, "alt", "Twitch");
-    			add_location(img4, file$2, 22, 52, 2263);
+    			add_location(img4, file$2, 29, 50, 2367);
     			attr_dev(a4, "href", "https://www.twitch.tv/finnikxcf");
-    			add_location(a4, file$2, 22, 10, 2221);
+    			add_location(a4, file$2, 29, 8, 2325);
     			attr_dev(div0, "class", "column media-bar");
     			set_style(div0, "padding-bottom", "0px");
-    			add_location(div0, file$2, 17, 8, 1400);
+    			add_location(div0, file$2, 19, 6, 1449);
     			attr_dev(div1, "class", "columns");
-    			add_location(div1, file$2, 16, 6, 1369);
-    			add_location(h41, file$2, 26, 4, 2436);
-    			add_location(li0, file$2, 30, 10, 2579);
-    			add_location(li1, file$2, 31, 10, 2662);
-    			add_location(li2, file$2, 32, 10, 2727);
-    			add_location(li3, file$2, 33, 10, 2780);
-    			add_location(li4, file$2, 34, 10, 2854);
-    			add_location(li5, file$2, 35, 10, 2931);
-    			add_location(li6, file$2, 36, 10, 2985);
-    			add_location(li7, file$2, 37, 10, 3062);
-    			add_location(li8, file$2, 38, 10, 3104);
-    			add_location(li9, file$2, 39, 10, 3150);
+    			add_location(div1, file$2, 18, 4, 1420);
+    			add_location(h41, file$2, 35, 4, 2562);
+    			add_location(li0, file$2, 39, 8, 2712);
+    			add_location(li1, file$2, 40, 8, 2806);
+    			add_location(li2, file$2, 41, 8, 2882);
+    			add_location(li3, file$2, 42, 8, 2946);
+    			add_location(li4, file$2, 43, 8, 3031);
+    			add_location(li5, file$2, 44, 8, 3119);
+    			add_location(li6, file$2, 45, 8, 3184);
+    			add_location(li7, file$2, 46, 8, 3272);
+    			add_location(li8, file$2, 47, 8, 3325);
+    			add_location(li9, file$2, 48, 8, 3382);
     			attr_dev(ul0, "class", "changelog");
-    			add_location(ul0, file$2, 29, 8, 2545);
+    			add_location(ul0, file$2, 38, 6, 2680);
     			attr_dev(div2, "class", "changelog");
-    			add_location(div2, file$2, 27, 6, 2481);
-    			add_location(h11, file$2, 42, 4, 3215);
+    			add_location(div2, file$2, 36, 4, 2618);
+    			add_location(h11, file$2, 51, 4, 3455);
     			set_style(img5, "margin-top", "20px");
     			attr_dev(img5, "alt", "launch");
     			attr_dev(img5, "src", "https://image.flaticon.com/icons/svg/2254/2254743.svg");
-    			add_location(img5, file$2, 49, 10, 3360);
+    			add_location(img5, file$2, 58, 12, 3625);
     			attr_dev(p0, "class", "image is-128x128");
-    			add_location(p0, file$2, 48, 8, 3320);
+    			add_location(p0, file$2, 57, 10, 3583);
     			attr_dev(figure0, "class", "media-left");
-    			add_location(figure0, file$2, 47, 6, 3283);
-    			add_location(small0, file$2, 54, 10, 3572);
+    			add_location(figure0, file$2, 56, 8, 3544);
+    			add_location(small0, file$2, 63, 12, 3847);
     			attr_dev(p1, "class", "title");
     			set_style(p1, "margin-bottom", "10px");
-    			add_location(p1, file$2, 55, 10, 3609);
+    			add_location(p1, file$2, 64, 12, 3886);
     			attr_dev(a5, "href", "https://github.com/baturinsky/xpedia/");
-    			add_location(a5, file$2, 59, 111, 3838);
-    			add_location(p2, file$2, 58, 14, 3722);
-    			add_location(div3, file$2, 57, 12, 3701);
+    			add_location(a5, file$2, 68, 124, 4141);
+    			add_location(p2, file$2, 67, 14, 4012);
+    			add_location(div3, file$2, 66, 12, 3991);
     			attr_dev(div4, "class", "content");
-    			add_location(div4, file$2, 53, 8, 3539);
+    			add_location(div4, file$2, 62, 10, 3812);
     			attr_dev(div5, "class", "media-content");
-    			add_location(div5, file$2, 52, 6, 3502);
+    			add_location(div5, file$2, 61, 8, 3773);
     			attr_dev(article0, "class", "media");
-    			add_location(article0, file$2, 46, 4, 3252);
-    			add_location(br6, file$2, 65, 0, 3998);
-    			add_location(div6, file$2, 44, 0, 3239);
-    			add_location(h12, file$2, 68, 0, 4014);
+    			add_location(article0, file$2, 55, 6, 3511);
+    			add_location(br6, file$2, 75, 6, 4332);
+    			add_location(div6, file$2, 53, 4, 3496);
+    			add_location(h12, file$2, 78, 4, 4356);
     			set_style(img6, "margin-top", "20px");
     			attr_dev(img6, "alt", "1.0Release");
     			attr_dev(img6, "src", "https://image.flaticon.com/icons/svg/2254/2254616.svg");
-    			add_location(img6, file$2, 74, 8, 4139);
+    			add_location(img6, file$2, 84, 12, 4501);
     			attr_dev(p3, "class", "image is-128x128");
-    			add_location(p3, file$2, 73, 6, 4101);
+    			add_location(p3, file$2, 83, 10, 4459);
     			attr_dev(figure1, "class", "media-left");
-    			add_location(figure1, file$2, 72, 4, 4066);
-    			add_location(small1, file$2, 79, 8, 4345);
+    			add_location(figure1, file$2, 82, 8, 4420);
+    			add_location(small1, file$2, 89, 12, 4727);
     			attr_dev(p4, "class", "title");
-    			add_location(p4, file$2, 80, 8, 4380);
-    			add_location(p5, file$2, 83, 12, 4501);
-    			add_location(small2, file$2, 87, 12, 4825);
-    			add_location(div7, file$2, 82, 10, 4482);
-    			attr_dev(div8, "class", "content");
-    			add_location(div8, file$2, 78, 6, 4314);
-    			attr_dev(div9, "class", "media-content");
-    			add_location(div9, file$2, 77, 4, 4279);
-    			attr_dev(article1, "class", "media");
-    			add_location(article1, file$2, 71, 2, 4037);
-    			attr_dev(img7, "class", "buttonicon");
-    			attr_dev(img7, "src", "https://breathingroomfoundation.org/wp-content/uploads/2017/03/youtube-icon-FFFFFF.png");
+    			set_style(p4, "margin-bottom", "10px");
+    			add_location(p4, file$2, 90, 12, 4766);
+    			add_location(p5, file$2, 93, 14, 4886);
+    			add_location(small2, file$2, 96, 14, 5212);
+    			add_location(br7, file$2, 99, 14, 5335);
+    			add_location(br8, file$2, 100, 14, 5355);
+    			attr_dev(img7, "class", "watchbtnicon");
+    			attr_dev(img7, "src", "https://image.flaticon.com/icons/svg/419/419211.svg");
     			attr_dev(img7, "alt", "youtube");
-    			add_location(img7, file$2, 95, 4, 5007);
-    			attr_dev(div10, "class", "has-text-centered");
-    			add_location(div10, file$2, 96, 4, 5144);
+    			add_location(img7, file$2, 102, 16, 5472);
+    			attr_dev(div7, "class", "is-inline-block");
+    			set_style(div7, "margin-top", "auto");
+    			set_style(div7, "margin-bottom", "auto");
+    			add_location(div7, file$2, 103, 16, 5588);
     			attr_dev(button0, "class", "watchbtn");
-    			add_location(button0, file$2, 94, 2, 4976);
-    			add_location(li10, file$2, 101, 8, 5332);
-    			add_location(li11, file$2, 102, 8, 5372);
-    			add_location(li12, file$2, 103, 8, 5512);
-    			add_location(li13, file$2, 104, 8, 5588);
-    			add_location(li14, file$2, 105, 8, 5630);
+    			attr_dev(button0, "onclick", "window.open('https://youtu.be/hFKEFMyEcQU')");
+    			add_location(button0, file$2, 101, 14, 5375);
+    			add_location(div8, file$2, 92, 12, 4865);
+    			attr_dev(div9, "class", "content");
+    			add_location(div9, file$2, 88, 10, 4692);
+    			attr_dev(div10, "class", "media-content");
+    			add_location(div10, file$2, 87, 8, 4653);
+    			attr_dev(article1, "class", "media");
+    			add_location(article1, file$2, 81, 6, 4387);
+    			add_location(br9, file$2, 108, 6, 5801);
+    			add_location(li10, file$2, 113, 10, 5920);
+    			add_location(li11, file$2, 114, 10, 5975);
+    			add_location(li12, file$2, 115, 10, 6143);
+    			add_location(li13, file$2, 116, 10, 6247);
+    			add_location(li14, file$2, 117, 10, 6317);
     			attr_dev(a6, "href", "https://openxcom.org/forum/index.php/topic,5427.0.html");
-    			add_location(a6, file$2, 106, 90, 5771);
-    			add_location(li15, file$2, 106, 8, 5689);
+    			add_location(a6, file$2, 118, 105, 6486);
+    			add_location(li15, file$2, 118, 10, 6391);
     			attr_dev(ul1, "class", "changelog");
-    			add_location(ul1, file$2, 100, 6, 5300);
+    			add_location(ul1, file$2, 112, 8, 5886);
     			attr_dev(div11, "class", "changelog");
-    			add_location(div11, file$2, 98, 2, 5235);
-    			attr_dev(iframe0, "src", "https://www.youtube.com/embed/hFKEFMyEcQU");
-    			attr_dev(iframe0, "frameborder", "0");
-    			attr_dev(iframe0, "allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture");
-    			iframe0.allowFullscreen = true;
-    			add_location(iframe0, file$2, 110, 4, 5928);
-    			attr_dev(div12, "class", "video is-hidden-mobile");
-    			add_location(div12, file$2, 109, 2, 5886);
-    			attr_dev(iframe1, "width", "296");
-    			attr_dev(iframe1, "height", "170");
-    			attr_dev(iframe1, "src", "https://www.youtube.com/embed/hFKEFMyEcQU");
-    			attr_dev(iframe1, "frameborder", "0");
-    			attr_dev(iframe1, "allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture");
-    			iframe1.allowFullscreen = true;
-    			add_location(iframe1, file$2, 115, 4, 6295);
-    			attr_dev(div13, "class", "video is-hidden-tablet");
-    			add_location(div13, file$2, 114, 2, 6253);
-    			add_location(div14, file$2, 70, 0, 4028);
-    			add_location(h13, file$2, 121, 2, 6635);
-    			add_location(h42, file$2, 122, 4, 6665);
-    			add_location(strong0, file$2, 123, 62, 6750);
+    			add_location(div11, file$2, 110, 6, 5815);
+    			add_location(div12, file$2, 80, 4, 4374);
+    			add_location(h13, file$2, 125, 6, 6665);
+    			add_location(h42, file$2, 126, 6, 6710);
+    			add_location(strong0, file$2, 127, 77, 6823);
     			attr_dev(a7, "href", "https://www.transifex.com/signin/?next=/openxcom/openxcom-mods/translate/#ru/xcf/183492210");
-    			add_location(a7, file$2, 124, 57, 6836);
-    			add_location(br7, file$2, 125, 4, 6957);
-    			add_location(br8, file$2, 126, 4, 6967);
-    			add_location(h43, file$2, 127, 4, 6977);
+    			add_location(a7, file$2, 128, 72, 6925);
+    			add_location(br10, file$2, 130, 6, 7070);
+    			add_location(br11, file$2, 131, 6, 7082);
+    			add_location(h43, file$2, 132, 6, 7094);
     			attr_dev(img8, "class", "donate-icon");
     			attr_dev(img8, "src", "xpedia/Scorch.png");
     			attr_dev(img8, "alt", "Scorch");
-    			add_location(img8, file$2, 131, 10, 7176);
-    			add_location(br9, file$2, 132, 12, 7252);
+    			add_location(img8, file$2, 136, 12, 7312);
+    			add_location(br12, file$2, 137, 12, 7388);
     			attr_dev(strong1, "class", "man");
-    			add_location(strong1, file$2, 133, 12, 7270);
-    			add_location(br10, file$2, 134, 12, 7328);
-    			attr_dev(div15, "class", "donatedescription");
-    			add_location(div15, file$2, 130, 10, 7133);
-    			attr_dev(div16, "class", "donate");
-    			attr_dev(div16, "onclick", "window.open('https://www.patreon.com/user/posts?u=2957095')");
-    			add_location(div16, file$2, 129, 6, 7031);
+    			add_location(strong1, file$2, 138, 12, 7406);
+    			add_location(br13, file$2, 139, 12, 7464);
+    			attr_dev(div13, "class", "donatedescription");
+    			add_location(div13, file$2, 135, 10, 7267);
+    			attr_dev(div14, "class", "donate");
+    			attr_dev(div14, "onclick", "window.open('https://www.patreon.com/user/posts?u=2957095')");
+    			add_location(div14, file$2, 134, 8, 7165);
     			attr_dev(img9, "class", "donate-icon");
     			attr_dev(img9, "src", "xpedia/Finnik.png");
     			attr_dev(img9, "alt", "Finnik");
-    			add_location(img9, file$2, 141, 14, 7584);
-    			attr_dev(a8, "src", "https://www.patreon.com/FinnikXCF");
-    			add_location(a8, file$2, 140, 12, 7525);
-    			add_location(br11, file$2, 143, 12, 7678);
+    			add_location(img9, file$2, 146, 14, 7734);
+    			attr_dev(a8, "href", "https://www.patreon.com/FinnikXCF");
+    			add_location(a8, file$2, 145, 12, 7674);
+    			add_location(br14, file$2, 148, 12, 7828);
     			attr_dev(strong2, "class", "man");
-    			add_location(strong2, file$2, 144, 12, 7696);
-    			add_location(br12, file$2, 145, 12, 7745);
-    			add_location(div17, file$2, 139, 10, 7506);
-    			attr_dev(div18, "class", "donate");
-    			attr_dev(div18, "onclick", "window.open('https://www.patreon.com/FinnikXCF')");
-    			add_location(div18, file$2, 138, 8, 7415);
+    			add_location(strong2, file$2, 149, 12, 7846);
+    			add_location(br15, file$2, 150, 12, 7895);
+    			add_location(div15, file$2, 144, 10, 7655);
+    			attr_dev(div16, "class", "donate");
+    			attr_dev(div16, "onclick", "window.open('https://www.patreon.com/FinnikXCF')");
+    			add_location(div16, file$2, 143, 8, 7564);
     			attr_dev(img10, "class", "donate-icon");
     			attr_dev(img10, "src", "https://cdn170.picsart.com/upscale-239307799089211.png");
     			attr_dev(img10, "alt", "tips");
-    			add_location(img10, file$2, 151, 14, 7924);
-    			add_location(br13, file$2, 152, 12, 8035);
+    			add_location(img10, file$2, 156, 12, 8085);
+    			add_location(br16, file$2, 157, 12, 8196);
     			attr_dev(strong3, "class", "man");
-    			add_location(strong3, file$2, 153, 12, 8053);
-    			add_location(br14, file$2, 154, 12, 8100);
-    			add_location(div19, file$2, 150, 10, 7903);
+    			add_location(strong3, file$2, 158, 12, 8214);
+    			add_location(br17, file$2, 159, 12, 8261);
+    			add_location(div17, file$2, 155, 10, 8066);
     			attr_dev(img11, "class", "media-icon");
     			attr_dev(img11, "src", "https://www.donationalerts.com/img/header/logo.svg");
     			attr_dev(img11, "alt", "donation alerts");
-    			add_location(img11, file$2, 159, 16, 8341);
-    			attr_dev(div20, "class", "tip-option");
-    			attr_dev(div20, "onclick", "window.open('https://www.donationalerts.com/r/finnikxcf')");
-    			add_location(div20, file$2, 158, 12, 8231);
+    			add_location(img11, file$2, 164, 14, 8513);
+    			attr_dev(div18, "class", "tip-option");
+    			attr_dev(div18, "onclick", "window.open('https://www.donationalerts.com/r/finnikxcf')");
+    			add_location(div18, file$2, 163, 12, 8405);
     			attr_dev(img12, "class", "media-icon");
     			attr_dev(img12, "src", "https://cdn.streamlabs.com/static/imgs/logos/kevin-standard.png");
     			attr_dev(img12, "alt", "streamlabs");
-    			add_location(img12, file$2, 162, 16, 8578);
-    			attr_dev(div21, "class", "tip-option");
-    			attr_dev(div21, "onclick", "window.open('https://streamlabs.com/finnikxcf')");
-    			add_location(div21, file$2, 161, 12, 8478);
-    			attr_dev(div22, "class", "tips-options");
-    			add_location(div22, file$2, 157, 10, 8191);
-    			attr_dev(div23, "class", "donate tips");
-    			add_location(div23, file$2, 149, 8, 7866);
-    			attr_dev(div24, "class", "donations");
-    			add_location(div24, file$2, 128, 4, 7000);
-    			add_location(div25, file$2, 120, 0, 6626);
-    			add_location(br15, file$2, 168, 4, 8775);
-    			add_location(br16, file$2, 169, 4, 8786);
-    			attr_dev(div26, "class", "column is-full-touch is-9-desktop");
-    			add_location(div26, file$2, 6, 2, 132);
+    			add_location(img12, file$2, 167, 14, 8748);
+    			attr_dev(div19, "class", "tip-option");
+    			attr_dev(div19, "onclick", "window.open('https://streamlabs.com/finnikxcf')");
+    			add_location(div19, file$2, 166, 12, 8650);
+    			attr_dev(div20, "class", "tips-options");
+    			add_location(div20, file$2, 162, 10, 8365);
+    			attr_dev(div21, "class", "donate tips");
+    			add_location(div21, file$2, 154, 8, 8029);
+    			attr_dev(div22, "class", "donations");
+    			add_location(div22, file$2, 133, 6, 7132);
+    			add_location(div23, file$2, 124, 4, 6652);
+    			add_location(br18, file$2, 174, 4, 8962);
+    			add_location(br19, file$2, 175, 4, 8974);
+    			attr_dev(div24, "class", "column is-full-touch is-9-desktop");
+    			add_location(div24, file$2, 8, 2, 139);
     			attr_dev(button1, "title", "Download");
     			attr_dev(button1, "class", "downloadbtn");
     			attr_dev(button1, "onclick", " window.open('https://openxcom.mod.io/the-x-com-files', '_blank'); return false;");
-    			add_location(button1, file$2, 174, 4, 8880);
+    			add_location(button1, file$2, 180, 4, 9069);
     			attr_dev(img13, "class", "imgbox");
     			attr_dev(img13, "src", "https://thumb.mod.io/mods/0640/158/thumb_1020x2000/osprey.1.png");
     			attr_dev(img13, "alt", "osprey.1.png");
-    			add_location(img13, file$2, 176, 6, 9080);
+    			add_location(img13, file$2, 183, 6, 9276);
     			attr_dev(img14, "class", "imgbox");
     			attr_dev(img14, "src", "https://thumb.mod.io/mods/0640/158/thumb_1020x2000/screen072.1.png");
     			attr_dev(img14, "alt", "screen072.1.png");
-    			add_location(img14, file$2, 177, 6, 9197);
+    			add_location(img14, file$2, 184, 6, 9393);
     			attr_dev(img15, "class", "imgbox");
     			attr_dev(img15, "src", "https://thumb.mod.io/mods/0640/158/thumb_1020x2000/callofcoding.1.png");
     			attr_dev(img15, "alt", "callofcoding.1.png");
-    			add_location(img15, file$2, 178, 6, 9320);
+    			add_location(img15, file$2, 186, 6, 9525);
     			attr_dev(img16, "class", "imgbox");
     			attr_dev(img16, "src", "https://thumb.mod.io/mods/0640/158/thumb_1020x2000/screen070.png");
     			attr_dev(img16, "alt", "screen070.png");
-    			add_location(img16, file$2, 179, 6, 9449);
+    			add_location(img16, file$2, 188, 6, 9663);
     			attr_dev(img17, "class", "imgbox");
     			attr_dev(img17, "src", "https://thumb.mod.io/mods/0640/158/thumb_1020x2000/village01.png");
     			attr_dev(img17, "alt", "village01.png");
-    			add_location(img17, file$2, 180, 6, 9568);
+    			add_location(img17, file$2, 189, 6, 9782);
     			attr_dev(img18, "class", "imgbox");
     			attr_dev(img18, "src", "https://thumb.mod.io/mods/0640/158/thumb_1020x2000/lilsub.png");
     			attr_dev(img18, "alt", "lilsub.png");
-    			add_location(img18, file$2, 181, 6, 9687);
+    			add_location(img18, file$2, 190, 6, 9901);
     			attr_dev(img19, "class", "imgbox");
     			attr_dev(img19, "src", "https://thumb.mod.io/mods/0640/158/thumb_1020x2000/intheslums.png");
     			attr_dev(img19, "alt", "intheslums.png");
-    			add_location(img19, file$2, 182, 6, 9800);
-    			attr_dev(div27, "class", "imgcol");
-    			add_location(div27, file$2, 175, 4, 9052);
-    			attr_dev(div28, "class", "column is-hidden-touch is-3-desktop");
-    			add_location(div28, file$2, 173, 2, 8825);
-    			attr_dev(div29, "class", "columns");
-    			add_location(div29, file$2, 5, 0, 107);
+    			add_location(img19, file$2, 191, 6, 10014);
+    			attr_dev(div25, "class", "imgcol");
+    			add_location(div25, file$2, 182, 4, 9248);
+    			attr_dev(div26, "class", "column is-hidden-touch is-3-desktop");
+    			add_location(div26, file$2, 179, 2, 9014);
+    			attr_dev(div27, "class", "columns");
+    			add_location(div27, file$2, 7, 0, 114);
     		},
 
     		l: function claim(nodes) {
@@ -6345,219 +6360,270 @@ var app = (function (JSZip) {
     		},
 
     		m: function mount(target, anchor) {
-    			insert_dev(target, div29, anchor);
-    			append_dev(div29, div26);
-    			append_dev(div26, h10);
-    			append_dev(div26, t1);
-    			append_dev(div26, t2);
-    			append_dev(div26, t3);
-    			append_dev(div26, br0);
-    			append_dev(div26, t4);
-    			append_dev(div26, h40);
-    			append_dev(div26, t6);
-    			append_dev(div26, br1);
-    			append_dev(div26, t7);
-    			append_dev(div26, br2);
-    			append_dev(div26, t8);
-    			append_dev(div26, br3);
-    			append_dev(div26, t9);
-    			append_dev(div26, br4);
-    			append_dev(div26, t10);
-    			append_dev(div26, br5);
-    			append_dev(div26, t11);
-    			append_dev(div26, div1);
+    			insert_dev(target, div27, anchor);
+    			append_dev(div27, div24);
+    			append_dev(div24, h10);
+    			append_dev(div24, t1);
+    			append_dev(div24, t2);
+    			append_dev(div24, t3);
+    			append_dev(div24, br0);
+    			append_dev(div24, t4);
+    			append_dev(div24, h40);
+    			append_dev(h40, t5);
+    			append_dev(div24, t6);
+    			append_dev(div24, t7);
+    			append_dev(div24, br1);
+    			append_dev(div24, t8);
+    			append_dev(div24, br2);
+    			append_dev(div24, t9);
+    			append_dev(div24, t10);
+    			append_dev(div24, br3);
+    			append_dev(div24, t11);
+    			append_dev(div24, t12);
+    			append_dev(div24, br4);
+    			append_dev(div24, t13);
+    			append_dev(div24, br5);
+    			append_dev(div24, t14);
+    			append_dev(div24, div1);
     			append_dev(div1, div0);
     			append_dev(div0, a0);
     			append_dev(a0, img0);
-    			append_dev(div0, t12);
+    			append_dev(div0, t15);
     			append_dev(div0, a1);
     			append_dev(a1, img1);
-    			append_dev(div0, t13);
+    			append_dev(div0, t16);
     			append_dev(div0, a2);
     			append_dev(a2, img2);
-    			append_dev(div0, t14);
+    			append_dev(div0, t17);
     			append_dev(div0, a3);
     			append_dev(a3, img3);
-    			append_dev(div0, t15);
+    			append_dev(div0, t18);
     			append_dev(div0, a4);
     			append_dev(a4, img4);
-    			append_dev(div26, t16);
-    			append_dev(div26, h41);
-    			append_dev(div26, t18);
-    			append_dev(div26, div2);
-    			append_dev(div2, t19);
-    			append_dev(div2, t20);
+    			append_dev(div24, t19);
+    			append_dev(div24, h41);
+    			append_dev(h41, t20);
+    			append_dev(h41, t21);
+    			append_dev(div24, t22);
+    			append_dev(div24, div2);
+    			append_dev(div2, t23);
+    			append_dev(div2, t24);
     			append_dev(div2, ul0);
     			append_dev(ul0, li0);
-    			append_dev(ul0, t22);
-    			append_dev(ul0, li1);
-    			append_dev(ul0, t24);
-    			append_dev(ul0, li2);
+    			append_dev(li0, t25);
     			append_dev(ul0, t26);
-    			append_dev(ul0, li3);
+    			append_dev(ul0, li1);
+    			append_dev(li1, t27);
     			append_dev(ul0, t28);
-    			append_dev(ul0, li4);
+    			append_dev(ul0, li2);
+    			append_dev(li2, t29);
     			append_dev(ul0, t30);
-    			append_dev(ul0, li5);
+    			append_dev(ul0, li3);
+    			append_dev(li3, t31);
     			append_dev(ul0, t32);
-    			append_dev(ul0, li6);
+    			append_dev(ul0, li4);
+    			append_dev(li4, t33);
     			append_dev(ul0, t34);
-    			append_dev(ul0, li7);
+    			append_dev(ul0, li5);
+    			append_dev(li5, t35);
     			append_dev(ul0, t36);
-    			append_dev(ul0, li8);
+    			append_dev(ul0, li6);
+    			append_dev(li6, t37);
     			append_dev(ul0, t38);
+    			append_dev(ul0, li7);
+    			append_dev(li7, t39);
+    			append_dev(ul0, t40);
+    			append_dev(ul0, li8);
+    			append_dev(li8, t41);
+    			append_dev(ul0, t42);
     			append_dev(ul0, li9);
-    			append_dev(div26, t40);
-    			append_dev(div26, h11);
-    			append_dev(div26, t42);
-    			append_dev(div26, div6);
+    			append_dev(li9, t43);
+    			append_dev(div24, t44);
+    			append_dev(div24, h11);
+    			append_dev(h11, t45);
+    			append_dev(div24, t46);
+    			append_dev(div24, div6);
     			append_dev(div6, article0);
     			append_dev(article0, figure0);
     			append_dev(figure0, p0);
     			append_dev(p0, img5);
-    			append_dev(article0, t43);
+    			append_dev(article0, t47);
     			append_dev(article0, div5);
     			append_dev(div5, div4);
     			append_dev(div4, small0);
-    			append_dev(div4, t45);
+    			append_dev(div4, t49);
     			append_dev(div4, p1);
-    			append_dev(div4, t47);
+    			append_dev(p1, t50);
+    			append_dev(div4, t51);
     			append_dev(div4, div3);
     			append_dev(div3, p2);
-    			append_dev(p2, t48);
+    			append_dev(p2, t52);
+    			append_dev(p2, t53);
     			append_dev(p2, a5);
-    			append_dev(p2, t50);
-    			append_dev(div6, t51);
+    			append_dev(p2, t55);
+    			append_dev(div6, t56);
     			append_dev(div6, br6);
-    			append_dev(div26, t52);
-    			append_dev(div26, h12);
-    			append_dev(div26, t53);
-    			append_dev(div26, div14);
-    			append_dev(div14, article1);
+    			append_dev(div24, t57);
+    			append_dev(div24, h12);
+    			append_dev(div24, t58);
+    			append_dev(div24, div12);
+    			append_dev(div12, article1);
     			append_dev(article1, figure1);
     			append_dev(figure1, p3);
     			append_dev(p3, img6);
-    			append_dev(article1, t54);
-    			append_dev(article1, div9);
+    			append_dev(article1, t59);
+    			append_dev(article1, div10);
+    			append_dev(div10, div9);
+    			append_dev(div9, small1);
+    			append_dev(div9, t61);
+    			append_dev(div9, p4);
+    			append_dev(p4, t62);
+    			append_dev(div9, t63);
     			append_dev(div9, div8);
-    			append_dev(div8, small1);
-    			append_dev(div8, t56);
-    			append_dev(div8, p4);
-    			append_dev(div8, t58);
-    			append_dev(div8, div7);
-    			append_dev(div7, p5);
-    			append_dev(div7, t60);
-    			append_dev(div7, small2);
-    			append_dev(div14, t62);
-    			append_dev(div14, button0);
+    			append_dev(div8, p5);
+    			append_dev(p5, t64);
+    			append_dev(p5, t65);
+    			append_dev(p5, t66);
+    			append_dev(div8, t67);
+    			append_dev(div8, small2);
+    			append_dev(small2, t68);
+    			append_dev(small2, t69);
+    			append_dev(small2, t70);
+    			append_dev(div8, t71);
+    			append_dev(div8, br7);
+    			append_dev(div8, t72);
+    			append_dev(div8, br8);
+    			append_dev(div8, t73);
+    			append_dev(div8, button0);
     			append_dev(button0, img7);
-    			append_dev(button0, t63);
-    			append_dev(button0, div10);
-    			append_dev(div10, t64);
-    			append_dev(div14, t65);
-    			append_dev(div14, div11);
-    			append_dev(div11, t66);
-    			append_dev(div11, t67);
+    			append_dev(button0, t74);
+    			append_dev(button0, div7);
+    			append_dev(div7, t75);
+    			append_dev(div12, t76);
+    			append_dev(div12, br9);
+    			append_dev(div12, t77);
+    			append_dev(div12, div11);
+    			append_dev(div11, t78);
+    			append_dev(div11, t79);
     			append_dev(div11, ul1);
     			append_dev(ul1, li10);
-    			append_dev(ul1, t69);
+    			append_dev(li10, t80);
+    			append_dev(ul1, t81);
     			append_dev(ul1, li11);
-    			append_dev(ul1, t71);
+    			append_dev(li11, t82);
+    			append_dev(li11, t83);
+    			append_dev(li11, t84);
+    			append_dev(ul1, t85);
     			append_dev(ul1, li12);
-    			append_dev(ul1, t73);
+    			append_dev(li12, t86);
+    			append_dev(li12, t87);
+    			append_dev(li12, t88);
+    			append_dev(ul1, t89);
     			append_dev(ul1, li13);
-    			append_dev(ul1, t75);
+    			append_dev(li13, t90);
+    			append_dev(li13, t91);
+    			append_dev(li13, t92);
+    			append_dev(ul1, t93);
     			append_dev(ul1, li14);
-    			append_dev(ul1, t77);
+    			append_dev(li14, t94);
+    			append_dev(ul1, t95);
     			append_dev(ul1, li15);
-    			append_dev(li15, t78);
+    			append_dev(li15, t96);
+    			append_dev(li15, t97);
     			append_dev(li15, a6);
-    			append_dev(div14, t80);
-    			append_dev(div14, div12);
-    			append_dev(div12, iframe0);
-    			append_dev(div14, t81);
-    			append_dev(div14, div13);
-    			append_dev(div13, iframe1);
-    			append_dev(div26, t82);
-    			append_dev(div26, div25);
-    			append_dev(div25, h13);
-    			append_dev(div25, t84);
-    			append_dev(div25, h42);
-    			append_dev(div25, t86);
-    			append_dev(div25, strong0);
-    			append_dev(div25, t88);
-    			append_dev(div25, a7);
-    			append_dev(div25, t90);
-    			append_dev(div25, br7);
-    			append_dev(div25, t91);
-    			append_dev(div25, br8);
-    			append_dev(div25, t92);
-    			append_dev(div25, h43);
-    			append_dev(div25, t94);
-    			append_dev(div25, div24);
-    			append_dev(div24, div16);
-    			append_dev(div16, div15);
-    			append_dev(div15, img8);
-    			append_dev(div15, t95);
-    			append_dev(div15, br9);
-    			append_dev(div15, t96);
-    			append_dev(div15, strong1);
-    			append_dev(div15, t98);
-    			append_dev(div15, br10);
-    			append_dev(div15, t99);
+    			append_dev(a6, t98);
+    			append_dev(li15, t99);
     			append_dev(div24, t100);
-    			append_dev(div24, div18);
-    			append_dev(div18, div17);
-    			append_dev(div17, a8);
-    			append_dev(a8, img9);
-    			append_dev(div17, t101);
-    			append_dev(div17, br11);
-    			append_dev(div17, t102);
-    			append_dev(div17, strong2);
-    			append_dev(div17, t104);
-    			append_dev(div17, br12);
-    			append_dev(div17, t105);
-    			append_dev(div24, t106);
     			append_dev(div24, div23);
-    			append_dev(div23, div19);
-    			append_dev(div19, img10);
-    			append_dev(div19, t107);
-    			append_dev(div19, br13);
-    			append_dev(div19, t108);
-    			append_dev(div19, strong3);
-    			append_dev(div19, t110);
-    			append_dev(div19, br14);
-    			append_dev(div19, t111);
+    			append_dev(div23, h13);
+    			append_dev(h13, t101);
+    			append_dev(div23, t102);
+    			append_dev(div23, h42);
+    			append_dev(h42, t103);
+    			append_dev(div23, t104);
+    			append_dev(div23, t105);
+    			append_dev(div23, t106);
+    			append_dev(div23, strong0);
+    			append_dev(div23, t108);
+    			append_dev(div23, t109);
+    			append_dev(div23, t110);
+    			append_dev(div23, a7);
+    			append_dev(a7, t111);
     			append_dev(div23, t112);
+    			append_dev(div23, br10);
+    			append_dev(div23, t113);
+    			append_dev(div23, br11);
+    			append_dev(div23, t114);
+    			append_dev(div23, h43);
+    			append_dev(h43, t115);
+    			append_dev(div23, t116);
     			append_dev(div23, div22);
-    			append_dev(div22, div20);
-    			append_dev(div20, img11);
-    			append_dev(div22, t113);
+    			append_dev(div22, div14);
+    			append_dev(div14, div13);
+    			append_dev(div13, img8);
+    			append_dev(div13, t117);
+    			append_dev(div13, br12);
+    			append_dev(div13, t118);
+    			append_dev(div13, strong1);
+    			append_dev(div13, t120);
+    			append_dev(div13, br13);
+    			append_dev(div13, t121);
+    			append_dev(div13, t122);
+    			append_dev(div22, t123);
+    			append_dev(div22, div16);
+    			append_dev(div16, div15);
+    			append_dev(div15, a8);
+    			append_dev(a8, img9);
+    			append_dev(div15, t124);
+    			append_dev(div15, br14);
+    			append_dev(div15, t125);
+    			append_dev(div15, strong2);
+    			append_dev(div15, t127);
+    			append_dev(div15, br15);
+    			append_dev(div15, t128);
+    			append_dev(div15, t129);
+    			append_dev(div22, t130);
     			append_dev(div22, div21);
-    			append_dev(div21, img12);
-    			append_dev(div26, t114);
-    			append_dev(div26, br15);
-    			append_dev(div26, t115);
-    			append_dev(div26, br16);
-    			append_dev(div29, t116);
-    			append_dev(div29, div28);
-    			append_dev(div28, button1);
-    			append_dev(button1, t117);
-    			append_dev(div28, t118);
-    			append_dev(div28, div27);
-    			append_dev(div27, img13);
-    			append_dev(div27, t119);
-    			append_dev(div27, img14);
-    			append_dev(div27, t120);
-    			append_dev(div27, img15);
-    			append_dev(div27, t121);
-    			append_dev(div27, img16);
-    			append_dev(div27, t122);
-    			append_dev(div27, img17);
-    			append_dev(div27, t123);
-    			append_dev(div27, img18);
-    			append_dev(div27, t124);
-    			append_dev(div27, img19);
+    			append_dev(div21, div17);
+    			append_dev(div17, img10);
+    			append_dev(div17, t131);
+    			append_dev(div17, br16);
+    			append_dev(div17, t132);
+    			append_dev(div17, strong3);
+    			append_dev(div17, t134);
+    			append_dev(div17, br17);
+    			append_dev(div17, t135);
+    			append_dev(div17, t136);
+    			append_dev(div21, t137);
+    			append_dev(div21, div20);
+    			append_dev(div20, div18);
+    			append_dev(div18, img11);
+    			append_dev(div20, t138);
+    			append_dev(div20, div19);
+    			append_dev(div19, img12);
+    			append_dev(div24, t139);
+    			append_dev(div24, br18);
+    			append_dev(div24, t140);
+    			append_dev(div24, br19);
+    			append_dev(div27, t141);
+    			append_dev(div27, div26);
+    			append_dev(div26, button1);
+    			append_dev(button1, t142);
+    			append_dev(div26, t143);
+    			append_dev(div26, div25);
+    			append_dev(div25, img13);
+    			append_dev(div25, t144);
+    			append_dev(div25, img14);
+    			append_dev(div25, t145);
+    			append_dev(div25, img15);
+    			append_dev(div25, t146);
+    			append_dev(div25, img16);
+    			append_dev(div25, t147);
+    			append_dev(div25, img17);
+    			append_dev(div25, t148);
+    			append_dev(div25, img18);
+    			append_dev(div25, t149);
+    			append_dev(div25, img19);
     		},
 
     		p: noop,
@@ -6566,7 +6632,7 @@ var app = (function (JSZip) {
 
     		d: function destroy(detaching) {
     			if (detaching) {
-    				detach_dev(div29);
+    				detach_dev(div27);
     			}
     		}
     	};
@@ -19450,7 +19516,7 @@ var app = (function (JSZip) {
     	return child_ctx;
     }
 
-    // (143:2) {#if !article}
+    // (140:2) {#if !article}
     function create_if_block_9$3(ctx) {
     	const block = {
     		c: function create() {
@@ -19460,7 +19526,7 @@ var app = (function (JSZip) {
     		m: noop,
     		d: noop
     	};
-    	dispatch_dev("SvelteRegisterBlock", { block, id: create_if_block_9$3.name, type: "if", source: "(143:2) {#if !article}", ctx });
+    	dispatch_dev("SvelteRegisterBlock", { block, id: create_if_block_9$3.name, type: "if", source: "(140:2) {#if !article}", ctx });
     	return block;
     }
 
@@ -19478,9 +19544,9 @@ var app = (function (JSZip) {
     	return block;
     }
 
-    // (150:0) {:then}
+    // (147:0) {:then}
     function create_then_block(ctx) {
-    	var nav0, div6, div4, a0, img0, t0, t1_value = rul.modName + "", t1, t2, div3, div2, div0, t3, div1, t4, div5, a1, t5_value = ctx.currentSection ? ctx.currentSection.title : '' + "", t5, a1_href_value, t6, show_if = ctx.article && !['TYPE', 'PEDIA'].includes(ctx.article.type_id), t7, div12, div9, div8, button0, img1, t8, div7, a2, t10, a3, t12, a4, t14, div11, div10, p0, input0, t15, nav1, div16, button1, t16_value = rul.modName + "", t16, t17, div15, div13, a5, t18_value = rul.str("HOME") + "", t18, t19, t20, hr, t21, div14, t22, div21, div18, button2, img2, t23, div17, a6, t25, a7, t27, a8, t29, div20, div19, p1, input1, t30, div26, div23, button3, img3, t31, div22, a9, t33, a10, t35, a11, t37, div25, div24, p2, input2, t38, div32, div28, div27, button4, t39, button4_style_value, t40, t41, div29, t42, div30, t43, div31, current_block_type_index, if_block1, current, dispose;
+    	var nav0, div6, div4, a0, img0, t0, t1_value = rul.modName + "", t1, t2, div3, div2, div0, t3, div1, t4, div5, a1, t5_value = ctx.currentSection ? ctx.currentSection.title : '' + "", t5, a1_href_value, t6, show_if = ctx.article && !['TYPE', 'PEDIA'].includes(ctx.article.type_id), t7, div12, div9, div8, button0, img1, t8, div7, a2, t10, a3, t12, a4, t14, div11, div10, p0, input0, t15, nav1, div16, button1, t16_value = rul.modName + "", t16, t17, div15, div13, a5, t18_value = rul.str("HOME") + "", t18, t19, t20, hr, t21, div14, t22, div21, div18, button2, img2, t23, div17, a6, t25, a7, t27, a8, t29, div20, div19, p1, input1, t30, div26, div23, button3, img3, t31, div22, a9, t33, a10, t35, a11, t37, div25, div24, p2, input2, t38, div32, div28, div27, button4, t39_value = rul.str("A-Z") + "", t39, button4_style_value, t40, t41, div29, t42, div30, t43, div31, current_block_type_index, if_block1, current, dispose;
 
     	let each_value_5 = rul.sectionsOrder;
 
@@ -19665,7 +19731,7 @@ var app = (function (JSZip) {
     			div28 = element("div");
     			div27 = element("div");
     			button4 = element("button");
-    			t39 = text("A-Z");
+    			t39 = text(t39_value);
     			t40 = space();
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
@@ -19681,160 +19747,160 @@ var app = (function (JSZip) {
     			if (if_block1) if_block1.c();
     			attr_dev(img0, "src", "xpedia/favicon.png");
     			attr_dev(img0, "alt", "favicon");
-    			add_location(img0, file$i, 159, 10, 3653);
+    			add_location(img0, file$i, 156, 10, 3603);
     			attr_dev(a0, "href", "#MAIN");
     			attr_dev(a0, "class", "navbar-link");
-    			add_location(a0, file$i, 158, 8, 3605);
-    			add_location(div0, file$i, 164, 12, 3829);
-    			add_location(div1, file$i, 171, 12, 4065);
+    			add_location(a0, file$i, 155, 8, 3555);
+    			add_location(div0, file$i, 161, 12, 3779);
+    			add_location(div1, file$i, 168, 12, 4015);
     			set_style(div2, "display", "flex");
-    			add_location(div2, file$i, 163, 10, 3789);
+    			add_location(div2, file$i, 160, 10, 3739);
     			attr_dev(div3, "class", "navbar-dropdown");
-    			add_location(div3, file$i, 162, 8, 3748);
+    			add_location(div3, file$i, 159, 8, 3698);
     			attr_dev(div4, "class", "navbar-item has-dropdown is-hoverable ");
-    			add_location(div4, file$i, 157, 6, 3543);
+    			add_location(div4, file$i, 154, 6, 3493);
     			set_style(a1, "color", "white");
     			attr_dev(a1, "href", a1_href_value = '#' + (ctx.currentSection ? ctx.currentSection.id : 'MAIN'));
-    			add_location(a1, file$i, 183, 8, 4384);
+    			add_location(a1, file$i, 180, 8, 4334);
     			attr_dev(div5, "class", "navbar-item");
-    			add_location(div5, file$i, 182, 6, 4349);
+    			add_location(div5, file$i, 179, 6, 4299);
     			attr_dev(div6, "class", "navbar-brand ");
-    			add_location(div6, file$i, 156, 4, 3508);
+    			add_location(div6, file$i, 153, 4, 3458);
     			attr_dev(img1, "class", "media-icon");
     			attr_dev(img1, "src", "http://icons.iconarchive.com/icons/dtafalonso/modern-xp/512/ModernXP-73-Globe-icon.png");
     			attr_dev(img1, "alt", "language");
     			set_style(img1, "margin-right", "5px");
-    			add_location(img1, file$i, 205, 46, 5061);
+    			add_location(img1, file$i, 202, 46, 5011);
     			attr_dev(button0, "class", "dropbtn navbar-link");
-    			add_location(button0, file$i, 205, 10, 5025);
+    			add_location(button0, file$i, 202, 10, 4975);
     			attr_dev(a2, "href", "index.html");
-    			add_location(a2, file$i, 207, 12, 5285);
+    			add_location(a2, file$i, 204, 12, 5235);
     			attr_dev(a3, "href", "xpedia_ru.html");
-    			add_location(a3, file$i, 208, 12, 5331);
+    			add_location(a3, file$i, 205, 12, 5281);
     			attr_dev(a4, "href", "xpedia_pl.html");
-    			add_location(a4, file$i, 209, 12, 5381);
+    			add_location(a4, file$i, 206, 12, 5331);
     			attr_dev(div7, "class", "dropdown-content");
-    			add_location(div7, file$i, 206, 10, 5241);
+    			add_location(div7, file$i, 203, 10, 5191);
     			attr_dev(div8, "class", "dropdown");
-    			add_location(div8, file$i, 204, 8, 4991);
+    			add_location(div8, file$i, 201, 8, 4941);
     			attr_dev(div9, "class", "navbar-item is-paddingless");
-    			add_location(div9, file$i, 203, 6, 4940);
+    			add_location(div9, file$i, 200, 6, 4890);
     			attr_dev(input0, "class", "input");
     			attr_dev(input0, "type", "text");
     			attr_dev(input0, "placeholder", rul.str("Search..."));
-    			add_location(input0, file$i, 216, 12, 5582);
+    			add_location(input0, file$i, 213, 12, 5542);
     			attr_dev(p0, "class", "control");
-    			add_location(p0, file$i, 215, 10, 5549);
+    			add_location(p0, file$i, 212, 10, 5509);
     			attr_dev(div10, "class", "field has-addons");
-    			add_location(div10, file$i, 214, 8, 5507);
-    			attr_dev(div11, "class", "navbar-item");
-    			add_location(div11, file$i, 213, 6, 5472);
+    			add_location(div10, file$i, 211, 8, 5467);
+    			attr_dev(div11, "class", "navbar-item is-hidden");
+    			add_location(div11, file$i, 210, 6, 5422);
     			attr_dev(div12, "class", "navbar-end");
-    			add_location(div12, file$i, 202, 4, 4908);
+    			add_location(div12, file$i, 199, 4, 4858);
     			attr_dev(nav0, "class", "navbar is-fixed-top is-hidden-touch");
     			attr_dev(nav0, "role", "navigation");
     			attr_dev(nav0, "aria-label", "main navigation");
-    			add_location(nav0, file$i, 151, 2, 3388);
+    			add_location(nav0, file$i, 148, 2, 3338);
     			attr_dev(button1, "class", "dropbtn navbar-link");
-    			add_location(button1, file$i, 235, 6, 6100);
+    			add_location(button1, file$i, 232, 6, 6060);
     			attr_dev(a5, "href", "#MAIN");
-    			add_location(a5, file$i, 240, 10, 6296);
-    			add_location(div13, file$i, 239, 8, 6279);
+    			add_location(a5, file$i, 237, 10, 6256);
+    			add_location(div13, file$i, 236, 8, 6239);
     			attr_dev(hr, "class", "dropdown-divider");
-    			add_location(hr, file$i, 247, 8, 6516);
-    			add_location(div14, file$i, 248, 8, 6555);
+    			add_location(hr, file$i, 244, 8, 6476);
+    			add_location(div14, file$i, 245, 8, 6515);
     			attr_dev(div15, "class", "dropdown-content");
     			set_style(div15, "height", "300px");
     			set_style(div15, "overflow-y", "scroll");
     			set_style(div15, "width", "140%");
-    			add_location(div15, file$i, 238, 6, 6184);
+    			add_location(div15, file$i, 235, 6, 6144);
     			attr_dev(div16, "class", "dropdown is-inline-block");
-    			add_location(div16, file$i, 234, 4, 6054);
+    			add_location(div16, file$i, 231, 4, 6014);
     			attr_dev(img2, "class", "media-icon");
     			attr_dev(img2, "src", "https://img.icons8.com/cotton/2x/globe.png");
     			attr_dev(img2, "alt", "language");
     			set_style(img2, "margin-left", "0px");
-    			add_location(img2, file$i, 260, 95, 7025);
+    			add_location(img2, file$i, 257, 95, 6985);
     			attr_dev(button2, "class", "dropbtn navbar-link is");
     			set_style(button2, "padding-left", "0px");
     			set_style(button2, "padding-right", "15px");
-    			add_location(button2, file$i, 260, 8, 6938);
+    			add_location(button2, file$i, 257, 8, 6898);
     			attr_dev(a6, "href", "index.html");
-    			add_location(a6, file$i, 262, 10, 7200);
+    			add_location(a6, file$i, 259, 10, 7160);
     			attr_dev(a7, "href", "xpedia_ru.html");
-    			add_location(a7, file$i, 263, 10, 7240);
+    			add_location(a7, file$i, 260, 10, 7200);
     			attr_dev(a8, "href", "xpedia_pl.html");
-    			add_location(a8, file$i, 264, 10, 7284);
+    			add_location(a8, file$i, 261, 10, 7244);
     			attr_dev(div17, "class", "dropdown-content");
-    			add_location(div17, file$i, 261, 8, 7158);
+    			add_location(div17, file$i, 258, 8, 7118);
     			attr_dev(div18, "class", "dropdown is-inline-block");
     			set_style(div18, "padding-left", "0px");
-    			add_location(div18, file$i, 259, 6, 6863);
+    			add_location(div18, file$i, 256, 6, 6823);
     			attr_dev(input1, "class", "input");
     			attr_dev(input1, "type", "text");
     			attr_dev(input1, "placeholder", rul.str("Search..."));
-    			add_location(input1, file$i, 271, 12, 7551);
+    			add_location(input1, file$i, 268, 12, 7520);
     			attr_dev(p1, "class", "control");
-    			add_location(p1, file$i, 270, 10, 7518);
+    			add_location(p1, file$i, 267, 10, 7487);
     			attr_dev(div19, "class", "field has-addons");
-    			add_location(div19, file$i, 269, 8, 7476);
-    			attr_dev(div20, "class", "navbar-item  is-inline-block");
+    			add_location(div19, file$i, 266, 8, 7445);
+    			attr_dev(div20, "class", "navbar-item is-inline-block is-hidden");
     			set_style(div20, "width", "100px");
     			set_style(div20, "padding-left", "0px");
     			set_style(div20, "padding-right", "8px");
-    			add_location(div20, file$i, 267, 6, 7354);
+    			add_location(div20, file$i, 264, 6, 7314);
     			attr_dev(div21, "class", "is-pulled-right is-hidden-tablet is-inline-block");
-    			add_location(div21, file$i, 258, 4, 6793);
+    			add_location(div21, file$i, 255, 4, 6753);
     			attr_dev(img3, "class", "media-icon");
     			attr_dev(img3, "src", "https://img.icons8.com/cotton/2x/globe.png");
     			attr_dev(img3, "alt", "language");
     			set_style(img3, "margin-right", "5px");
-    			add_location(img3, file$i, 284, 45, 7980);
+    			add_location(img3, file$i, 281, 45, 7949);
     			attr_dev(button3, "class", "dropbtn navbar-link");
-    			add_location(button3, file$i, 284, 8, 7943);
+    			add_location(button3, file$i, 281, 8, 7912);
     			attr_dev(a9, "href", "index.html");
-    			add_location(a9, file$i, 286, 10, 8156);
+    			add_location(a9, file$i, 283, 10, 8125);
     			attr_dev(a10, "href", "xpedia_ru.html");
-    			add_location(a10, file$i, 287, 10, 8200);
+    			add_location(a10, file$i, 284, 10, 8169);
     			attr_dev(a11, "href", "xpedia_pl.html");
-    			add_location(a11, file$i, 288, 10, 8248);
+    			add_location(a11, file$i, 285, 10, 8217);
     			attr_dev(div22, "class", "dropdown-content");
-    			add_location(div22, file$i, 285, 8, 8114);
+    			add_location(div22, file$i, 282, 8, 8083);
     			attr_dev(div23, "class", "dropdown is-inline-block");
-    			add_location(div23, file$i, 283, 6, 7895);
+    			add_location(div23, file$i, 280, 6, 7864);
     			attr_dev(input2, "class", "input");
     			attr_dev(input2, "type", "text");
     			attr_dev(input2, "placeholder", rul.str("Search..."));
-    			add_location(input2, file$i, 294, 12, 8448);
+    			add_location(input2, file$i, 291, 12, 8426);
     			attr_dev(p2, "class", "control");
-    			add_location(p2, file$i, 293, 10, 8415);
+    			add_location(p2, file$i, 290, 10, 8393);
     			attr_dev(div24, "class", "field has-addons");
-    			add_location(div24, file$i, 292, 8, 8373);
-    			attr_dev(div25, "class", "navbar-item  is-inline-block");
-    			add_location(div25, file$i, 291, 6, 8321);
+    			add_location(div24, file$i, 289, 8, 8351);
+    			attr_dev(div25, "class", "navbar-item is-inline-block is-hidden");
+    			add_location(div25, file$i, 288, 6, 8290);
     			attr_dev(div26, "class", "is-pulled-right is-hidden-mobile is-inline-block");
-    			add_location(div26, file$i, 282, 4, 7825);
+    			add_location(div26, file$i, 279, 4, 7794);
     			attr_dev(nav1, "class", "navbar is-fixed-top is-hidden-desktop");
     			attr_dev(nav1, "role", "navigation");
     			attr_dev(nav1, "aria-label", "main navigation");
     			set_style(nav1, "border-left-width", "0px");
     			set_style(nav1, "border-right-width", "0px");
-    			add_location(nav1, file$i, 229, 2, 5869);
+    			add_location(nav1, file$i, 226, 2, 5829);
     			attr_dev(button4, "class", "is-hidden-touch is-inline-block");
     			attr_dev(button4, "style", button4_style_value = ctx.sortArticles?"":"text-decoration:line-through");
-    			add_location(button4, file$i, 310, 8, 8861);
-    			add_location(div27, file$i, 309, 6, 8846);
-    			attr_dev(div28, "class", "column is-2 is-sidebar-menu is-hidden-touch sidebar svelte-uwb6wb");
-    			add_location(div28, file$i, 307, 4, 8766);
+    			add_location(button4, file$i, 307, 8, 8839);
+    			add_location(div27, file$i, 306, 6, 8824);
+    			attr_dev(div28, "class", "column is-2 is-sidebar-menu is-hidden-touch sidebar svelte-qnx4rt");
+    			add_location(div28, file$i, 304, 4, 8744);
     			attr_dev(div29, "class", "column is-2 is-hidden-touch");
-    			add_location(div29, file$i, 338, 4, 10033);
+    			add_location(div29, file$i, 335, 4, 10024);
     			attr_dev(div30, "class", "side-sort-button");
-    			add_location(div30, file$i, 339, 4, 10082);
+    			add_location(div30, file$i, 336, 4, 10073);
     			attr_dev(div31, "class", "column is-main-content main");
     			set_style(div31, "padding-top", "0px");
-    			add_location(div31, file$i, 343, 4, 10140);
+    			add_location(div31, file$i, 340, 4, 10131);
     			attr_dev(div32, "class", "columns is-fullheight is-marginless");
-    			add_location(div32, file$i, 306, 2, 8711);
+    			add_location(div32, file$i, 303, 2, 8689);
 
     			dispose = [
     				listen_dev(input0, "input", ctx.input0_input_handler),
@@ -20197,11 +20263,11 @@ var app = (function (JSZip) {
     			run_all(dispose);
     		}
     	};
-    	dispatch_dev("SvelteRegisterBlock", { block, id: create_then_block.name, type: "then", source: "(150:0) {:then}", ctx });
+    	dispatch_dev("SvelteRegisterBlock", { block, id: create_then_block.name, type: "then", source: "(147:0) {:then}", ctx });
     	return block;
     }
 
-    // (166:14) {#each rul.sectionsOrder as section}
+    // (163:14) {#each rul.sectionsOrder as section}
     function create_each_block_5$2(ctx) {
     	var a, t0_value = ctx.section.title + "", t0, t1;
 
@@ -20212,7 +20278,7 @@ var app = (function (JSZip) {
     			t1 = space();
     			attr_dev(a, "class", "navbar-item");
     			attr_dev(a, "href", '#' + ctx.section.id);
-    			add_location(a, file$i, 166, 16, 3904);
+    			add_location(a, file$i, 163, 16, 3854);
     		},
 
     		m: function mount(target, anchor) {
@@ -20229,11 +20295,11 @@ var app = (function (JSZip) {
     			}
     		}
     	};
-    	dispatch_dev("SvelteRegisterBlock", { block, id: create_each_block_5$2.name, type: "each", source: "(166:14) {#each rul.sectionsOrder as section}", ctx });
+    	dispatch_dev("SvelteRegisterBlock", { block, id: create_each_block_5$2.name, type: "each", source: "(163:14) {#each rul.sectionsOrder as section}", ctx });
     	return block;
     }
 
-    // (173:14) {#each rul.typeSectionsOrder as section}
+    // (170:14) {#each rul.typeSectionsOrder as section}
     function create_each_block_4$2(ctx) {
     	var a, t0_value = ctx.section.title + "", t0, t1;
 
@@ -20244,7 +20310,7 @@ var app = (function (JSZip) {
     			t1 = space();
     			attr_dev(a, "class", "navbar-item");
     			attr_dev(a, "href", '#' + ctx.section.id);
-    			add_location(a, file$i, 173, 16, 4144);
+    			add_location(a, file$i, 170, 16, 4094);
     		},
 
     		m: function mount(target, anchor) {
@@ -20261,11 +20327,11 @@ var app = (function (JSZip) {
     			}
     		}
     	};
-    	dispatch_dev("SvelteRegisterBlock", { block, id: create_each_block_4$2.name, type: "each", source: "(173:14) {#each rul.typeSectionsOrder as section}", ctx });
+    	dispatch_dev("SvelteRegisterBlock", { block, id: create_each_block_4$2.name, type: "each", source: "(170:14) {#each rul.typeSectionsOrder as section}", ctx });
     	return block;
     }
 
-    // (190:6) {#if article && !['TYPE', 'PEDIA'].includes(article.type_id)}
+    // (187:6) {#if article && !['TYPE', 'PEDIA'].includes(article.type_id)}
     function create_if_block_8$3(ctx) {
     	var div, a, t_value = ctx.article.title + "", t, a_href_value, dispose;
 
@@ -20276,9 +20342,9 @@ var app = (function (JSZip) {
     			t = text(t_value);
     			set_style(a, "color", "white");
     			attr_dev(a, "href", a_href_value = '#' + ctx.article.id);
-    			add_location(a, file$i, 191, 10, 4688);
+    			add_location(a, file$i, 188, 10, 4638);
     			attr_dev(div, "class", "navbar-item");
-    			add_location(div, file$i, 190, 8, 4651);
+    			add_location(div, file$i, 187, 8, 4601);
     			dispose = listen_dev(a, "click", ctx.click_handler);
     		},
 
@@ -20306,11 +20372,11 @@ var app = (function (JSZip) {
     			dispose();
     		}
     	};
-    	dispatch_dev("SvelteRegisterBlock", { block, id: create_if_block_8$3.name, type: "if", source: "(190:6) {#if article && !['TYPE', 'PEDIA'].includes(article.type_id)}", ctx });
+    	dispatch_dev("SvelteRegisterBlock", { block, id: create_if_block_8$3.name, type: "if", source: "(187:6) {#if article && !['TYPE', 'PEDIA'].includes(article.type_id)}", ctx });
     	return block;
     }
 
-    // (242:10) {#each rul.sectionsOrder as section}
+    // (239:10) {#each rul.sectionsOrder as section}
     function create_each_block_3$4(ctx) {
     	var a, t0_value = ctx.section.title + "", t0, t1;
 
@@ -20320,7 +20386,7 @@ var app = (function (JSZip) {
     			t0 = text(t0_value);
     			t1 = space();
     			attr_dev(a, "href", '#' + ctx.section.id);
-    			add_location(a, file$i, 242, 12, 6395);
+    			add_location(a, file$i, 239, 12, 6355);
     		},
 
     		m: function mount(target, anchor) {
@@ -20337,11 +20403,11 @@ var app = (function (JSZip) {
     			}
     		}
     	};
-    	dispatch_dev("SvelteRegisterBlock", { block, id: create_each_block_3$4.name, type: "each", source: "(242:10) {#each rul.sectionsOrder as section}", ctx });
+    	dispatch_dev("SvelteRegisterBlock", { block, id: create_each_block_3$4.name, type: "each", source: "(239:10) {#each rul.sectionsOrder as section}", ctx });
     	return block;
     }
 
-    // (250:10) {#each rul.typeSectionsOrder as section}
+    // (247:10) {#each rul.typeSectionsOrder as section}
     function create_each_block_2$7(ctx) {
     	var a, t0_value = ctx.section.title + "", t0, t1;
 
@@ -20351,7 +20417,7 @@ var app = (function (JSZip) {
     			t0 = text(t0_value);
     			t1 = space();
     			attr_dev(a, "href", '#' + ctx.section.id);
-    			add_location(a, file$i, 250, 12, 6626);
+    			add_location(a, file$i, 247, 12, 6586);
     		},
 
     		m: function mount(target, anchor) {
@@ -20368,11 +20434,11 @@ var app = (function (JSZip) {
     			}
     		}
     	};
-    	dispatch_dev("SvelteRegisterBlock", { block, id: create_each_block_2$7.name, type: "each", source: "(250:10) {#each rul.typeSectionsOrder as section}", ctx });
+    	dispatch_dev("SvelteRegisterBlock", { block, id: create_each_block_2$7.name, type: "each", source: "(247:10) {#each rul.typeSectionsOrder as section}", ctx });
     	return block;
     }
 
-    // (314:8) {#if !currentSection || section.id == currentSection.id}
+    // (311:8) {#if !currentSection || section.id == currentSection.id}
     function create_if_block_6$3(ctx) {
     	var p, t0_value = ctx.section.title + "", t0, t1, ul, t2;
 
@@ -20397,9 +20463,9 @@ var app = (function (JSZip) {
 
     			t2 = space();
     			attr_dev(p, "class", "sidemenu-label");
-    			add_location(p, file$i, 314, 10, 9238);
+    			add_location(p, file$i, 311, 10, 9229);
     			attr_dev(ul, "class", "menu-list");
-    			add_location(ul, file$i, 315, 10, 9295);
+    			add_location(ul, file$i, 312, 10, 9286);
     		},
 
     		m: function mount(target, anchor) {
@@ -20453,11 +20519,11 @@ var app = (function (JSZip) {
     			destroy_each(each_blocks, detaching);
     		}
     	};
-    	dispatch_dev("SvelteRegisterBlock", { block, id: create_if_block_6$3.name, type: "if", source: "(314:8) {#if !currentSection || section.id == currentSection.id}", ctx });
+    	dispatch_dev("SvelteRegisterBlock", { block, id: create_if_block_6$3.name, type: "if", source: "(311:8) {#if !currentSection || section.id == currentSection.id}", ctx });
     	return block;
     }
 
-    // (326:16) {:else}
+    // (323:16) {:else}
     function create_else_block_1$2(ctx) {
     	var a, t_value = ctx.option.title + "", t, a_href_value, dispose;
 
@@ -20466,7 +20532,7 @@ var app = (function (JSZip) {
     			a = element("a");
     			t = text(t_value);
     			attr_dev(a, "href", a_href_value = '#' + ctx.option.id);
-    			add_location(a, file$i, 326, 18, 9728);
+    			add_location(a, file$i, 323, 18, 9719);
     			dispose = listen_dev(a, "click", ctx.click_handler_2);
     		},
 
@@ -20493,11 +20559,11 @@ var app = (function (JSZip) {
     			dispose();
     		}
     	};
-    	dispatch_dev("SvelteRegisterBlock", { block, id: create_else_block_1$2.name, type: "else", source: "(326:16) {:else}", ctx });
+    	dispatch_dev("SvelteRegisterBlock", { block, id: create_else_block_1$2.name, type: "else", source: "(323:16) {:else}", ctx });
     	return block;
     }
 
-    // (319:16) {#if article && article.id == option.id}
+    // (316:16) {#if article && article.id == option.id}
     function create_if_block_7$3(ctx) {
     	var a, t_value = ctx.option.title + "", t, a_href_value;
 
@@ -20506,8 +20572,8 @@ var app = (function (JSZip) {
     			a = element("a");
     			t = text(t_value);
     			attr_dev(a, "href", a_href_value = '#' + ctx.option.id);
-    			attr_dev(a, "class", "active-article-option svelte-uwb6wb");
-    			add_location(a, file$i, 319, 18, 9479);
+    			attr_dev(a, "class", "active-article-option svelte-qnx4rt");
+    			add_location(a, file$i, 316, 18, 9470);
     		},
 
     		m: function mount(target, anchor) {
@@ -20534,11 +20600,11 @@ var app = (function (JSZip) {
     			ctx.a_binding(null);
     		}
     	};
-    	dispatch_dev("SvelteRegisterBlock", { block, id: create_if_block_7$3.name, type: "if", source: "(319:16) {#if article && article.id == option.id}", ctx });
+    	dispatch_dev("SvelteRegisterBlock", { block, id: create_if_block_7$3.name, type: "if", source: "(316:16) {#if article && article.id == option.id}", ctx });
     	return block;
     }
 
-    // (317:12) {#each sortedArticles(section.articles) as option}
+    // (314:12) {#each sortedArticles(section.articles) as option}
     function create_each_block_1$7(ctx) {
     	var li;
 
@@ -20554,7 +20620,7 @@ var app = (function (JSZip) {
     		c: function create() {
     			li = element("li");
     			if_block.c();
-    			add_location(li, file$i, 317, 14, 9397);
+    			add_location(li, file$i, 314, 14, 9388);
     		},
 
     		m: function mount(target, anchor) {
@@ -20583,11 +20649,11 @@ var app = (function (JSZip) {
     			if_block.d();
     		}
     	};
-    	dispatch_dev("SvelteRegisterBlock", { block, id: create_each_block_1$7.name, type: "each", source: "(317:12) {#each sortedArticles(section.articles) as option}", ctx });
+    	dispatch_dev("SvelteRegisterBlock", { block, id: create_each_block_1$7.name, type: "each", source: "(314:12) {#each sortedArticles(section.articles) as option}", ctx });
     	return block;
     }
 
-    // (313:6) {#each article && article.section && article.section.isType() ? rul.typeSectionsOrder : rul.sectionsOrder as section}
+    // (310:6) {#each article && article.section && article.section.isType() ? rul.typeSectionsOrder : rul.sectionsOrder as section}
     function create_each_block$g(ctx) {
     	var if_block_anchor;
 
@@ -20627,11 +20693,11 @@ var app = (function (JSZip) {
     			}
     		}
     	};
-    	dispatch_dev("SvelteRegisterBlock", { block, id: create_each_block$g.name, type: "each", source: "(313:6) {#each article && article.section && article.section.isType() ? rul.typeSectionsOrder : rul.sectionsOrder as section}", ctx });
+    	dispatch_dev("SvelteRegisterBlock", { block, id: create_each_block$g.name, type: "each", source: "(310:6) {#each article && article.section && article.section.isType() ? rul.typeSectionsOrder : rul.sectionsOrder as section}", ctx });
     	return block;
     }
 
-    // (362:23) 
+    // (359:23) 
     function create_if_block_5$4(ctx) {
     	var current;
 
@@ -20665,11 +20731,11 @@ var app = (function (JSZip) {
     			destroy_component(intro, detaching);
     		}
     	};
-    	dispatch_dev("SvelteRegisterBlock", { block, id: create_if_block_5$4.name, type: "if", source: "(362:23) ", ctx });
+    	dispatch_dev("SvelteRegisterBlock", { block, id: create_if_block_5$4.name, type: "if", source: "(359:23) ", ctx });
     	return block;
     }
 
-    // (348:22) 
+    // (345:22) 
     function create_if_block_1$d(ctx) {
     	var t0, em, t1, t2, br, t3, current_block_type_index, if_block, if_block_anchor, current;
 
@@ -20702,8 +20768,8 @@ var app = (function (JSZip) {
     			t3 = space();
     			if_block.c();
     			if_block_anchor = empty();
-    			add_location(em, file$i, 349, 8, 10324);
-    			add_location(br, file$i, 351, 8, 10362);
+    			add_location(em, file$i, 346, 8, 10315);
+    			add_location(br, file$i, 348, 8, 10353);
     		},
 
     		m: function mount(target, anchor) {
@@ -20771,11 +20837,11 @@ var app = (function (JSZip) {
     			}
     		}
     	};
-    	dispatch_dev("SvelteRegisterBlock", { block, id: create_if_block_1$d.name, type: "if", source: "(348:22) ", ctx });
+    	dispatch_dev("SvelteRegisterBlock", { block, id: create_if_block_1$d.name, type: "if", source: "(345:22) ", ctx });
     	return block;
     }
 
-    // (346:6) {#if article}
+    // (343:6) {#if article}
     function create_if_block$g(ctx) {
     	var current;
 
@@ -20820,11 +20886,11 @@ var app = (function (JSZip) {
     			destroy_component(article_1, detaching);
     		}
     	};
-    	dispatch_dev("SvelteRegisterBlock", { block, id: create_if_block$g.name, type: "if", source: "(346:6) {#if article}", ctx });
+    	dispatch_dev("SvelteRegisterBlock", { block, id: create_if_block$g.name, type: "if", source: "(343:6) {#if article}", ctx });
     	return block;
     }
 
-    // (359:8) {:else}
+    // (356:8) {:else}
     function create_else_block$a(ctx) {
     	var i;
 
@@ -20832,7 +20898,7 @@ var app = (function (JSZip) {
     		c: function create() {
     			i = element("i");
     			i.textContent = "Nothing found";
-    			add_location(i, file$i, 359, 10, 10601);
+    			add_location(i, file$i, 356, 10, 10592);
     		},
 
     		m: function mount(target, anchor) {
@@ -20849,11 +20915,11 @@ var app = (function (JSZip) {
     			}
     		}
     	};
-    	dispatch_dev("SvelteRegisterBlock", { block, id: create_else_block$a.name, type: "else", source: "(359:8) {:else}", ctx });
+    	dispatch_dev("SvelteRegisterBlock", { block, id: create_else_block$a.name, type: "else", source: "(356:8) {:else}", ctx });
     	return block;
     }
 
-    // (357:36) 
+    // (354:36) 
     function create_if_block_4$5(ctx) {
     	var t;
 
@@ -20876,11 +20942,11 @@ var app = (function (JSZip) {
     			}
     		}
     	};
-    	dispatch_dev("SvelteRegisterBlock", { block, id: create_if_block_4$5.name, type: "if", source: "(357:36) ", ctx });
+    	dispatch_dev("SvelteRegisterBlock", { block, id: create_if_block_4$5.name, type: "if", source: "(354:36) ", ctx });
     	return block;
     }
 
-    // (355:35) 
+    // (352:35) 
     function create_if_block_3$9(ctx) {
     	var i;
 
@@ -20888,7 +20954,7 @@ var app = (function (JSZip) {
     		c: function create() {
     			i = element("i");
     			i.textContent = "Query too short";
-    			add_location(i, file$i, 355, 10, 10497);
+    			add_location(i, file$i, 352, 10, 10488);
     		},
 
     		m: function mount(target, anchor) {
@@ -20905,11 +20971,11 @@ var app = (function (JSZip) {
     			}
     		}
     	};
-    	dispatch_dev("SvelteRegisterBlock", { block, id: create_if_block_3$9.name, type: "if", source: "(355:35) ", ctx });
+    	dispatch_dev("SvelteRegisterBlock", { block, id: create_if_block_3$9.name, type: "if", source: "(352:35) ", ctx });
     	return block;
     }
 
-    // (353:8) {#if found && found.length > 0}
+    // (350:8) {#if found && found.length > 0}
     function create_if_block_2$d(ctx) {
     	var current;
 
@@ -20950,21 +21016,21 @@ var app = (function (JSZip) {
     			destroy_component(linkspage, detaching);
     		}
     	};
-    	dispatch_dev("SvelteRegisterBlock", { block, id: create_if_block_2$d.name, type: "if", source: "(353:8) {#if found && found.length > 0}", ctx });
+    	dispatch_dev("SvelteRegisterBlock", { block, id: create_if_block_2$d.name, type: "if", source: "(350:8) {#if found && found.length > 0}", ctx });
     	return block;
     }
 
-    // (148:20)     <img class="centered" alt="Loading rules..." src="xpedia/spinner.svg" />  {:then}
+    // (145:20)     <img class="centered" alt="Loading rules..." src="xpedia/spinner.svg" />  {:then}
     function create_pending_block(ctx) {
     	var img;
 
     	const block = {
     		c: function create() {
     			img = element("img");
-    			attr_dev(img, "class", "centered svelte-uwb6wb");
+    			attr_dev(img, "class", "centered svelte-qnx4rt");
     			attr_dev(img, "alt", "Loading rules...");
     			attr_dev(img, "src", "xpedia/spinner.svg");
-    			add_location(img, file$i, 148, 2, 3279);
+    			add_location(img, file$i, 145, 2, 3229);
     		},
 
     		m: function mount(target, anchor) {
@@ -20981,7 +21047,7 @@ var app = (function (JSZip) {
     			}
     		}
     	};
-    	dispatch_dev("SvelteRegisterBlock", { block, id: create_pending_block.name, type: "pending", source: "(148:20)     <img class=\"centered\" alt=\"Loading rules...\" src=\"xpedia/spinner.svg\" />  {:then}", ctx });
+    	dispatch_dev("SvelteRegisterBlock", { block, id: create_pending_block.name, type: "pending", source: "(145:20)     <img class=\"centered\" alt=\"Loading rules...\" src=\"xpedia/spinner.svg\" />  {:then}", ctx });
     	return block;
     }
 
@@ -21105,7 +21171,7 @@ var app = (function (JSZip) {
       let rulesLoaded = loadRules();
 
       function checkHash() {
-        let hash = document.location.hash.replace("%20", " ");
+        let hash = decodeURI(document.location.hash);
         if (hash) {
           let dd = hash.indexOf("::");
           if (dd != -1) {

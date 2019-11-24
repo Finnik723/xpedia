@@ -14,6 +14,8 @@ let files = [
   "xpedia/bundle.css",
   "xpedia/global.css",
   "xpedia/favicon.png",
+  "xpedia/Finnik.png",
+  "xpedia/Scorch.png",
   "xpedia/bulmaswatch.min.css",
   "xpedia/0.png",
   "xpedia/xpedia.html.header",

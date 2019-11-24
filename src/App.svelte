@@ -26,7 +26,7 @@
   }
 
   function checkHash() {
-    let hash = document.location.hash.replace("%20", " ");
+    let hash = decodeURI(document.location.hash);
     if (hash) {
       let dd = hash.indexOf("::");
       if (dd != -1) {
@@ -116,9 +116,6 @@
     overflow-y: auto;
     overflow-x: hidden;
     background:#141d3d;
-  }
-  .narrow {
-    max-width: 800px;
   }
   /* .menu-list a:visited {
     color: white;
@@ -211,7 +208,7 @@
           </div>
         </div>
       </div>
-      <div class="navbar-item">
+      <div class="navbar-item is-hidden">
         <div class="field has-addons">
           <p class="control">
             <input
@@ -236,7 +233,7 @@
       <button class="dropbtn navbar-link">
         {rul.modName}
       </button>
-      <div class="dropdown-content" style="height: 300px; overflow-y: scroll;">
+      <div class="dropdown-content" style="height: 300px; overflow-y: scroll; width:140%;">
         <div>
           <a href="#MAIN">{rul.str("HOME")}</a>
           {#each rul.sectionsOrder as section}
@@ -265,7 +262,7 @@
           <a href="xpedia_pl.html">Pol</a>
         </div>
       </div>
-      <div class="navbar-item  is-inline-block"
+      <div class="navbar-item is-inline-block is-hidden"
         style="width: 100px; padding-left: 0px; padding-right: 8px;">
         <div class="field has-addons">
           <p class="control">
@@ -289,7 +286,7 @@
           <a href="xpedia_pl.html">Polski</a>
         </div>
       </div>
-      <div class="navbar-item  is-inline-block">
+      <div class="navbar-item is-inline-block is-hidden">
         <div class="field has-addons">
           <p class="control">
             <input
@@ -308,7 +305,7 @@
     <div
       class="column is-2 is-sidebar-menu is-hidden-touch sidebar">
       <div>
-        <button class="is-hidden-touch is-inline-block" style={sortArticles?"":"text-decoration:line-through"} on:click={e => sortArticles = !sortArticles}>A-Z</button>
+        <button class="is-hidden-touch is-inline-block" style={sortArticles?"":"text-decoration:line-through"} on:click={e => sortArticles = !sortArticles}>{rul.str("A-Z")}</button>
       </div>
       {#each article && article.section && article.section.isType() ? rul.typeSectionsOrder : rul.sectionsOrder as section}
         {#if !currentSection || section.id == currentSection.id}
@@ -364,15 +361,4 @@
       {/if}
     </div>
   </div>
-  <!-- {#if !article}
-    <footer class="introfooter"> 
-      <div class="content has-text-centered">
-        <p>
-          <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
-          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-          is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
-        </p>
-      </div>
-    </footer>
-  {/if} -->
 {/await}

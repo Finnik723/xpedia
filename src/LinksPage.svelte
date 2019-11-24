@@ -13,7 +13,7 @@
 {#if links && links.length > 0}
   {#if !title}
     <div class="links-page-button">
-      <button style={sorted?"":"text-decoration:line-through"} on:click={e => sorted = !sorted}>A-Z</button>
+      <button style={sorted?"":"text-decoration:line-through"} on:click={e => sorted = !sorted}>{rul.str("A-Z")}</button>
     </div>
   {/if}
   <div class="links-page">
