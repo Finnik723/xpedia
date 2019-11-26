@@ -138,7 +138,7 @@
 
 <svelte:head>
   {#if !article}
-    <title>XPedia</title>
+    <title>The X-Com Files Wiki</title>
   {/if}
 </svelte:head>
 
