@@ -56,6 +56,32 @@
       <article class="media">
         <figure class="media-left">
           <p class="image is-128x128">
+            <img style="margin-top: 20px" alt="launch" src="https://image.flaticon.com/icons/svg/1008/1008766.svg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <small>23/11/2019</small>
+            <p class="title" style="margin-bottom: 10px">{rul.str("Dehobbesation")}</p>
+
+            <div>
+              <p>
+                {rul.str("Last week Hobbes - the author of some of the maps used in XCF (and many other mods) - demanded to stop using them. We've decided to temporarily limit the possibility of downloading the mod. Currently, all controversial content is removed and we are actively replacing it by original content. The positive side of the situation is an opportunity to rethink the existing maps and make them really interesting. We plan to release a new version as soon as possible, follow the news!")}
+              </p>
+            </div>
+          </div>
+        </div>
+      </article>
+      <br>
+    </div>
+
+    <h1> </h1>
+
+    <div>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-128x128">
             <img style="margin-top: 20px" alt="launch" src="https://image.flaticon.com/icons/svg/2254/2254743.svg">
           </p>
         </figure>
@@ -153,7 +179,7 @@
             {rul.str("game designer, russian community manager, website developer")}
           </div>
         </div>
-        <div class="donate tips">
+        <!-- <div class="donate tips">
           <div>
             <img class="donate-icon" src="https://cdn170.picsart.com/upscale-239307799089211.png" alt="tips">
             <br>
@@ -170,7 +196,7 @@
                 alt="streamlabs">
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
     <br />
