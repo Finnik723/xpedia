@@ -24,6 +24,7 @@ laguages.forEach(function(item, index, array){
   let vanilla_rules_path = "standard/xcom1";
   let vanilla_language_path = "standard/xcom1/Language/" + language_name + ".yml";
   let pedia_lang_path = "xpedia/Language/" + language_name + ".yml";
+  let technical_lang_path = "common/Language/Technical/" + language_name + ".yml";
   let pedia_header = "xpedia/xpedia.html.header";
 
   let vanillaFiles = fs
@@ -54,6 +55,7 @@ laguages.forEach(function(item, index, array){
 
   all.push("langv-" + fs.readFileSync(vanilla_language_path));
   all.push("langm-" + fs.readFileSync(mod_language_path));
+  all.push("langt-" + fs.readFileSync(technical_lang_path));
   if (item != "en-US") {
     all.push("langp-" + fs.readFileSync(pedia_lang_path));
   }

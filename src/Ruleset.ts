@@ -1,6 +1,6 @@
 import Fuse from "fuse.js";
 import Yaml from "js-yaml";
-import JSZip from "jszip";
+// import JSZip from "jszip";
 import { throws } from "assert";
 
 export let rul!: Ruleset;
@@ -238,7 +238,7 @@ export class StartingConditions {
   constructor(raw: any) {
     Object.assign(this, raw);
     rul.startingConditions[this.type] = this;
-    rul.lang[this.type] = rul.decamelize(this.type.substr(11));
+    rul.lang[this.type] = rul.str(this.type.substr(12));
     for (let craft of this.allowedCraft)
       rul.crafts[craft].startingConditions.push(this.type);
     Article.create({
@@ -677,10 +677,10 @@ export default class Ruleset {
     "STR_DAMAGE_16",
     "STR_DAMAGE_17",
     "STR_DAMAGE_18",
-    "STR_DAMAGE_19",
+/*    "STR_DAMAGE_19",
     "STR_DAMAGE_20",
     "STR_DAMAGE_21",
-    "STR_DAMAGE_22",
+    "STR_DAMAGE_22",*/
     "STR_MANA",
   ];
 
@@ -691,7 +691,7 @@ export default class Ruleset {
     "Melee",
     "Grenade",
     "Proximity Grenade",
-    "Medi-Kit",
+    "Medikit",
     "Motion Scanner",
     "Mind Probe",
     "Psi-Amp",
@@ -744,7 +744,7 @@ export default class Ruleset {
       "CATEGORIES",
       "RESEARCH",
       "MANUFACTURE",
-      "SERVICE"
+      "SERVICES"
     ];
 
     for (let type of articleTypes) new Section(type, "TYPE");
@@ -888,12 +888,12 @@ export default class Ruleset {
         a.title < b.title ? -1 : 1
       );
 
-    // Article.create({
-    //   id: "BASE_FUNC",
-    //   title: "Base Services",
-    //   type_id: "OTHER",
-    //   section: "OTHER"
-    // });
+/*    Article.create({
+      id: "BASE_FUNC",
+      title: "Base Services",
+      type_id: "OTHER",
+      section: "OTHER"
+    });*/
 
     for (let cat of Object.keys(this.categories)) {
       console.log(cat);
@@ -964,9 +964,9 @@ export default class Ruleset {
 
     if (text.substr(0, 6) == "base64") {
       text = text.substr(6);
-      let zip = new JSZip();
-      await zip.loadAsync(text, { base64: true });
-      text = await zip.file("xpedia").async("text");
+      // let zip = new JSZip();
+      // await zip.loadAsync(text, { base64: true });
+      // text = await zip.file("xpedia").async("text");
     }
 
     let data = parseYaml(text);

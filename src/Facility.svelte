@@ -24,7 +24,7 @@
 
 <table class="main-table">
   <tr>
-    <td colspan="2" class="table-header">Craft</td>
+    <td colspan="2" class="table-header">{rul.str("Facility")}</td>
   </tr>
   {#each Object.entries(facility).sort((a, b) =>
     a[0] > b[0] && a[0] != 'storageTiles' ? 1 : -1
@@ -32,7 +32,7 @@
     {#if !['type', 'battlescapeTerrainData', 'craftInventoryTile', 'deployment'].includes(key)}
       <tr>
         <td class="padding-right">
-          {@html rul.decamelize(key)}
+          {@html rul.str(key)}
         </td>
         <td>
           {#if ['buildCostItems'].includes(key)}
@@ -62,7 +62,7 @@
           {:else if ['provideBaseFunc', 'requiresBaseFunc', 'forbiddenBaseFunc'].includes(key)}
             <BaseServiceList items={prop} vertical={true} />
           {:else if ['spriteFacility', 'spriteShape'].includes(key)}
-            <div class="tight" style="columns:{size};width:{32 * size}px;">
+            <div class="tight" style="columns:{size};width:{32 * size}px;zoom:2;">
               {#each { length: size } as _, y}
                 {#each { length: size } as _, x}
                   <img

@@ -46,10 +46,7 @@
   .right-column{
     vertical-align: top;
   }
-  .alter td{
-    border: none;
-    font-size: small;
-  }
+
   img {
     max-width: 100%;
   }  

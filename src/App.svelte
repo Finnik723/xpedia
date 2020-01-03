@@ -27,6 +27,9 @@
 
   function checkHash() {
     let hash = decodeURI(document.location.hash);
+    if(hash == "#MAIN"){
+    query = "";
+    }
     if (hash) {
       let dd = hash.indexOf("::");
       if (dd != -1) {
@@ -202,13 +205,13 @@
         <div class="dropdown">
           <button class="dropbtn navbar-link"><img class="media-icon" src="http://icons.iconarchive.com/icons/dtafalonso/modern-xp/512/ModernXP-73-Globe-icon.png" alt="language" style="margin-right: 5px;"></button>
           <div class="dropdown-content">
-            <a href="index.html">English</a>
-            <a href="xpedia_ru.html">Русский</a>
-            <a href="xpedia_pl.html">Polski</a>
+            <a href="index.html#{id}">English</a>
+            <a href="xpedia_ru.html#{id}">Русский</a>
+            <a href="xpedia_pl.html#{id}">Polski</a>
           </div>
         </div>
       </div>
-      <div class="navbar-item is-hidden">
+      <div class="navbar-item">
         <div class="field has-addons">
           <p class="control">
             <input
@@ -257,12 +260,12 @@
       <div class="dropdown is-inline-block" style="padding-left: 0px;">
         <button class="dropbtn navbar-link is" style="padding-left: 0px; padding-right: 15px;"><img class="media-icon" src="https://img.icons8.com/cotton/2x/globe.png" alt="language" style="margin-left: 0px;"></button>
         <div class="dropdown-content">
-          <a href="index.html">Eng</a>
-          <a href="xpedia_ru.html">Рус</a>
-          <a href="xpedia_pl.html">Pol</a>
+          <a href="index.html#{id}">Eng</a>
+          <a href="xpedia_ru.html#{id}">Рус</a>
+          <a href="xpedia_pl.html#{id}">Pol</a>
         </div>
       </div>
-      <div class="navbar-item is-inline-block is-hidden"
+      <div class="navbar-item is-inline-block"
         style="width: 100px; padding-left: 0px; padding-right: 8px;">
         <div class="field has-addons">
           <p class="control">
@@ -281,12 +284,12 @@
       <div class="dropdown is-inline-block">
         <button class="dropbtn navbar-link" ><img class="media-icon" src="https://img.icons8.com/cotton/2x/globe.png" alt="language" style="margin-right: 5px;"></button>
         <div class="dropdown-content">
-          <a href="index.html">English</a>
-          <a href="xpedia_ru.html">Русский</a>
-          <a href="xpedia_pl.html">Polski</a>
+          <a href="index.html#{id}">English</a>
+          <a href="xpedia_ru.html#{id}">Русский</a>
+          <a href="xpedia_pl.html#{id}">Polski</a>
         </div>
       </div>
-      <div class="navbar-item is-inline-block is-hidden">
+      <div class="navbar-item is-inline-block">
         <div class="field has-addons">
           <p class="control">
             <input
