@@ -37,7 +37,7 @@
     <td colspan="2" class="table-header">
       {rul.str("Armor")}
       {#if seeAlso.length > 0}
-        <span style="color:white">- see also</span>
+        <span style="color:white">- {rul.str("see also")}</span>
         <LinksList items={seeAlso} />
       {/if}
     </td>

@@ -70,4 +70,42 @@ ru:
   Hide: "Скрыть"
   all variants: "все варианты"
 
+ #Tables
+  Craft: "Судно"
+  Weapon: "Орудие"
+  Armor: "Броня"
+  see also: "см. также"
+  Show/Hide all variants: "Показать/Скрыть все варианты"
+  Item: "Предмет"
+  mode: "тип атаки"
+  Snap: "Навскидку"
+  Aimed: "Прицельный"
+  Auto: "Очередь"
+  Melee: "Ближний бой"
+  accuracy: "точность"
+  cost: "цена"
+  damage: "урон"
+  Launcher: "Установка"
+  Clip: "Боеприпасы"
+  Facility: "Сооружение"
+  Expand: "Показать"
+  Research: "Исследования"
+  Manufacture: "Производство"
+  Unit: "Персонаж"
+  Allowed Craft: "Допустимый транспорт"
+  Allowed Item Categories: "Допустимые категории снаряжения"
+  Allowed Armors: "Допустимая броня"
+  Allowed Vehicles: "Допустимая поддержка"
+  Deployments: "Миссии"
+ #Subheaders
+  dependencies: "Зависит от:" #STR_DEPENDS_ON
+  seeAlso: "Необходимо:" #STR_ITEM_REQUIRED
+  requiresBaseFunc: "Необходимые функции:" #STR_SERVICES_REQUIRED
+  freeFrom: "Получить бесплатно от:" #STR_GET_FOR_FREE_FROM
+  leadsTo: "Ведет к:" #STR_LEADS_TO
+  unlocks: "Открывает:" #STR_UNLOCKS
+  disables: "Блокирует:" #STR_DISABLES
+  getOneFree: "Дает бесплатно:" #STR_GIVES_ONE_FOR_FREE
+  manufacture: "Требуется для производства:" #STR_REQUIRED_BY(partly)
+  randomProducedItems: "Случайный результат" #STR_RANDOM_PRODUCTION_DISCLAIMER
   Facility: "Модуль базы"

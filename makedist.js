@@ -1,6 +1,6 @@
 const fs = require("fs");
 const rimraf = require("rimraf");
-const zipFolder = require('zip-a-folder');
+// const zipFolder = require('zip-a-folder');
 
 rimraf.sync("dist");
 fs.mkdirSync("dist");
@@ -10,6 +10,7 @@ fs.mkdirSync("dist/xpedia/Language");
 let files = [
   "xpedia/Language/ru.yml",
   "xpedia/Language/pl.yml",
+  "xpedia/Language/en-US.yml",
   "xpedia/bundle.js",
   "xpedia/bundle.css",
   "xpedia/global.css",

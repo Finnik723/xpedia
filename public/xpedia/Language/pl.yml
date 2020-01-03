@@ -69,7 +69,41 @@ pl:
   Show: "Pokaż"
   Hide: "Ukryj"
   all variants: "wszystkie warianty"
-
+ #Tables
+  Craft: "Statek"
+  Weapon: "Broń"
+  Armor: "Pancerz"
+  see also: "zobacz też"
+  Show/Hide all variants: "Pokaż/Ukryj wszystkie warianty"
+  Item: "Przedmiot"
+  mode: "typ ataku"
+  Snap: "Szybki"
+  Aimed: "Celowany"
+  Auto: "Seria"
+  Melee: "Cios"
+  accuracy: "celność"
+  cost: "koszt"
+  damage: "obrażenia"
+  Launcher: "Wyrzutnia"
+  Clip: "Amunicja"
   Facility: "Instalacja"
-
-
+  Expand: "Rozszerzać"
+  Research: "Badania"
+  Manufacture: "Produkcja"
+  Unit: "Jednostka"
+  Allowed Craft: "Dozwolone statki"
+  Allowed Item Categories: "Dozwolone kategorie przedmiotów"
+  Allowed Armors: "Dozwolone pancerze"
+  Allowed Vehicles: "Dozwolone pomocniki"
+  Deployments: "Misje"
+ #Subheaders
+  dependencies: "Wymaga:" #STR_DEPENDS_ON
+  seeAlso: "Przedmioty wymagane:" #STR_ITEM_REQUIRED
+  requiresBaseFunc: "Wymagane funkcje:" #STR_SERVICES_REQUIRED
+  freeFrom: "Za darmo od:" #STR_GET_FOR_FREE_FROM
+  leadsTo: "Prowadzi do:" #STR_LEADS_TO
+  unlocks: "Odblokowuje:" #STR_UNLOCKS
+  disables: "Wyłącza:" #STR_DISABLES
+  getOneFree: "Daje jedno za darmo:" #STR_GIVES_ONE_FOR_FREE
+  manufacture: "Wymagane do produkcji:" #STR_REQUIRED_BY(partly)
+  randomProducedItems: "Produkcja losowa" #STR_RANDOM_PRODUCTION_DISCLAIMER
