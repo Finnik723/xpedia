@@ -6,6 +6,7 @@ set mod_name=XComFiles
 set language_name=en-US
 set language_name1=ru
 set language_name2=pl
+set language_name0=ruleset
 
 
 set mod_rules_path=user\mods\%mod_name%\Ruleset
@@ -52,11 +53,11 @@ set pedia_header=xpedia\xpedia.html.header
 	echo | set /p langTag=langm-
 	type "%mod_language_path%"
 
-	echo | set /p langTag=langt-
-	type "%tech_language_path%"
+	rem echo | set /p langTag=langt-
+	rem type "%tech_language_path%"
 
-	rem echo | set /p langTag=langp-
-	rem type "%xpedia_language_path%"	
+	echo | set /p langTag=langp-
+	type "%xpedia_language_path%"	
 )
 
 
@@ -90,8 +91,8 @@ set pedia_header=xpedia\xpedia.html.header
 	echo | set /p langTag=langp-
 	type "%xpedia_language_path1%"	
 
-	echo | set /p langTag=langt-
-	type "%tech_language_path1%"
+	rem echo | set /p langTag=langt-
+	rem type "%tech_language_path1%"
 )
 
 
@@ -124,6 +125,26 @@ set pedia_header=xpedia\xpedia.html.header
 	echo | set /p langTag=langp-
 	type "%xpedia_language_path2%"		
 
-	echo | set /p langTag=langt-
-	type "%tech_language_path2%"
+	rem echo | set /p langTag=langt-
+	rem type "%tech_language_path2%"
+)
+
+>xpedia_ruleset.html (
+	type %pedia_header%
+
+	echo FILE: xpedia
+	echo {modName: %mod_name%}
+
+	for /r %vanilla_rules_path% %%F in (*.rul) do (
+		echo FILE: %%F
+		type "%%F"
+		echo.
+	)
+
+	for /r %mod_rules_path% %%F in (*.rul) do (
+		echo FILE: %%F
+		type "%%F"
+		echo.
+	)
+
 )

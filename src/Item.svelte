@@ -8,7 +8,7 @@
   import Value from "./Value.svelte";  
 
   export let item;
-  export let title = "Item"
+  export let title = rul.str("Item")
   let attacks
 
   function soundsFrom(sounds){
@@ -81,16 +81,16 @@
                     <!--<img class="sprite" use:ammoSprite style="position:relative;" alt="X" src={rul.sprite(attack.item.sprite)}/>-->                    
                   </td> 
                   <td colspan="2">
-                    <Link href={attack.item.type}/><br/><small>{rul.str("Clip:")} {attack.item.clipSize} {rul.str("Wgt:")}{attack.item.weight}</small>
+                    <Link href={attack.item.type}/><br/><small>{rul.str("Shots")}: {attack.item.clipSize} {rul.str("Wgt")}:{attack.item.weight}</small>
                   </td>
                 {/if}          
               {:else}
-                <td rowspan="2">{attack.name}{attack.shots==1?"":"×" + attack.shots}</td> 
+                <td rowspan="2">{rul.str(attack.name)}{attack.shots==1?"":"×" + attack.shots}</td> 
                 <td><nobr><em>{attack.accuracy}</em><small>%<br/><SpecialBonus bonus={attack.accuracyMultiplier}/></small></nobr></td>
                 <td>
-                <em>{attack.cost.time + (attack.flatTime?"":"%")}</em> <small>TU</small>                
+                <em>{attack.cost.time + (attack.flatTime?"":"%")}</em> <small>{rul.str("TU")}</small>                
                 {#each Object.keys(attack.cost) as res}
-                  {#if res != 'time' && attack.cost[res] != 0}<br/><Value val={attack.cost[res]}/>&nbsp;<small>{res}</small>{/if}
+                  {#if res != 'time' && attack.cost[res] != 0}<br/><Value val={attack.cost[res]}/>&nbsp;<small>{rul.str(res)}</small>{/if}
                 {/each}                
                 </td>
               {/if}          
@@ -106,11 +106,11 @@
               </td>
               </tr>
               <tr>
-              <td colspan="3" style="columns: 2;">
+              <td colspan="3" style="columns: 1;">
                 <small>
                 {#if attack.alter}            
                   {#each Object.keys(attack.alter).sort() as field, i}
-                    {field}:&nbsp;<Value val={attack.alter[field]}/><br/>
+                    {rul.str(field)}:&nbsp;<Value val={attack.alter[field]}/><br/>
                   {/each}
                 {/if}
                 </small>
@@ -143,7 +143,7 @@
         {:else if ['damageType', 'meleeType'].includes(key)}
           {rul.damageTypeName(prop)}
         {:else if key == 'battleType'}
-          {prop}: {rul.battleTypes[prop]}
+          {prop}: {rul.str(rul.battleTypes[prop])}
         {:else if key.includes("Sound")}
           {#each soundsFrom(prop) as sound, i}
             {@html i>0?"<br/>":""}

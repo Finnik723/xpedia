@@ -8374,11 +8374,11 @@ var app = (function () {
     			set_style(div, "display", "flex");
     			set_style(div, "align-items", "flex-start");
     			set_style(div, "margin", "5px 3px");
-    			add_location(div, file$6, 62, 6, 1488);
+    			add_location(div, file$6, 62, 6, 1497);
     			attr_dev(td, "colspan", "2");
     			attr_dev(td, "class", "svelte-14kmuch");
-    			add_location(td, file$6, 61, 9, 1464);
-    			add_location(tr, file$6, 61, 4, 1459);
+    			add_location(td, file$6, 61, 9, 1473);
+    			add_location(tr, file$6, 61, 4, 1468);
     		},
 
     		m: function mount(target, anchor) {
@@ -8477,10 +8477,10 @@ var app = (function () {
     				each_blocks[i].c();
     			}
     			attr_dev(td, "class", "svelte-14kmuch");
-    			add_location(td, file$6, 72, 12, 1970);
-    			add_location(thead, file$6, 66, 10, 1760);
+    			add_location(td, file$6, 72, 12, 1979);
+    			add_location(thead, file$6, 66, 10, 1769);
     			attr_dev(table, "class", "attacks-table");
-    			add_location(table, file$6, 65, 8, 1719);
+    			add_location(table, file$6, 65, 8, 1728);
     		},
 
     		m: function mount(target, anchor) {
@@ -8586,11 +8586,11 @@ var app = (function () {
     			td2 = element("td");
     			t4 = text(t4_value);
     			attr_dev(td0, "class", "svelte-14kmuch");
-    			add_location(td0, file$6, 68, 14, 1823);
+    			add_location(td0, file$6, 68, 14, 1832);
     			attr_dev(td1, "class", "svelte-14kmuch");
-    			add_location(td1, file$6, 69, 14, 1865);
+    			add_location(td1, file$6, 69, 14, 1874);
     			attr_dev(td2, "class", "svelte-14kmuch");
-    			add_location(td2, file$6, 70, 14, 1911);
+    			add_location(td2, file$6, 70, 14, 1920);
     		},
 
     		m: function mount(target, anchor) {
@@ -8622,7 +8622,7 @@ var app = (function () {
 
     // (87:14) {:else}
     function create_else_block_1(ctx) {
-    	var td0, t0_value = ctx.attack.name + "", t0, t1_value = ctx.attack.shots==1?"":"×" + ctx.attack.shots + "", t1, t2, td1, nobr, em0, t3_value = ctx.attack.accuracy + "", t3, small0, t4, br, t5, td2, em1, t6_value = ctx.attack.cost.time + (ctx.attack.flatTime?"":"%") + "", t6, t7, small1, t9, current;
+    	var td0, t0_value = rul.str(ctx.attack.name) + "", t0, t1_value = ctx.attack.shots==1?"":"×" + ctx.attack.shots + "", t1, t2, td1, nobr, em0, t3_value = ctx.attack.accuracy + "", t3, small0, t4, br, t5, td2, em1, t6_value = ctx.attack.cost.time + (ctx.attack.flatTime?"":"%") + "", t6, t7, small1, t8_value = rul.str("TU") + "", t8, t9, current;
 
     	var specialbonus = new SpecialBonus({
     		props: { bonus: ctx.attack.accuracyMultiplier },
@@ -8661,7 +8661,7 @@ var app = (function () {
     			t6 = text(t6_value);
     			t7 = space();
     			small1 = element("small");
-    			small1.textContent = "TU";
+    			t8 = text(t8_value);
     			t9 = space();
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
@@ -8669,17 +8669,17 @@ var app = (function () {
     			}
     			attr_dev(td0, "rowspan", "2");
     			attr_dev(td0, "class", "svelte-14kmuch");
-    			add_location(td0, file$6, 87, 16, 2837);
-    			add_location(em0, file$6, 88, 26, 2939);
-    			add_location(br, file$6, 88, 60, 2973);
-    			add_location(small0, file$6, 88, 52, 2965);
-    			add_location(nobr, file$6, 88, 20, 2933);
+    			add_location(td0, file$6, 87, 16, 2847);
+    			add_location(em0, file$6, 88, 26, 2958);
+    			add_location(br, file$6, 88, 60, 2992);
+    			add_location(small0, file$6, 88, 52, 2984);
+    			add_location(nobr, file$6, 88, 20, 2952);
     			attr_dev(td1, "class", "svelte-14kmuch");
-    			add_location(td1, file$6, 88, 16, 2929);
-    			add_location(em1, file$6, 90, 16, 3087);
-    			add_location(small1, file$6, 90, 71, 3142);
+    			add_location(td1, file$6, 88, 16, 2948);
+    			add_location(em1, file$6, 90, 16, 3106);
+    			add_location(small1, file$6, 90, 71, 3161);
     			attr_dev(td2, "class", "svelte-14kmuch");
-    			add_location(td2, file$6, 89, 16, 3065);
+    			add_location(td2, file$6, 89, 16, 3084);
     		},
 
     		m: function mount(target, anchor) {
@@ -8701,6 +8701,7 @@ var app = (function () {
     			append_dev(em1, t6);
     			append_dev(td2, t7);
     			append_dev(td2, small1);
+    			append_dev(small1, t8);
     			append_dev(td2, t9);
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
@@ -8711,7 +8712,7 @@ var app = (function () {
     		},
 
     		p: function update(changed, ctx) {
-    			if ((!current || changed.attacks) && t0_value !== (t0_value = ctx.attack.name + "")) {
+    			if ((!current || changed.attacks) && t0_value !== (t0_value = rul.str(ctx.attack.name) + "")) {
     				set_data_dev(t0, t0_value);
     			}
 
@@ -8731,7 +8732,7 @@ var app = (function () {
     				set_data_dev(t6, t6_value);
     			}
 
-    			if (changed.attacks) {
+    			if (changed.attacks || changed.rul) {
     				each_value_5 = Object.keys(ctx.attack.cost);
 
     				let i;
@@ -8863,7 +8864,7 @@ var app = (function () {
 
     // (93:18) {#if res != 'time' && attack.cost[res] != 0}
     function create_if_block_14(ctx) {
-    	var br, t0, small, t1_value = ctx.res + "", t1, current;
+    	var br, t0, small, t1_value = rul.str(ctx.res) + "", t1, current;
 
     	var value = new Value({
     		props: { val: ctx.attack.cost[ctx.res] },
@@ -8877,8 +8878,8 @@ var app = (function () {
     			t0 = text(" ");
     			small = element("small");
     			t1 = text(t1_value);
-    			add_location(br, file$6, 92, 62, 3296);
-    			add_location(small, file$6, 92, 104, 3338);
+    			add_location(br, file$6, 92, 62, 3328);
+    			add_location(small, file$6, 92, 104, 3370);
     		},
 
     		m: function mount(target, anchor) {
@@ -8895,7 +8896,7 @@ var app = (function () {
     			if (changed.attacks) value_changes.val = ctx.attack.cost[ctx.res];
     			value.$set(value_changes);
 
-    			if ((!current || changed.attacks) && t1_value !== (t1_value = ctx.res + "")) {
+    			if ((!current || changed.attacks) && t1_value !== (t1_value = rul.str(ctx.res) + "")) {
     				set_data_dev(t1, t1_value);
     			}
     		},
@@ -8992,7 +8993,7 @@ var app = (function () {
 
     // (78:16) {#if item.battleType != 2}
     function create_if_block_13(ctx) {
-    	var td0, t0, td1, br, small, t1_value = rul.str("Clip:") + "", t1, t2, t3_value = ctx.attack.item.clipSize + "", t3, t4, t5_value = rul.str("Wgt:") + "", t5, t6_value = ctx.attack.item.weight + "", t6, current;
+    	var td0, t0, td1, br, small, t1_value = rul.str("Shots") + "", t1, t2, t3_value = ctx.attack.item.clipSize + "", t3, t4, t5_value = rul.str("Wgt") + "", t5, t6, t7_value = ctx.attack.item.weight + "", t7, current;
 
     	var canvasimage = new CanvasImage({
     		props: {
@@ -9019,19 +9020,20 @@ var app = (function () {
     			br = element("br");
     			small = element("small");
     			t1 = text(t1_value);
-    			t2 = space();
+    			t2 = text(": ");
     			t3 = text(t3_value);
     			t4 = space();
     			t5 = text(t5_value);
-    			t6 = text(t6_value);
+    			t6 = text(":");
+    			t7 = text(t7_value);
     			attr_dev(td0, "rowspan", "2");
     			attr_dev(td0, "class", "ammo-img svelte-14kmuch");
-    			add_location(td0, file$6, 78, 18, 2180);
-    			add_location(br, file$6, 83, 51, 2639);
-    			add_location(small, file$6, 83, 56, 2644);
+    			add_location(td0, file$6, 78, 18, 2189);
+    			add_location(br, file$6, 83, 51, 2648);
+    			add_location(small, file$6, 83, 56, 2653);
     			attr_dev(td1, "colspan", "2");
     			attr_dev(td1, "class", "svelte-14kmuch");
-    			add_location(td1, file$6, 82, 18, 2570);
+    			add_location(td1, file$6, 82, 18, 2579);
     		},
 
     		m: function mount(target, anchor) {
@@ -9048,6 +9050,7 @@ var app = (function () {
     			append_dev(small, t4);
     			append_dev(small, t5);
     			append_dev(small, t6);
+    			append_dev(small, t7);
     			current = true;
     		},
 
@@ -9066,8 +9069,8 @@ var app = (function () {
     				set_data_dev(t3, t3_value);
     			}
 
-    			if ((!current || changed.attacks) && t6_value !== (t6_value = ctx.attack.item.weight + "")) {
-    				set_data_dev(t6, t6_value);
+    			if ((!current || changed.attacks) && t7_value !== (t7_value = ctx.attack.item.weight + "")) {
+    				set_data_dev(t7, t7_value);
     			}
     		},
 
@@ -9137,10 +9140,10 @@ var app = (function () {
     			t6 = space();
     			br = element("br");
     			link.$$.fragment.c();
-    			add_location(em, file$6, 97, 69, 3599);
-    			add_location(small, file$6, 98, 16, 3646);
-    			add_location(nobr, file$6, 97, 16, 3546);
-    			add_location(br, file$6, 103, 16, 3904);
+    			add_location(em, file$6, 97, 69, 3640);
+    			add_location(small, file$6, 98, 16, 3687);
+    			add_location(nobr, file$6, 97, 16, 3587);
+    			add_location(br, file$6, 103, 16, 3945);
     		},
 
     		m: function mount(target, anchor) {
@@ -9255,7 +9258,7 @@ var app = (function () {
     		},
 
     		p: function update(changed, ctx) {
-    			if (changed.attacks) {
+    			if (changed.attacks || changed.rul) {
     				each_value_4 = Object.keys(ctx.attack.alter).sort();
 
     				let i;
@@ -9313,7 +9316,7 @@ var app = (function () {
 
     // (112:18) {#each Object.keys(attack.alter).sort() as field, i}
     function create_each_block_4(ctx) {
-    	var t0_value = ctx.field + "", t0, t1, br, current;
+    	var t0_value = rul.str(ctx.field) + "", t0, t1, br, current;
 
     	var value = new Value({
     		props: { val: ctx.attack.alter[ctx.field] },
@@ -9326,7 +9329,7 @@ var app = (function () {
     			t1 = text(": ");
     			value.$$.fragment.c();
     			br = element("br");
-    			add_location(br, file$6, 112, 68, 4308);
+    			add_location(br, file$6, 112, 77, 4358);
     		},
 
     		m: function mount(target, anchor) {
@@ -9338,7 +9341,7 @@ var app = (function () {
     		},
 
     		p: function update(changed, ctx) {
-    			if ((!current || changed.attacks) && t0_value !== (t0_value = ctx.field + "")) {
+    			if ((!current || changed.attacks) && t0_value !== (t0_value = rul.str(ctx.field) + "")) {
     				set_data_dev(t0, t0_value);
     			}
 
@@ -9413,14 +9416,14 @@ var app = (function () {
     			if (if_block2) if_block2.c();
     			t2 = space();
     			attr_dev(td0, "class", "svelte-14kmuch");
-    			add_location(td0, file$6, 96, 14, 3474);
-    			add_location(tr0, file$6, 75, 12, 2069);
-    			add_location(small, file$6, 109, 16, 4111);
+    			add_location(td0, file$6, 96, 14, 3515);
+    			add_location(tr0, file$6, 75, 12, 2078);
+    			add_location(small, file$6, 109, 16, 4152);
     			attr_dev(td1, "colspan", "3");
-    			set_style(td1, "columns", "2");
+    			set_style(td1, "columns", "1");
     			attr_dev(td1, "class", "svelte-14kmuch");
-    			add_location(td1, file$6, 108, 14, 4057);
-    			add_location(tr1, file$6, 107, 14, 4037);
+    			add_location(td1, file$6, 108, 14, 4098);
+    			add_location(tr1, file$6, 107, 14, 4078);
     		},
 
     		m: function mount(target, anchor) {
@@ -9577,10 +9580,10 @@ var app = (function () {
     			if_block.c();
     			t1 = space();
     			attr_dev(td0, "class", "svelte-14kmuch");
-    			add_location(td0, file$6, 130, 8, 4707);
+    			add_location(td0, file$6, 130, 8, 4757);
     			attr_dev(td1, "class", "right-column svelte-14kmuch");
-    			add_location(td1, file$6, 131, 8, 4746);
-    			add_location(tr, file$6, 129, 6, 4693);
+    			add_location(td1, file$6, 131, 8, 4796);
+    			add_location(tr, file$6, 129, 6, 4743);
     		},
 
     		m: function mount(target, anchor) {
@@ -9700,11 +9703,11 @@ var app = (function () {
     			img = element("img");
     			set_style(a, "vertical-align", "top");
     			attr_dev(a, "href", a_href_value = rul.specialSprite(ctx.key, ctx.prop));
-    			add_location(a, file$6, 152, 10, 5809);
+    			add_location(a, file$6, 152, 10, 5868);
     			attr_dev(img, "class", "sprite svelte-14kmuch");
     			attr_dev(img, "alt", img_alt_value = ctx.prop);
     			attr_dev(img, "src", img_src_value = rul.specialSprite(ctx.key, ctx.prop));
-    			add_location(img, file$6, 153, 10, 5898);
+    			add_location(img, file$6, 153, 10, 5957);
     		},
 
     		m: function mount(target, anchor) {
@@ -9817,7 +9820,7 @@ var app = (function () {
 
     // (145:38) 
     function create_if_block_5(ctx) {
-    	var t0_value = ctx.prop + "", t0, t1, t2_value = rul.battleTypes[ctx.prop] + "", t2;
+    	var t0_value = ctx.prop + "", t0, t1, t2_value = rul.str(rul.battleTypes[ctx.prop]) + "", t2;
 
     	const block = {
     		c: function create() {
@@ -9837,7 +9840,7 @@ var app = (function () {
     				set_data_dev(t0, t0_value);
     			}
 
-    			if ((changed.item) && t2_value !== (t2_value = rul.battleTypes[ctx.prop] + "")) {
+    			if ((changed.item) && t2_value !== (t2_value = rul.str(rul.battleTypes[ctx.prop]) + "")) {
     				set_data_dev(t2, t2_value);
     			}
     		},
@@ -9958,7 +9961,7 @@ var app = (function () {
     				each_blocks[i].c();
     			}
     			attr_dev(table, "class", "number-table");
-    			add_location(table, file$6, 135, 10, 4963);
+    			add_location(table, file$6, 135, 10, 5013);
     		},
 
     		m: function mount(target, anchor) {
@@ -10088,7 +10091,7 @@ var app = (function () {
     			html_tag = new HtmlTag(raw_value, t0);
     			audio.controls = true;
     			attr_dev(audio, "src", audio_src_value = ctx.sound);
-    			add_location(audio, file$6, 149, 12, 5657);
+    			add_location(audio, file$6, 149, 12, 5716);
     		},
 
     		m: function mount(target, anchor) {
@@ -10133,12 +10136,12 @@ var app = (function () {
     			t = text(t_value);
     			td1 = element("td");
     			link.$$.fragment.c();
-    			add_location(em, file$6, 137, 20, 5062);
+    			add_location(em, file$6, 137, 20, 5112);
     			attr_dev(td0, "class", "svelte-14kmuch");
-    			add_location(td0, file$6, 137, 16, 5058);
+    			add_location(td0, file$6, 137, 16, 5108);
     			attr_dev(td1, "class", "svelte-14kmuch");
-    			add_location(td1, file$6, 137, 47, 5089);
-    			add_location(tr, file$6, 137, 12, 5054);
+    			add_location(td1, file$6, 137, 47, 5139);
+    			add_location(tr, file$6, 137, 12, 5104);
     		},
 
     		m: function mount(target, anchor) {
@@ -10281,8 +10284,8 @@ var app = (function () {
     			each_1_anchor = empty();
     			attr_dev(td, "colspan", "2");
     			attr_dev(td, "class", "table-header svelte-14kmuch");
-    			add_location(td, file$6, 59, 7, 1307);
-    			add_location(tr, file$6, 59, 2, 1302);
+    			add_location(td, file$6, 59, 7, 1316);
+    			add_location(tr, file$6, 59, 2, 1311);
     		},
 
     		l: function claim(nodes) {
@@ -10412,7 +10415,7 @@ var app = (function () {
     function instance$8($$self, $$props, $$invalidate) {
     	  
 
-      let { item, title = "Item" } = $$props;
+      let { item, title = rul.str("Item") } = $$props;
       let attacks;
 
       console.info(item);

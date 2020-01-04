@@ -4,7 +4,7 @@ const JSZip = require("./xpedia/jszip.min.js");
 let packed = false;
 
 let mod_name = "XComFiles";
-var laguages = ["en-US", "ru", "pl"];
+var laguages = ["en-US", "ru", "pl", "ruleset"];
 let saveAs;
 let header;
 let text;
@@ -24,7 +24,7 @@ laguages.forEach(function(item, index, array){
   let vanilla_rules_path = "standard/xcom1";
   let vanilla_language_path = "standard/xcom1/Language/" + language_name + ".yml";
   let pedia_lang_path = "xpedia/Language/" + language_name + ".yml";
-  let technical_lang_path = "common/Language/Technical/" + language_name + ".yml";
+  // let technical_lang_path = "common/Language/Technical/" + language_name + ".yml";
   let pedia_header = "xpedia/xpedia.html.header";
 
   let vanillaFiles = fs
@@ -50,15 +50,15 @@ laguages.forEach(function(item, index, array){
     all.push("FILE: " + f);
     all.push(fs.readFileSync(f));
   }
+  if (item != "ruleset") {
+    all.push("FILE: Language");
 
-  all.push("FILE: Language");
-
-  all.push("langv-" + fs.readFileSync(vanilla_language_path));
-  all.push("langm-" + fs.readFileSync(mod_language_path));
-  all.push("langt-" + fs.readFileSync(technical_lang_path));
-  if (item != "en-US") {
+    all.push("langv-" + fs.readFileSync(vanilla_language_path));
+    all.push("langm-" + fs.readFileSync(mod_language_path));
     all.push("langp-" + fs.readFileSync(pedia_lang_path));
+    // all.push("langt-" + fs.readFileSync(technical_lang_path));  
   }
+  
   
 
   text = all.join("\n");

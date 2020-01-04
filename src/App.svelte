@@ -208,6 +208,7 @@
             <a href="index.html#{id}">English</a>
             <a href="xpedia_ru.html#{id}">Русский</a>
             <a href="xpedia_pl.html#{id}">Polski</a>
+            <a href="xpedia_rul.html#{id}">Ruleset</a>
           </div>
         </div>
       </div>
@@ -263,6 +264,7 @@
           <a href="index.html#{id}">Eng</a>
           <a href="xpedia_ru.html#{id}">Рус</a>
           <a href="xpedia_pl.html#{id}">Pol</a>
+          <a href="xpedia_rul.html#{id}">Ruleset</a>
         </div>
       </div>
       <div class="navbar-item is-inline-block"
@@ -287,6 +289,7 @@
           <a href="index.html#{id}">English</a>
           <a href="xpedia_ru.html#{id}">Русский</a>
           <a href="xpedia_pl.html#{id}">Polski</a>
+          <a href="xpedia_rul.html#{id}">Ruleset</a>
         </div>
       </div>
       <div class="navbar-item is-inline-block">

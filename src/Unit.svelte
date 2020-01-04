@@ -11,7 +11,7 @@
 
 </script>
 
-  <tr> <td colspan="2" class="table-header">Unit</td> </tr>
+  <tr> <td colspan="2" class="table-header">{rul.str("Unit")}</td> </tr>
   {#each Object.entries(unit).sort((a, b) => (a[0] > b[0] ? 1 : -1)) as [key, prop]}
     {#if !['type', 'deathSound', 'scripts'].includes(key)}
       <tr>

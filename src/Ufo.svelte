@@ -11,7 +11,7 @@
 </script>
 
 <table class="main-table">
-  <tr> <td colspan="2" class="table-header">Craft</td> </tr>
+  <tr> <td colspan="2" class="table-header">{rul.str("Craft")}</td> </tr>
   {#each Object.entries(ufo).sort((a, b) => (a[0] > b[0] ? 1 : -1)) as [key, prop]}
     {#if !['type', 'battlescapeTerrainData', 'craftInventoryTile', 'deployment'].includes(key)}
       <tr>
@@ -24,7 +24,7 @@
             {#each Object.keys(prop).sort() as field, i}
               <tr><td>{rul.str(field)}</td><td>
                 {#each Object.keys(prop[field]).sort() as field2, i2}
-                  {field2}:&nbsp;<em><Link href={prop[field][field2]}/></em><br/>
+                  {rul.str(field2)}:&nbsp;<em><Link href={prop[field][field2]}/></em><br/>
                 {/each}              
               </td></tr>
             {/each}
