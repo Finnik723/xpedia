@@ -23,8 +23,8 @@ ru:
   Query too short: "Слишком короткий запрос"
   Nothing found: "Ничего не найдено"
 
-  #Tables
-  #Vessels
+
+ #Vessels
   Craft: "Судно"
   accel: "Ускорение"
   allowLanding: "Может приземляться?"
@@ -68,6 +68,7 @@ ru:
   shieldDamageModifier: "Процент урона щитам"
   sound: "Звук выстрела"
   weaponType: "Тип орудия"
+  powerBonus: "Бонус к урону"
   
   Launcher: "Установка"
   Clip: "Боеприпасы"
@@ -75,7 +76,7 @@ ru:
   alertSound: "Сигнал тревоги"
   breakOffTime: "Время до попытки бегства"
   craftCustomDeploy: "Особые правила судна"
-  hitBonus:: "Бонус к точности"
+  hitBonus: "Бонус к точности"
   huntBehavior: "Поведение перехватчика"
   huntMode: "Предпочтительные цели"
   hunterKillerPercentage: "Вероятность оказаться перехватчиком"
@@ -85,7 +86,7 @@ ru:
   raceBonus: "Бонусы от экипажа"
   reload: "Перезарядка"
 
-  #Armors
+ #Armors
   Armor: "Броня"
   see also: "см. также"
   Show: "Показать"
@@ -163,7 +164,7 @@ ru:
   visibilityAtDay: "Дальность обзора днем"
   zombiImmune: "Иммунитет к зомбификации?"
 
-  #Items
+ #Items
   Item: "Предмет"
   mode: "Тип атаки"
   Snap: "Навскидку"
@@ -177,8 +178,11 @@ ru:
   damage: "Урон"
   Shots: "Выстрелов"
   Wgt: "Масса"
+  specialUseEmptyHand: "Используется вместо оружия"
+  costMindControl: "Стоимость для контроля над разумом"
+  costPanic: "Стоимость атаки Паника"
 
-  # Item categories 0-11 w/o Melee
+ # Item categories 0-11 w/o Melee
   None (Geoscape-only item): "Нет (предмет только для глобуса)"
   Firearm: "Стрелковое оружие"
   Ammo: "Боеприпасы"
@@ -325,7 +329,7 @@ ru:
   weight: "Масса"
   woundRecovery: "Исцеление фатальных ран"
 
-  #Facilities
+ #Facilities
   Facility: "Сооружение"
   Expand: "Показать"
   mapName: "Мэп-блок"
@@ -355,8 +359,12 @@ ru:
   sickBayRelativeBonus: "Бонус к скорости лечения (относительный)"
   leavesBehindOnSell: "Что остается после сноса?"
   removalTime: "Дней на снос"
+  grav: "Гравитационный щит?"
+  hyper: "Гиперволновой декодер?"
+  crafts: "Емкость ангара"
+  buildOverFacilities: "Может быть построен на"
 
-  #Other tables
+ #Other tables
   Research: "Исследования"
   points: "Приращение рейтинга"
   lookup: "Отчет"

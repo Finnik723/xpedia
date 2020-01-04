@@ -2,10 +2,9 @@ en-US:
  # UI
   true: "TRUE"
   false: "FALSE"
-
-#Tables
   listOrder: "List Order"
-  #Vessels
+
+ #Vessels
   accel: "Acceleration"
   allowLanding: "Landing allowed?"
   avoidBonus: "Avoidance bonus"
@@ -47,11 +46,12 @@ en-US:
   shieldDamageModifier: "Shield damage modifier"
   sound: "Firing sound"
   weaponType: "Weapon type"
+  powerBonus: "Power bonus"
 
   alertSound: "Alert sound"
   breakOffTime: "Break-off time"
   craftCustomDeploy: "UFO site deployment"
-  hitBonus:: "Hit bonus"
+  hitBonus: "Hit bonus"
   huntBehavior: "Hunt behavior"
   huntMode: "Hunt mode"
   hunterKillerPercentage: "Hunter-killer chance"
@@ -61,7 +61,7 @@ en-US:
   raceBonus: "Crew bonus"
   reload: "Reload time"
 
-  #Armors
+ #Armors
   armor: "Armor"
   damageModifier: "Damage modifiers"
 
@@ -130,13 +130,16 @@ en-US:
   visibilityAtDay: "Visibility at day"
   zombiImmune: "Immune to zombifying?"
 
-  #Items
+ #Items
   mode: "Attack type"
   accuracy: "Accuracy"
   cost: "Cost"
   energy: "Energy"
   damage: "Damage"
   Wgt: "Weight"
+  specialUseEmptyHand: "Used in empty hand"
+  costMindControl: "Cost for Mind Control"
+  costPanic: "Cost for Panic Attack"
 
   ArmorEffectiveness: "Armor effectiveness"
   FireBlastCalc: "Vanilla fire effects?"
@@ -272,7 +275,7 @@ en-US:
   weight: "Weight"
   woundRecovery: "Wound healing"
 
-  #Facilities
+ #Facilities
   mapName: "Mapblock"
   missileAttraction: "Bombardment priority"
   monthlyCost: "Monthly maintenance"
@@ -300,8 +303,13 @@ en-US:
   sickBayRelativeBonus: "Healing speed bonus (relative)"
   leavesBehindOnSell: "Leaves after dismantle"
   removalTime: "Days for dismantle"
+  grav: "Grav defence?"
+  hyper: "Hyperwave decoder?"
+  crafts: "Crafts capacity"
+  buildOverFacilities: "Build Over Facilities"
 
-  #Other tables
+
+ #Other tables
   # Research
   points: "Infamy points"
   lookup: "Report"

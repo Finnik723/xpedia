@@ -23,8 +23,7 @@ pl:
   Query too short: "Zapytanie za krótkie"
   Nothing found: "Nic nie znaleziono"
 
- #Tables
-  #Vessels
+ #Vessels
   Craft: "Statek"
   accel: "Przyspieszenie"
   allowLanding: "Może lądować?"
@@ -68,6 +67,7 @@ pl:
   shieldDamageModifier: "Modyfikator uszkodzeń tarcz"
   sound: "Odgłos strzału"
   weaponType: "Typ broni"
+  powerBonus: "powerBonus" #!
 
   Launcher: "Wyrzutnia"
   Clip: "Amunicja"
@@ -85,7 +85,7 @@ pl:
   raceBonus: "Premia dla załogi"
   reload: "Czas przeładowania"
 
-  #Armors
+ #Armors
   Armor: "Pancerz"
   see also: "zobacz też"
   Show: "Pokaż"
@@ -163,7 +163,7 @@ pl:
   visibilityAtDay: "Dzienne widzenie"
   zombiImmune: "Niewrażliwość na zombifikację?"
 
-  #Items
+ #Items
   Item: "Przedmiot"
   mode: "Typ ataku"
   Snap: "Szybki"
@@ -177,8 +177,11 @@ pl:
   damage: "Obrażenia"
   Shots: "Strzałów"
   Wgt: "Waga"
+  specialUseEmptyHand: "Used in empty hand" #!
+  costMindControl: "Cost for Mind Control" #!
+  costPanic: "Cost for Panic Attack" #!
 
-  # Item categories 0-11 w/o Melee
+ #Item categories 0-11 w/o Melee
   None (Geoscape-only item): "Brak (przedmiot tylko na Ekranie Ziemi)"
   Firearm: "Broń strzelecka"
   Ammo: "Amunicja"
@@ -325,7 +328,7 @@ pl:
   weight: "Waga"
   woundRecovery: "Liczba uleczonych ran"
 
-  #Facilities
+ #Facilities
   Facility: "Instalacja"
   Expand: "Rozszerzać"
   mapName: "Nazwa mapy"
@@ -355,8 +358,12 @@ pl:
   sickBayRelativeBonus: "Premia do rekonwalescencji (% Zdrowia/dzień)"
   leavesBehindOnSell: "Co zostaje po zburzeniu"
   removalTime: "Czas wyburzania"
+  grav: "Гравитационный щит?" #!
+  hyper: "Hyperwave decoder?" #!
+  buildOverFacilities: "Build Over Facilities" #!
 
-  #Other tables
+
+ #Other tables
   Research: "Badania"
   points: "Niesława"
   lookup: "Przekierowanie"
