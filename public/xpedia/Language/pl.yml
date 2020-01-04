@@ -39,7 +39,7 @@ pl:
   refuelItem: "Rodzaj paliwa"
   refuelRate: "Szybkość tankowania"
   repairRate: "Szybkość naprawy"
-  score: "Punktacja (- dla maszyn gracza)"
+  score: "Punktacja (- dla maszyn X-Comu)"
   shieldBleedThrough: "Współczynnik przełamania tarcz"
   shieldCapacity: "Moc tarcz"
   shieldRecharge: "Regeneracja tarcz (w walce)"
@@ -49,7 +49,7 @@ pl:
   speedMax: "Prędkość maksymalna"
   sprite: "Duszek"
   startingConditions: "Warunki początkowe"
-  vehicles: "Pomocniki"
+  vehicles: "CDS"
   weaponStrings: "Nazwy broni"
   weaponTypes: "Dozwolone typy broni"
   weapons: "Broń"
@@ -67,7 +67,7 @@ pl:
   shieldDamageModifier: "Modyfikator uszkodzeń tarcz"
   sound: "Odgłos strzału"
   weaponType: "Typ broni"
-  powerBonus: "powerBonus" #!
+  powerBonus: "Premia do siły"
 
   Launcher: "Wyrzutnia"
   Clip: "Amunicja"
@@ -76,8 +76,8 @@ pl:
   breakOffTime: "Czas do ucieczki"
   craftCustomDeploy: "Alternatywna załoga statku"
   hitBonus:: "Premia do trafienia"
-  huntBehavior: "Żyłka myśliwska"
-  huntMode: "Ulubiona zwierzyna"
+  huntBehavior: "Tryb łowcy"
+  huntMode: "Profil celów"
   hunterKillerPercentage: "Szansa na bycie łowcą"
   missionCustomDeploy: "Alternatywna załoga misji"
   missionScore: "Punktacja za misję"
@@ -95,15 +95,15 @@ pl:
   Front: "Przedni"
   Rear: "Tylny"
   Side: "Boczny"
-  Under: "Niższy"
+  Under: "Dolny"
   damageModifier: "Modyfikatory obrażeń"
 
   stats: "Współczynniki"
   bravery: "Odwaga"
   firing: "Strzelanie"
   melee: "Walka wręcz"
-  psiSkill: "Zestrojenie z wudu"
-  psiStrength: "Moc wudu"
+  psiSkill: "Zdolność psioniczna"
+  psiStrength: "Siła psioniczna"
   reactions: "Refleks"
   stamina: "Kondycja"
   strength: "Siła"
@@ -116,7 +116,7 @@ pl:
   flatOne: "*1"
   health: "Zdrowie"
   healthCurrent: "Aktualne Zdrowie"
-  manaNormalized: "Znormalizowana Świeżość"
+  manaNormalized: "Znormalizowana Gotowość"
   morale: "Morale"
   moraleCurrent: "Aktualne Morale"
   stun: "Oszołomienie"
@@ -151,8 +151,8 @@ pl:
   overKill: "Próg odparowania"
   painImmune: "Niewrażliwość na oszołomienie?"
   personalLight: "Światła"
-  psiDefence: "Obrona przed wudu"
-  psiVision: "ZMYSŁ"
+  psiDefence: "Obrona przed psi"
+  psiVision: "Zmysł psi"
   specialWeapon: "Broń specjalna"
   spriteSheet: "Atlas duszka"
   storeItem: "Składowane jako"
@@ -177,9 +177,9 @@ pl:
   damage: "Obrażenia"
   Shots: "Strzałów"
   Wgt: "Waga"
-  specialUseEmptyHand: "Used in empty hand" #!
-  costMindControl: "Cost for Mind Control" #!
-  costPanic: "Cost for Panic Attack" #!
+  specialUseEmptyHand: "Dostęp z pustej dłoni"
+  costMindControl: "Koszt kontroli umysłu"
+  costPanic: "Koszt wywołania paniki"
 
  #Item categories 0-11 w/o Melee
   None (Geoscape-only item): "Brak (przedmiot tylko na Ekranie Ziemi)"
@@ -270,7 +270,7 @@ pl:
   healthRecovery: "Zdrowie za każdą uleczoną ranę"
   hitAnimation: "Animacja trafienia"
   hitSound: "Odgłos trafienia"
-  ignoreInBaseDefense: "Pomijane w obronie kryjówki?"
+  ignoreInBaseDefense: "Pomijane w obronie bazy?"
   invHeight: "Wysokość w ekwipunku"
   invWidth: "Szerokość w ekwipunku"
   isConsumable: "Zużywa się?"
@@ -278,7 +278,7 @@ pl:
   kneelBonus: "Mnożnik celności w przyklęku, %"
   listOrder: "Numer ewidencyjny"
   liveAlien: "Żywe?"
-  manaRecovery: "Regeneracja Świeżości"
+  manaRecovery: "Regeneracja Gotowości"
   maxRange: "Zasięg maksymalny"
   medikitTargetMatrix: "Matryca możliwych celów apteczki"
   medikitTargetSelf: "Można użyć na sobie?"
@@ -303,8 +303,8 @@ pl:
   primeActionMessage: "Komunikat przy odbezpieczaniu"
   primeActionName: "Nazwa czynności odbezpieczania"
   prisonType: "Rodzaj więzienia"
-  recover: "Łup?"
-  recoveryPoints: "Niesława za zagrabienie"
+  recover: "Przejmowalne?"
+  recoveryPoints: "Punkty za przejęcie"
   reloadSound: "Odgłos przeładowania"
   requires: "Odkrycia wymagane do obsługi"
   requiresBuy: "Odkrycia wymagane do zakupu"
@@ -330,7 +330,7 @@ pl:
 
  #Facilities
   Facility: "Instalacja"
-  Expand: "Rozszerzać"
+  Expand: "Rozbudowa"
   mapName: "Nazwa mapy"
   missileAttraction: "Podatność na zbombardowanie"
   monthlyCost: "Koszty miesięczne"
@@ -341,31 +341,31 @@ pl:
   spriteFacility: "Duszek 1x1"
   spriteShape: "Duszek wielodzielny"
   personnel: "Kwatery mieszkalne"
-  storageTiles: "Gdzie leży towar"
-  labs: "Stanowiska dla rozkminiaczek"
+  storageTiles: "Obszary skadowania"
+  labs: "Stanowiska naukowe"
   provideBaseFunc: "Funkcje specjalne budynku"
   rightClickActionType: "Funkcja PPM"
   storage: "Przestrzeń magazynowa"
-  maxAllowedPerBase: "Do ilu na kryjówkę"
-  workshops: "Stanowiska dla dłubaczek"
+  maxAllowedPerBase: "Do ilu na bazę"
+  workshops: "Stanowiska robocze"
   defense: "Siła obrony"
   hitRatio: "Celność obrony"
   buildCostItems: "Materiały"
-  psiLabs: "Stanowiska do nauki wudu"
-  aliens: "Ilu wchodzi więźniów"
+  psiLabs: "Stanowisk do treningu psi"
+  aliens: "Cel dla więźniów"
   trainingRooms: "Ilu tu może trenować"
   sickBayAbsoluteBonus: "Premia do rekonwalescencji (Zdrowie/dzień)"
   sickBayRelativeBonus: "Premia do rekonwalescencji (% Zdrowia/dzień)"
   leavesBehindOnSell: "Co zostaje po zburzeniu"
   removalTime: "Czas wyburzania"
-  grav: "Гравитационный щит?" #!
-  hyper: "Hyperwave decoder?" #!
-  buildOverFacilities: "Build Over Facilities" #!
+  grav: "Tarcza grawitacyjna?"
+  hyper: "Dekoder hiperfal?" 
+  buildOverFacilities: "Budynki które może zastąpić"
 
 
  #Other tables
   Research: "Badania"
-  points: "Niesława"
+  points: "Punkty"
   lookup: "Przekierowanie"
   needItem: "Wymaga przedmiotu?"
   destroyItem: "Przedmiot przepadnie?"
@@ -378,7 +378,7 @@ pl:
   requiredItems: "Potrzebne zasoby"
   space: "Wymagana dodatkowa przestrzeń robocza"
   time: "Czas produkcji"
-  spawnedPersonType: "Kto się przyłącza"
+  spawnedPersonType: "Kto przybywa"
 
   Unit: "Jednostka"
   aggression: "Agresja"
@@ -398,17 +398,17 @@ pl:
   specab: "Zdolność specjalna"
   spotter: "Zwiadowca (w turach)"
   standHeight: "Wzrost"
-  value: "Wartość w Niesławie"
+  value: "Wartość w punktach"
 
-  Allowed crafts: "Dozwolone statki"
+  Allowed crafts: "Dozwolone pojazdy"
   Allowed item categories: "Dozwolone kategorie przedmiotów"
   Allowed armors: "Dozwolone pancerze"
-  Allowed auxilia: "Dozwolone pomocniki"
+  Allowed auxilia: "Dozwolone CDS-y"
   Deployments: "Misje"
  #Subheaders
   dependencies: "Wymagane odkrycia:" #STR_DEPENDS_ON
   seeAlso: "Wymagane przedmioty:" #STR_ITEM_REQUIRED
-  requiresBaseFunc: "Wymagane funkcje kryjówki:" #STR_SERVICES_REQUIRED
+  requiresBaseFunc: "Wymagane funkcje bazy:" #STR_SERVICES_REQUIRED
   freeFrom: "Za darmo od:" #STR_GET_FOR_FREE_FROM
   leadsTo: "Prowadzi do:" #STR_LEADS_TO
   unlocks: "Odblokowuje:" #STR_UNLOCKS
