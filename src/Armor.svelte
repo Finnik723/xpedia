@@ -90,7 +90,7 @@
                     colspan="2"
                     class="number-table-header"
                     style="text-align:center;">
-                    {@html rul.decamelize(prop)}
+                    {@html rul.str(prop)}
                   </td>
                 </tr>
               </thead>
@@ -102,7 +102,7 @@
                     {#if prop == 'damageModifier'}
                       <Link href={rul.damageTypes[key]} />
                     {:else}
-                      <nobr>{rul.decamelize(key)}</nobr>
+                      <nobr>{rul.str(key)}</nobr>
                     {/if}
                   </td>
                   <td>
@@ -111,15 +111,15 @@
                         {#if j != 0}
                           <br />
                         {/if}
-                        {@html rul.decamelize(subfield)}
+                        {@html rul.str(subfield)}
                         :
                         <em>
-                          {@html rul.decamelize(val[subfield])}
+                          {@html rul.str(val[subfield])}
                         </em>
                       {/each}
                     {:else}
                       <em>
-                        {@html prop == 'damageModifier' ? Math.floor(val * 100) : rul.decamelize(val)}
+                        {@html prop == 'damageModifier' ? Math.floor(val * 100) : rul.str(val)}
                       </em>
                     {/if}
                   </td>
@@ -138,7 +138,7 @@
     {#if !['recovery', 'type', 'layersDefinition', 'spriteFaceColor', 'spriteHairColor', 'spriteUtileColor', 'spriteFaceGroup', 'spriteHairGroup', 'spriteUtileGroup', 'customArmorPreviewIndex', 'dollSprites', 'layersDefaultPrefix', 'frontArmor', 'sideArmor', 'rearArmor', 'underArmor', 'spriteInv', 'scripts', 'armor', 'damageModifier', 'stats'].includes(key)}
       <tr>
         <td>
-          {@html rul.decamelize(key)}
+          {@html rul.str(key)}
         </td>
         <td>
           {#if key == 'damageModifier'}

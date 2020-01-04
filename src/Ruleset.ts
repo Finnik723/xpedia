@@ -862,7 +862,7 @@ export default class Ruleset {
       if (research.lookup && research.name == research.lookup) {
         console.warn(research.lookup + " lookup is to itself");
       }
-      if (research.lookup && research.name != research.lookup) {
+      if (research.lookup && research.name != research.lookup && this.research[research.lookup]) {
         let lookup = this.research[research.lookup];
         lookup.seeAlso = lookup.seeAlso || [];
         lookup.seeAlso.push(research.name);

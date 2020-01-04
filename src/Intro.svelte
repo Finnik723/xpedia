@@ -33,7 +33,7 @@
       </div>
     </div>
 
-    <h4>{rul.str("Current mod version is")} 1.0.2</h4>
+    <!-- <h4>{rul.str("Current mod version is")} 1.0.2</h4>
     <div class="changelog">
       {rul.str("Changelog")}:
       <ul class="changelog">
@@ -48,105 +48,132 @@
         <li>{rul.str("Fixed one Battleship map.")}</li>
         <li>{rul.str("Minor terrain fixes.")}</li>
       </ul>
-    </div>
+    </div> -->
+
+
     <h1>{rul.str("Latest News")}</h1>
+      <div>
+        <article class="media">
+          <figure class="media-left">
+            <p class="image is-128x128">
+              <img style="margin-top: 20px" alt="launch" src="https://image.flaticon.com/icons/svg/993/993707.svg">
+            </p>
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <small>23/11/2019</small>
+              <p class="title" style="margin-bottom: 10px">{rul.str("Marching On")}</p>
 
-    <div>
-
-      <article class="media">
-        <figure class="media-left">
-          <p class="image is-128x128">
-            <img style="margin-top: 20px" alt="launch" src="https://image.flaticon.com/icons/svg/1008/1008766.svg">
-          </p>
-        </figure>
-        <div class="media-content">
-          <div class="content">
-            <small>23/11/2019</small>
-            <p class="title" style="margin-bottom: 10px">{rul.str("Dehobbesation")}</p>
-
-            <div>
-              <p>
-                {rul.str("Last week Hobbes - the author of some of the maps used in XCF (and many other mods) - demanded to stop using them. We've decided to temporarily limit the possibility of downloading the mod. Currently, all controversial content is removed and we are actively replacing it by original content. The positive side of the situation is an opportunity to rethink the existing maps and make them really interesting. We plan to release a new version as soon as possible, follow the news!")}
-              </p>
+              <div>
+                <p>
+                  {rul.str("Our project continues to develop vigorously!")}<br />
+                  - {rul.str("Versions of the mod, starting from 1.1, are free from controversial content. In order to preserve the same diversity, original tactical maps continue to be created. And, of course, the mod content in general continues to develop, more balance and error fixes has been presented.")}<br />
+                  - {rul.str("We continue to develop our Wiki - added extended localization (thanks to Kato for help) and long-awaited search function (big thanks to Baturinsky for fixing a bug in the site engine). Also fixed bug in displaying armor articles.")}<br />
+                  - {rul.str("We are developing a community of modders, guiding and inspiring newcomers. Solarius Scorch has released the first version of his map creation guide, and on our Twitch channel we stream modding.")}
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-      </article>
-      <br>
-    </div>
-
-    <h1> </h1>
-
-    <div>
-
-      <article class="media">
-        <figure class="media-left">
-          <p class="image is-128x128">
-            <img style="margin-top: 20px" alt="launch" src="https://image.flaticon.com/icons/svg/2254/2254743.svg">
-          </p>
-        </figure>
-        <div class="media-content">
-          <div class="content">
-            <small>23/11/2019</small>
-            <p class="title" style="margin-bottom: 10px">{rul.str("The truth is... right here!")}</p>
-
-            <div>
-              <p>
-                {rul.str("Our site starting its work. Now you can find here fresh news and xpedia for our mod powered by")} <a
-                  href="https://github.com/baturinsky/xpedia/">Baturinsky's XPedia</a>.
-              </p>
-            </div>
-          </div>
-        </div>
-      </article>
-      <br>
-    </div>
-
-    <h1> </h1>
-
-    <div>
-      <article class="media">
-        <figure class="media-left">
-          <p class="image is-128x128">
-            <img style="margin-top: 20px" alt="1.0Release" src="https://image.flaticon.com/icons/svg/2254/2254616.svg">
-          </p>
-        </figure>
-        <div class="media-content">
-          <div class="content">
-            <small>03/11/2019</small>
-            <p class="title" style="margin-bottom: 10px">{rul.str("Version 1.0 released!")}</p>
-
-            <div>
-              <p>
-                "{rul.str("Now, this doesn't at all mean that this is the end. I will continue releasing new versions just like before, at least for the foreseeable future... The 1.0 only means that I am satisfied with how the mod works now and consider it 'done' enough to say so.")}"
-              </p>
-              <small>
-                – Solarius Scorch, {rul.str("mod author, lead designer")}.
-              </small>
-              <br>
-              <br>
-              <button class="watchbtn" onclick="window.open('https://youtu.be/hFKEFMyEcQU')">
-                <img class="watchbtnicon" src="https://image.flaticon.com/icons/svg/419/419211.svg" alt="youtube">
-                <div class="is-inline-block" style="margin-top: auto; margin-bottom: auto">
-                  {rul.str("Watch Dev's Talk - 1.0 release")}
-                </div>
-              </button>
-      </article>
-      <br>
-
-      <div class="changelog">
-        {rul.str("Main additions")}:
-        <ul class="changelog">
-          <li>{rul.str("Updated to OXCE 6.1.1")}.</li>
-          <li>{rul.str("New features")}: {rul.str("random events, commendations (with bonuses), enhancement treatments; basic agent stats lowered for balance.")}</li>
-          <li>{rul.str("New stat")}: {rul.str("Readiness, and associated exhaustion mechanics.")}</li>
-          <li>{rul.str("New alien race")}: {rul.str("Chaser.")}</li>
-          <li>{rul.str("Overhaul of agent advancement mechanics.")}</li>
-          <li>{rul.str("New missions, units, items, balance fixes and musch more! For detail info see")} <a
-              href="https://openxcom.org/forum/index.php/topic,5427.0.html">{rul.str("full changelog")}</a>.</li>
-        </ul>
+        </article>
+        <br>
       </div>
-    </div>
+
+      <h1> </h1>
+
+      <div>
+        <article class="media">
+          <figure class="media-left">
+            <p class="image is-128x128">
+              <img style="margin-top: 20px" alt="launch" src="https://image.flaticon.com/icons/svg/1008/1008766.svg">
+            </p>
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <small>23/11/2019</small>
+              <p class="title" style="margin-bottom: 10px">{rul.str("Dehobbesation")}</p>
+
+              <div>
+                <p>
+                  {rul.str("Last week Hobbes - the author of some of the maps used in XCF (and many other mods) - demanded to stop using them. We've decided to temporarily limit the possibility of downloading the mod. Currently, all controversial content is removed and we are actively replacing it by original content. The positive side of the situation is an opportunity to rethink the existing maps and make them really interesting. We plan to release a new version as soon as possible, follow the news!")}
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <br>
+      </div>
+
+      <h1> </h1>
+
+      <div>
+
+        <article class="media">
+          <figure class="media-left">
+            <p class="image is-128x128">
+              <img style="margin-top: 20px" alt="launch" src="https://image.flaticon.com/icons/svg/2254/2254743.svg">
+            </p>
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <small>23/11/2019</small>
+              <p class="title" style="margin-bottom: 10px">{rul.str("The truth is... right here!")}</p>
+
+              <div>
+                <p>
+                  {rul.str("Our site starting its work. Now you can find here fresh news and xpedia for our mod powered by")} <a
+                    href="https://github.com/baturinsky/xpedia/">Baturinsky's XPedia</a>.
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <br>
+      </div>
+
+      <h1> </h1>
+
+      <div>
+        <article class="media">
+          <figure class="media-left">
+            <p class="image is-128x128">
+              <img style="margin-top: 20px" alt="1.0Release" src="https://image.flaticon.com/icons/svg/2254/2254616.svg">
+            </p>
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <small>03/11/2019</small>
+              <p class="title" style="margin-bottom: 10px">{rul.str("Version 1.0 released!")}</p>
+
+              <div>
+                <p>
+                  "{rul.str("Now, this doesn't at all mean that this is the end. I will continue releasing new versions just like before, at least for the foreseeable future... The 1.0 only means that I am satisfied with how the mod works now and consider it 'done' enough to say so.")}"
+                </p>
+                <small>
+                  – Solarius Scorch, {rul.str("mod author, lead designer")}.
+                </small>
+                <br>
+                <br>
+                <button class="watchbtn" onclick="window.open('https://youtu.be/hFKEFMyEcQU')">
+                  <img class="watchbtnicon" src="https://image.flaticon.com/icons/svg/419/419211.svg" alt="youtube">
+                  <div class="is-inline-block" style="margin-top: auto; margin-bottom: auto">
+                    {rul.str("Watch Dev's Talk - 1.0 release")}
+                  </div>
+                </button>
+        </article>
+        <br>
+        <div class="changelog">
+          {rul.str("Main additions")}:
+          <ul class="changelog">
+            <li>{rul.str("Updated to OXCE 6.1.1")}.</li>
+            <li>{rul.str("New features")}: {rul.str("random events, commendations (with bonuses), enhancement treatments; basic agent stats lowered for balance.")}</li>
+            <li>{rul.str("New stat")}: {rul.str("Readiness, and associated exhaustion mechanics.")}</li>
+            <li>{rul.str("New alien race")}: {rul.str("Chaser.")}</li>
+            <li>{rul.str("Overhaul of agent advancement mechanics.")}</li>
+            <li>{rul.str("New missions, units, items, balance fixes and musch more! For detail info see")} <a
+                href="https://openxcom.org/forum/index.php/topic,5427.0.html">{rul.str("full changelog")}</a>.</li>
+          </ul>
+        </div>
+      </div>
 
     <div>
       <h1>{rul.str("Support project")}</h1>
@@ -203,7 +230,7 @@
     <br />
   </div>
 
-  <!--sidebar-->
+<!--sidebar-->
   <div class="column is-hidden-touch is-3-desktop">
     <button title="Download" class="downloadbtn"
       onclick=" window.open('https://openxcom.mod.io/the-x-com-files', '_blank'); return false;">{rul.str("Download")}</button>

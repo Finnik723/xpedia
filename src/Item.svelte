@@ -66,11 +66,11 @@
         <table class="attacks-table">
           <thead>
             {#if item.battleType != 2}
-              <td>mode</td>
-              <td>accuracy</td>
-              <td>cost</td>
+              <td>{rul.str("mode")}</td>
+              <td>{rul.str("accuracy")}</td>
+              <td>{rul.str("cost")}</td>
             {/if}
-            <td>damage</td>
+            <td>{rul.str("damage")}</td>
           </thead>
           {#each attacks as attack}
             <tr>
@@ -81,7 +81,7 @@
                     <!--<img class="sprite" use:ammoSprite style="position:relative;" alt="X" src={rul.sprite(attack.item.sprite)}/>-->                    
                   </td> 
                   <td colspan="2">
-                    <Link href={attack.item.type}/><br/><small>Clip: {attack.item.clipSize} Wgt: {attack.item.weight}</small>
+                    <Link href={attack.item.type}/><br/><small>{rul.str("Clip:")} {attack.item.clipSize} {rul.str("Wgt:")}{attack.item.weight}</small>
                   </td>
                 {/if}          
               {:else}
@@ -128,7 +128,7 @@
   {#each Object.entries(item).sort((a,b) => a[0]>b[0]?1:-1) as [key, prop]}
     {#if !['sprite', 'type', '_attacks', 'damageAlter'].includes(key)}
       <tr>
-        <td>{@html rul.decamelize(key)}</td>
+        <td>{@html rul.str(key)}</td>
         <td class="right-column">
         {#if ['requiresBuyBaseFunc' ].includes(key)}
             <BaseServiceList items={prop} vertical={true}/>

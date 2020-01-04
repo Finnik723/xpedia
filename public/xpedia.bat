@@ -26,7 +26,7 @@ set xpedia_language_path1=xpedia\Language\%language_name1%.yml
 set xpedia_language_path2=xpedia\Language\%language_name2%.yml
 set pedia_header=xpedia\xpedia.html.header
 
->index.html.html (
+>index.html (
 	type %pedia_header%
 	
 	echo FILE: xpedia

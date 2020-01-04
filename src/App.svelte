@@ -346,18 +346,18 @@
       {#if article}
         <Article {article} {query} />
       {:else if query}
-        Searching "
+        {rul.str("Searching")} "
         <em>{query}</em>
         ":
         <br />
         {#if found && found.length > 0}
           <LinksPage links={found} />
         {:else if query.length < 2}
-          <i>Query too short</i>
+          <i>{rul.str("Query too short")}!</i>
         {:else if searchDelayHandle}
           ...
         {:else}
-          <i>Nothing found</i>
+          <i>{rul.str("Nothing found")} =(</i>
         {/if}
       {:else if !query}
         <Intro />

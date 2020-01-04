@@ -15,7 +15,7 @@
   {#each Object.entries(ufo).sort((a, b) => (a[0] > b[0] ? 1 : -1)) as [key, prop]}
     {#if !['type', 'battlescapeTerrainData', 'craftInventoryTile', 'deployment'].includes(key)}
       <tr>
-        <td class="padding-right">{@html rul.decamelize(key)}</td>
+        <td class="padding-right">{@html rul.str(key)}</td>
         <td>
           {#if ['modSprite'].includes(key)}
             <img class="sprite" alt='X' src={rul.sprite(prop)}/>

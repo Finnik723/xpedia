@@ -13,7 +13,7 @@
     {#each Object.keys(val).sort() as field, i}
       <tr>
         <td>
-          <nobr>{@html rul.decamelize(field)}</nobr>
+          <nobr>{@html rul.str(field)}</nobr>
         </td>
         <td>
           <em><Link href={val[field]}/></em>
