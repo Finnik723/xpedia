@@ -69,7 +69,7 @@
                   {rul.str("Our project continues to develop vigorously!")}<br />
                   - {rul.str("Versions of the mod, starting from 1.1, are free from controversial content. In order to preserve the same diversity, original tactical maps continue to be created. And, of course, the mod content in general continues to develop, more balance and error fixes has been presented.")}<br />
                   - {rul.str("We continue to develop our Wiki - added extended localization (thanks to Kato for help) and long-awaited search function (big thanks to Baturinsky for fixing a bug in the site engine). Also fixed bug in displaying armor articles.")}<br />
-                  - {rul.str("We are developing a community of modders, guiding and inspiring newcomers. Solarius Scorch has released the first version of his")} <a href="http://thexcomfiles.xyz/Mapping_manual_0.1.pdf">{rul.str("map creation guide")}</a>, {rul.str("and on our")} <a href="https://www.twitch.tv/finnikxcf">Twitch</a> {rul.str("channel we stream modding.")}
+                  - {rul.str("We are developing a community of modders, guiding and inspiring newcomers. Solarius Scorch has released the first version of his")} <a href="http://thexcomfiles.xyz/Mapping_manual.pdf">{rul.str("map creation guide")}</a>, {rul.str("and on our")} <a href="https://www.twitch.tv/finnikxcf">Twitch</a> {rul.str("channel we stream modding.")}
                 </p>
               </div>
             </div>
