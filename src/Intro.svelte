@@ -27,7 +27,7 @@
             src="https://cdn3.iconfinder.com/data/icons/social-network-icon/112/vk-256.png" alt="VK"></a>
         <a href="https://www.youtube.com/channel/UCO7G6RlATE5EIg2gHnks3cA"><img class="media-icon"
             src="https://cdn0.iconfinder.com/data/icons/social-media-2091/100/social-16-256.png" alt="YouTube"></a>
-        <a href="https://www.twitch.tv/finnikxcf"><img class="media-icon"
+        <a href="https://www.twitch.tv/finnik723studio"><img class="media-icon"
             src="https://cdn3.iconfinder.com/data/icons/popular-services-brands-vol-2/512/twitch-256.png"
             alt="Twitch"></a>
       </div>
